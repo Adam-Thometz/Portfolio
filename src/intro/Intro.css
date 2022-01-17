@@ -1,0 +1,26 @@
+.Intro {
+  border: 1px solid black;
+  border-radius: 50px;
+  background-color: rgba(12, 5, 17, 0.561);
+  height: 80%;
+  color: rgb(239, 236, 255);
+  box-shadow: 5px 10px 20px 10px rgb(40, 40, 95);
+}
+
+.Intro-header-animation-container {
+  display: flex;
+  justify-content: space-between;
+  height: 70%;
+}
+
+.Intro-header {
+  width: 50%;
+  padding: auto 0;
+  margin: 0 20px;
+}
+
+.Intro-animation {
+  width: 50%;
+  border: none;
+  margin: 0 20px;
+}
