@@ -1,0 +1,22 @@
+.Contact-link {
+  text-decoration: none;
+  padding: 0 15px;
+  font-size: 2rem;
+  background-color: rgba(169, 228, 255, 0.904);
+  border: 1px solid black;
+  margin: 0 5px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 45px 2px #1c4651;;
+}
+
+.email {
+  color: #0489C9;
+}
+
+.linkedin {
+  color: #0077B5;
+}
+
+.github {
+  color: black;
+}
