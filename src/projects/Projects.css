@@ -1,0 +1,9 @@
+.Projects {
+  border-radius: 50px;
+  background-color: rgb(95, 40, 40);
+  height: 80%;
+  box-shadow: 0px 0px 20px 20px rgb(95, 40, 40),
+    inset 0px 0px 10px 10px rgb(139, 59, 59);
+  overflow: scroll;
+  padding: 30px 10px;
+}

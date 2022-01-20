@@ -1,0 +1,18 @@
+.TechStackCard {
+  background-color: rgba(245, 245, 245, 0.5);
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  text-align: center;
+  font-size: .5rem;
+  padding: 15px;
+}
+
+.TechStackCard-img-wrapper img {
+  height: 40px;
+  width: 40px;
+}
+
+.TechStackCard-caption {
+  color: #171717;
+}
