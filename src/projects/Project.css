@@ -6,6 +6,11 @@
   border-radius: 20px;
 }
 
+.Project img {
+  height: 50px;
+  width: 50px;
+}
+
 .Project-info {
  width: 50%;
  text-align: left;

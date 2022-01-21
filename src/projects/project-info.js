@@ -2,22 +2,32 @@ import reptifeed from './screenshots/reptifeed.png';
 import bitClan from './screenshots/8-bit-clan.png';
 import catchYourFeelings from './screenshots/catch-your-feelings.png';
 import musophile from './screenshots/musophile.png';
+import mintbeanStar from './screenshots/mintbean-star.gif'
 
 const projects = [
   {
     name: 'Reptifeed',
-    description: 'My second and final capstone project for Springboard. Inspired by my new baby blue-tongue skink, Unity, this app gives you ideas on what to feed your reptile and reminds you when to feed it. Features a homemade API for food information. Currently made only for blue tongue skinks. If you know about other reptile diets, get in touch!',
-    techStack: ["Javascript", "Node.js", "Express.js", "React.js", "CSS", "SQL", "PostgresQL", "Heroku"],
+    description: 'My second and final capstone project for Springboard. Inspired by my new baby blue-tongue skink, Unity, this app gives you ideas on what to feed your reptile and helps you keep track of the foods you have for them. Features a homemade API for food information. Currently made only for blue tongue skinks. If you know about other reptile diets, get in touch!',
+    techStack: ["Javascript", "Node.js", "Express.js", "React.js", "CSS", "SQL", "PostgresQL", "Jest"],
+    login: {
+      username: 'abc',
+      password: '123'
+    },
     img: reptifeed,
     links: {
-      demo: 'reptifeed.surge.sh',
+      demo: 'https://reptifeed.surge.sh',
       github: 'https://github.com/Adam-Thometz/Reptifeed'
     }
   },
   {
     name: '8-Bit Clan',
+    award: mintbeanStar,
     description: "A pixel art maker created for the Mintbean Hiring Hackathon, Nov 2021. Create art, save it to your profile, and see if it made it to the trending list! Built in a week with UX designer Melody Acosta. Winner of Mintbean Star, awarded to top 5% of competitors.",
     techStack: ["Javascript", "Node.js", "Express.js", "React.js", "JSS", "SQL", "PostgresQL", "Heroku"],
+    login: {
+      username: 'abc',
+      password: '123'
+    },
     img: bitClan,
     links: {
       demo: 'https://8-bit-clan.surge.sh/',
@@ -36,8 +46,12 @@ const projects = [
   },
   {
     name: 'Musophile',
-    description: 'My first full-stack application! My first capstone project for Springboard. A website where you can curate your own music library. Created using the Spotify and MusicBrainz APIs.',
+    description: 'My first capstone project for Springboard. A website where you can curate your own music library. Created using the Spotify and MusicBrainz APIs.',
     techStack: ["Python", "Flask", "PostgresQL", "HTML", "CSS", "Javascript", "jQuery", "Heroku"],
+    login: {
+      username: 'abc',
+      password: '12345678'
+    },
     img: musophile,
     links: {
       demo: 'https://musophile.herokuapp.com/',
