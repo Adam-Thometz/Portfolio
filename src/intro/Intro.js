@@ -14,7 +14,7 @@ const Intro = () => {
     }
   }
   return (
-    <div className="Intro">
+    <main className="Intro">
       <div className="Intro-header-animation-container">
         <div className="Intro-header" tabIndex={0}>
           <h1>Hello! My name is Adam Thometz</h1>
@@ -29,7 +29,7 @@ const Intro = () => {
         <p tabIndex={0}>Pick where you want to go</p>
         <NavContact />
       </div>
-    </div>
+    </main>
   );
 };
 

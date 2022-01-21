@@ -6,16 +6,13 @@ import './Projects.css'
 
 const Projects = () => {
   return (
-    <div className="Projects">
+    <main className="Projects">
       <h1>Projects</h1>
       {projects.map(p => (
-        <Project name={p.name} description={p.description} techStack={p.techStack} img={p.img} links={p.links} />
+        <Project name={p.name} award={p.award} description={p.description} techStack={p.techStack} login={p.login} img={p.img} links={p.links} />
       ))}
-      <div>
-        <p tabIndex={0}>Pick where you want to go</p>
-        <NavContact />
-      </div>
-    </div>
+      <NavContact />
+    </main>
   );
 };
 
