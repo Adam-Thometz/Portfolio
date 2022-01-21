@@ -7,7 +7,7 @@ import './Contact.css';
 
 const Contact = () => {
   return (
-    <div className="Contact" tabIndex={0}>
+    <div className="Contact">
       <Link className="Contact-link email" to="#" onClick={() => window.open("mailto:adamthometz@gmail.com")}><FontAwesomeIcon title="Email" icon={faEnvelope} /></Link>
       <Link className="Contact-link linkedin" to="#" onClick={() => window.open("https://www.linkedin.com/in/adam-thometz/")}><FontAwesomeIcon title="LinkedIn" icon={faLinkedin} /></Link>
       <Link className="Contact-link github" to="#" onClick={() => window.open("https://github.com/Adam-Thometz")}><FontAwesomeIcon title="Github" icon={faGithub} /></Link>
