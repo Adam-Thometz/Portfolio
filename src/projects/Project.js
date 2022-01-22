@@ -11,32 +11,34 @@ const Project = ({name, award, description, techStack, login, img, links}) => {
 
   return (
     <div className={`Project ${cssClass}`} key={cssClass}>
-      <div className="Project-info" tabIndex={0}>
-        <h2>{name}</h2>
-        <div className="Project-description">
-          <h3>Description</h3>
-          <p>{description}</p>
-          {award ? <img src={award} alt={`An award for ${name}`} /> : null}
-        </div>
-        <div className="Project-links">
-          <Link className="demo" to="#" onClick={() => window.open(links.demo)}><FontAwesomeIcon title={`Demo for ${name}`} icon={faGlobe} /></Link>
-          <Link className="github" to="#" onClick={() => window.open(links.github)}><FontAwesomeIcon title={`Github repo for ${name}`} icon={faGithub} /></Link>
+      <h2>{name}</h2>
+      <div className="Project-info-img-container">
+        <div className="Project-info" tabIndex={0}>
+          <div className="Project-description">
+            <h3>Description</h3>
+            <p>{description}</p>
+            {award ? <img className="Project-award" src={award} alt={`An award for ${name}`} /> : null}
+          </div>
+          <div className="Project-links">
+            <Link className="demo" to="#" onClick={() => window.open(links.demo)}><FontAwesomeIcon title={`Demo for ${name}`} icon={faGlobe} /></Link>
+            <Link className="github" to="#" onClick={() => window.open(links.github)}><FontAwesomeIcon title={`Github repo for ${name}`} icon={faGithub} /></Link>
 
-          {login ? (
-            <div>
-              <b>This app requires login. Try it by logging in with the following:</b>
-              <ul>
-                <li>Username: {login.username}</li>
-                <li>Password: {login.password}</li>
-              </ul>
-            </div>
-          ) : null}
+            {login ? (
+              <div>
+                <b>This app requires login. Try it by logging in with the following:</b>
+                <ul>
+                  <li>Username: {login.username}</li>
+                  <li>Password: {login.password}</li>
+                </ul>
+              </div>
+            ) : null}
+          </div>
         </div>
-        <TechStack techStack={techStack} />
+        <div className="Project-img">
+          <img src={img} alt={`A screenshot of ${name}`} />
+        </div>
       </div>
-      <div className="Project-img">
-        <img src={img} alt={`A screenshot of ${name}`} />
-      </div>
+      <TechStack techStack={techStack} />
     </div>
   );
 };

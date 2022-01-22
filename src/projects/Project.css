@@ -1,18 +1,25 @@
 .Project {
-  display: flex;
-  justify-content: space-between;
-  width: 95%;
-  margin: 20px auto;
+  width: 90%;
+  margin: 40px auto;
   border-radius: 20px;
+  padding: 20px;
 }
 
-.Project img {
+.Project h2 {
+  text-align: center;
+}
+
+.Project-info-img-container {
+  display: flex;
+}
+
+.Project-award {
   height: 50px;
   width: 50px;
 }
 
 .Project-info {
- width: 50%;
+ width: 60%;
  text-align: left;
  padding: 20px;
 }
@@ -31,7 +38,7 @@
 }
 
 .Project-img {
-  width: 50%;
+  width: 40%;
   padding: 20px;
   margin: auto;
 }
