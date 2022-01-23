@@ -1,7 +1,7 @@
 .Intro {
   border: 1px solid black;
   border-radius: 50px;
-  background-color: rgba(12, 5, 17, 0.561);
+  background-image: linear-gradient(rgb(95, 40, 40), rgb(24, 63, 92));
   height: 80%;
   box-shadow: 5px 10px 20px 10px rgb(85, 35, 143);
 }
