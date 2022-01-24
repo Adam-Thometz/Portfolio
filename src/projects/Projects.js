@@ -7,6 +7,7 @@ import './Projects.css'
 const Projects = () => {
   return (
     <main className="Projects">
+      <a className="skip" href="#nav">Skip to navigation</a>
       <h1 className="Projects-header">Projects</h1>
       {projects.map(p => (
         <Project name={p.name} award={p.award} description={p.description} techStack={p.techStack} login={p.login} img={p.img} links={p.links} />

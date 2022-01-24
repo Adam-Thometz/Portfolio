@@ -5,7 +5,7 @@ import './NavContact.css';
 
 const NavContact = () => {
   return (
-    <nav className="NavContact">
+    <nav className="NavContact" id="nav">
       <Navbar />
       <Contact />
     </nav>

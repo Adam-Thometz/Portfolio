@@ -7,6 +7,20 @@
   padding: 30px 10px;
 }
 
+.skip {
+  position: absolute;
+  top: 15px;
+  left: 38%;
+  color: #171717;
+  font-weight: 800;
+  text-decoration: none;
+  text-align: center;
+  -webkit-transition: box-shadow .3s, height .3s, padding-top .3s;
+  transition: box-shadow .3s, height .3s, padding-top .3s;
+  width: 100%;
+  z-index: 50;
+}
+
 .Projects-header {
   margin: 0;
 }
