@@ -3,8 +3,10 @@
   width: 70%;
   justify-content: space-between;
   margin: 0 auto;
-  border: 1px solid black;
-  background: linear-gradient(90deg, #700707, #a10101);
+  /* border: 1px solid black; */
+  /* background: linear-gradient(90deg, #700707, #a10101); */
+  background-image: linear-gradient(90deg, rgb(95, 40, 40), rgb(24, 63, 92));
   border-radius: 30px;
   padding: 30px;
+  margin-bottom: 20px;
 }

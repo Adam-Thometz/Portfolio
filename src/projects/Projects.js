@@ -7,10 +7,10 @@ import './Projects.css'
 const Projects = () => {
   return (
     <main className="Projects">
-      <h1>Projects</h1>
+      <h1 className="Projects-header">Projects</h1>
       {projects.map(p => (
         <Project name={p.name} award={p.award} description={p.description} techStack={p.techStack} login={p.login} img={p.img} links={p.links} />
-      ))}
+        ))}
       <NavContact />
     </main>
   );
