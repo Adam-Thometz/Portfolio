@@ -53,8 +53,8 @@
 
 .reptifeed {
   background-color: rgba(69, 153, 0, 0.35);
-  box-shadow: 0px 0px 20px 15px rgb(69, 153, 0),
-    inset 0px 0px 10px 5px rgb(69, 153, 0);
+  box-shadow: 0px 0px 20px 15px rgba(69, 153, 0, 0.5),
+    inset 0px 0px 10px 5px rgba(69, 153, 0, 0.5);
 }
 
 .reptifeed img {
@@ -64,8 +64,8 @@
 .eight-bit-clan {
   background-color: rgba(250, 250, 250, 0.35);
   color: rgb(12, 17, 88);
-  box-shadow: 0px 0px 20px 15px rgb(250, 250, 250),
-    inset 0px 0px 10px 5px rgb(250, 250, 250);
+  box-shadow: 0px 0px 20px 15px rgba(250, 250, 250, 0.5),
+    inset 0px 0px 10px 5px rgba(250, 250, 250, 0.5);
   }
   
   .eight-bit-clan img {
@@ -74,8 +74,8 @@
   
 .catch-your-feelings {
   background-color: rgba(156, 156, 201, 0.5);
-  box-shadow: 0px 0px 20px 15px rgb(156, 156, 201),
-    inset 0px 0px 10px 5px rgb(156, 156, 201);
+  box-shadow: 0px 0px 20px 15px rgb(156, 156, 201, 0.5),
+    inset 0px 0px 10px 5px rgb(156, 156, 201, 0.5);
 }
   
 .catch-your-feelings img {
@@ -84,8 +84,8 @@
     
 .musophile {
   background-color: rgba(98, 187, 255, 0.35);
-  box-shadow: 0px 0px 20px 15px rgb(98, 187, 255),
-    inset 0px 0px 10px 5px rgb(98, 187, 255);
+  box-shadow: 0px 0px 20px 15px rgba(98, 187, 255, 0.5),
+    inset 0px 0px 10px 5px rgba(98, 187, 255, 0.5);
 }
 
 .musophile img {

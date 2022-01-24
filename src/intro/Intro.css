@@ -1,5 +1,5 @@
 .Intro {
-  /* border: 1px solid black; */
+  padding: 30px;
   border-radius: 50px;
   background-image: linear-gradient(rgb(95, 40, 40), rgb(24, 63, 92));
   height: 80%;
