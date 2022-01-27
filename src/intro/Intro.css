@@ -24,3 +24,33 @@
   border: none;
   margin: auto 20px;
 }
+
+@media (max-width: 822px) {
+  .Intro-animation {
+    display: none;
+  }
+
+  .Intro-header-animation-container {
+    height: 50%;
+  }
+
+  .Intro p {
+    display: none;
+  }
+
+  .Intro-header {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .Intro-nav {
+
+  }
+}
+
+@media (max-height: 825px) {
+  .Intro {
+    font-size: .8rem;
+  }
+}

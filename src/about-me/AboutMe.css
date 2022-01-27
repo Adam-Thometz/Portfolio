@@ -5,6 +5,7 @@
   color: rgb(239, 236, 255);
   box-shadow: 0px 0px 20px 20px rgb(24, 63, 92);
   padding: 30px 10px;
+  overflow: scroll;
 }
 
 .AboutMe-text-img-wrapper {
@@ -13,20 +14,21 @@
 }
 
 .AboutMe-img {
-  width: 50%;
+  width: 30%;
   height: 50%;
   padding: 25px;
 }
 
 .AboutMe-img img {
-  width: 50%;
+  width: 100%;
   height: 50%;
   border: 1px solid black;
   border-radius: 15px;
 }
 
 .AboutMe-text {
-  width: 50%;
+  width: 70%;
+  height: 30%;
   padding: 25px;
   text-align: left;
 }
@@ -34,4 +36,19 @@
 .AboutMe-text a {
   text-decoration: none;
   color: aqua;
+}
+
+@media (max-width: 600px) {
+  .AboutMe-text-img-wrapper {
+    flex-direction: column;
+  }
+
+  .AboutMe-img {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .AboutMe-text {
+    width: 90%;
+  }
 }

@@ -9,7 +9,6 @@
 
 .Projects-skip {
   position: absolute;
-  top: 15px;
   left: 38%;
   color: #f5f5f5;
   font-weight: 800;
@@ -20,4 +19,11 @@
 
 .Projects-header {
   margin: 0;
+}
+
+@media (max-width: 500px) {
+  .Projects-skip {
+    left: 0;
+    top: 0;
+  }
 }

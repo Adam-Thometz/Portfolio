@@ -20,3 +20,9 @@
 .github {
   color: black;
 }
+
+@media (max-width: 822px) {
+  .Contact-link {
+    margin: 5px;
+  }
+}

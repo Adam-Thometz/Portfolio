@@ -9,3 +9,14 @@
   background-color: #00acca;
   box-shadow: 0px 0px 45px 2px #1c4651;;
 }
+
+@media (max-width: 822px) {
+  .Navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Navbar a {
+    margin: 5px;
+  }
+}
