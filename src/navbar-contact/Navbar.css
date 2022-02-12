@@ -1,4 +1,4 @@
-.Navbar a {
+.Navbar-link {
   border: 1px solid black;
   text-decoration: none;
   color: #8d1c1c;
@@ -7,7 +7,12 @@
   border-radius: 10px;
   font-size: 1.5rem;
   background-color: #00acca;
-  box-shadow: 0px 0px 45px 2px #1c4651;;
+  box-shadow: 0px 0px 45px 2px #1c4651;
+  transition: font-size .5s ease-in-out;
+}
+
+.Navbar-link:hover {
+  font-size: 1.8rem;
 }
 
 @media (max-width: 822px) {
@@ -16,7 +21,7 @@
     flex-direction: column;
   }
 
-  .Navbar a {
+  .Navbar-link {
     margin: 5px;
   }
 }

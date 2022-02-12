@@ -27,6 +27,11 @@
 .Project-links a {
   font-size: 2.5rem;
   padding: 10px;
+  transition: font-size .5s ease-in-out;
+}
+
+.Project-links a:hover {
+  font-size: 3rem;
 }
 
 .demo {

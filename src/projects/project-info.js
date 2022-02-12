@@ -7,7 +7,7 @@ import mintbeanStar from './screenshots/mintbean-star.gif'
 const projects = [
   {
     name: 'Reptifeed',
-    description: 'My second and final capstone project for Springboard. Inspired by my new baby blue-tongue skink, Unity, this app gives you ideas on what to feed your reptile and helps you keep track of the foods you have for them. Features a homemade API for food information. Currently made only for blue tongue skinks. If you know about other reptile diets, get in touch!',
+    description: 'My second and final capstone project for Springboard. Inspired by my new baby blue-tongue skink, Unity, this app gives you ideas on what to feed your reptile and helps you keep track of the foods you have for them. Features a homemade API for food information.',
     techStack: ["Javascript", "Node", "Express", "React", "CSS", "SQL", "Postgres", "Jest"],
     login: {
       username: 'abc',
@@ -44,6 +44,16 @@ const projects = [
       github: 'https://github.com/Adam-Thometz/Catch-Your-Feelings/tree/flask'
     }
   },
+  // {
+  //   name: "Colorful Melodies",
+  //   description: "An app that takes words and turns them into a simple melody by having students identify letters. Used as a tool in my music classroom to teach musical pitch by associating pitches with colors and letters. Created with the goal of incorporating letter recognition into mutlisensory musical instruction for students with learning and sensory-based disabilities. Uses the Web Audio API.",
+  //   techStack: ["HTML", "CSS", "Javascript"],
+  //   img: musicColors,
+  //   links: {
+  //     demo: '',
+  //     github: ''
+  //   }
+  // },
   {
     name: 'Musophile',
     description: 'My first capstone project for Springboard. A website where you can curate your own music library. Created using the Spotify and MusicBrainz APIs.',

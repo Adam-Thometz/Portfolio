@@ -19,19 +19,18 @@ const Project = ({name, award, description, techStack, login, img, links}) => {
             <p>{description}</p>
             {award ? <img className="Project-award" src={award} alt={`An award for ${name}`} /> : null}
           </div>
-          <div className="Project-links">
-            <Link className="demo" to="" onClick={() => window.open(links.demo)}><FontAwesomeIcon title={`Demo for ${name}`} icon={faGlobe} /></Link>
-            <Link className="github" to="" onClick={() => window.open(links.github)}><FontAwesomeIcon title={`Github repo for ${name}`} icon={faGithub} /></Link>
-
-            {login ? (
-              <div>
-                <b>To get the most out of this site, log in with the following:</b>
+          {login ? (
+              <div className="Project-login-info">
+                <b>To fully explore the site, log in with the following:</b>
                 <ul>
                   <li>Username: {login.username}</li>
                   <li>Password: {login.password}</li>
                 </ul>
               </div>
             ) : null}
+          <div className="Project-links">
+            <Link className="demo" to="" onClick={() => window.open(links.demo)}><FontAwesomeIcon title={`Demo for ${name}`} icon={faGlobe} /></Link>
+            <Link className="github" to="" onClick={() => window.open(links.github)}><FontAwesomeIcon title={`Github repo for ${name}`} icon={faGithub} /></Link>
           </div>
         </div>
         <div className="Project-img">
