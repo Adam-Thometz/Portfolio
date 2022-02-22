@@ -36,7 +36,7 @@ const projects = [
   },
   {
     name: 'Catch Your Feelings',
-    description: "An app that I invented for my day job as a music teacher for autistic students in grades PreK-5. You describe how happy and energetic you feel using icons and you get a song back based on the input. Uses the Spotify API. This project is currently being revamped!",
+    description: "An app that I invented for my day job as a music teacher for autistic students in grades PreK-5. You describe how happy and energetic you feel using icons and you get a song back based on the input. This project is currently being revamped!",
     techStack: ["Python", "Flask", "HTML", "CSS", "Javascript", "Heroku"],
     img: catchYourFeelings,
     links: {
