@@ -19,9 +19,9 @@ const AboutMe = () => {
           <p>When I'm not building (or learning about building) software or composing music, I meditate, cook, do martial arts, read anything related to philosophy, tend to my indoor garden, and spend time with my pet blue tongue skink (if you're a reptile lover too, check out Reptifeed in my Projects section!)</p>
           <h2>What I'm currently doing</h2>
           <ol>
-            <li>Building small apps meant to make music making accessible for my classroom</li>
+            <li>Building small apps meant to make music education accessible for my autistic students.</li>
             <li>Working with a UX designer to revamp Catch Your Feelings (see Projects)</li>
-            <li>Learning in-depth Node.js, Redux, and web accessibility</li>
+            <li>Learning Node.js, Redux, and web accessibility</li>
             <li>Looking for software engineering roles! <Link to="#" onClick={() => window.open("https://resume.creddle.io/resume/o9lpco7gae")}>Click here to check out my resume</Link></li>
           </ol>
         </div>
