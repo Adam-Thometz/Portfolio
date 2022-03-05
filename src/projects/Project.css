@@ -19,9 +19,9 @@
 }
 
 .Project-info {
- width: 50%;
- text-align: left;
- padding: 20px;
+  width: 50%;
+  text-align: left;
+  padding: 20px;
 }
 
 .Project-links a {
@@ -103,7 +103,8 @@
   }
 
   .Project-info {
-    width: 96%;
+    width: 85%;
+    margin: 0 auto;
     text-align: center;
   }
   

@@ -15,5 +15,6 @@
   .NavContact {
     flex-direction: column;
     padding: 15px;
+    height: 40%;
   }
 }
