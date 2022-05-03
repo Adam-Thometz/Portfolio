@@ -56,6 +56,16 @@
   box-shadow: 0px 0px 50px 5px;
 }
 
+.art-buddy {
+  background-color: rgba(77, 79, 94, 0.75);
+  box-shadow: 0px 0px 20px 15px rgba(137, 235, 10, 0.5),
+    inset 0px 0px 10px 5px rgba(137, 235, 10, 0.5);
+}
+
+.art-buddy img {
+  border-color: rgb(255, 232, 26);
+}
+
 .reptifeed {
   background-color: rgba(69, 153, 0, 0.35);
   box-shadow: 0px 0px 20px 15px rgba(69, 153, 0, 0.5),

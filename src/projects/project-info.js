@@ -1,10 +1,24 @@
+// Project pictures
+import artBuddy from './screenshots/art-buddy.png';
 import reptifeed from './screenshots/reptifeed.png';
 import bitClan from './screenshots/8-bit-clan.png';
 import catchYourFeelings from './screenshots/catch-your-feelings.png';
 import musophile from './screenshots/musophile.png';
-import mintbeanStar from './screenshots/mintbean-star.gif'
+
+// Awards
+import mintbeanStar from './screenshots/mintbean-star.gif';
 
 const projects = [
+  {
+    name: 'Art Buddy',
+    description: 'First "real-world" project since graduating from bootcamp. Art Buddy is a collection of arts-based games and tools designed specifically for the special education classroom and reaching student academic goals. Games are based on real lessons I taught during my time as a special education music teacher. Art Buddy was made in collaboration with a UX designer and fellow educator. This game is currently in progress. For now, the only working games are Word-To-Music Decoder, Sequence Maker, and Score Keeper. There are remnants of Whats That Instrument currently deployed.',
+    techStack: ["Javascript", "React", "CSS", "Redux", "Jest"],
+    img: artBuddy,
+    links: {
+      demo: 'https://art-buddy.surge.sh',
+      github: 'https://github.com/Adam-Thometz/Art-Buddy'
+    }
+  },
   {
     name: 'Reptifeed',
     description: 'My second and final capstone project for Springboard. Inspired by my new baby blue-tongue skink, Unity, this app gives you ideas on what to feed your reptile and helps you keep track of the foods you have for them. Features a homemade API for food information.',

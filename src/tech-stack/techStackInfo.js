@@ -15,6 +15,7 @@ import jss from './icons/jss.png'
 import reactTestingLibrary from './icons/react-testing-library.png';
 import bootstrap from './icons/bootstrap.png';
 import heroku from './icons/heroku.jpeg';
+import redux from './icons/redux.png';
 
 const techStackInfo = [
   {name: "HTML", icon: html},
@@ -33,7 +34,8 @@ const techStackInfo = [
   {name: 'jQuery', icon: jQuery},
   {name: 'JSS', icon: jss},
   {name: 'Bootstrap', icon: bootstrap},
-  {name: 'Heroku', icon: heroku}
+  {name: 'Heroku', icon: heroku},
+  {name: 'Redux', icon: redux}
 ];
 
 export default techStackInfo;
