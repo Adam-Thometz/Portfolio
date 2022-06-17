@@ -19,7 +19,7 @@ const Project = ({name, award, description, techStack, login, img, links}) => {
             <p>{description}</p>
             {award ? <img className="Project-award" src={award} alt={`An award for ${name}`} /> : null}
           </div>
-          {login ? (
+            {login ? (
               <div className="Project-login-info">
                 <b>To fully explore the site, log in with the following:</b>
                 <ul>
