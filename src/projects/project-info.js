@@ -11,7 +11,7 @@ import mintbeanStar from './screenshots/mintbean-star.gif';
 const projects = [
   {
     name: 'Art Buddy',
-    description: "First 'real-world' project since graduating from bootcamp. Art Buddy is a collection of arts-based games and tools designed specifically for the special education classroom and reaching students' academic goals. These games are based on real lessons I taught during my time as a music teacher at an elementary school for autism. Art Buddy is a collaboration between myself and a UX designer and fellow educator. This app is currently in progress. For now, the only working games are Word-To-Music Decoder, Sequence Maker, What's That Instrument, and Score Keeper.",
+    description: "First 'real-world' project since graduating from bootcamp. Art Buddy is a collection of arts-based games and tools designed specifically for the special education classroom and reaching students' academic goals. These games are based on real lessons I taught during my time as a music teacher at an elementary school for autism. Art Buddy is a collaboration between myself and UX designer/fellow educator Mattie Becker. This app is currently in progress. For now, the only working games are Word-To-Music Decoder, Sequence Maker, What's That Instrument, and Score Keeper.",
     techStack: ["Javascript", "React", "CSS", "Redux", "Jest"],
     img: artBuddy,
     links: {
