@@ -16,12 +16,8 @@ const AboutMe = () => {
           <h2>Who am I?</h2>
           <p>Before becoming a software engineer, I worked in a variety of special education settings, most recently as a music teacher for autistic students in grades K-2.</p>
           <p>I've been fascinated by technology's potential since I started producing my own music as a teenager but I was truly inspired to start programming after discovering <Link to="#" onClick={() => window.open("https://musiclab.chromeexperiments.com")}>Google's Chrome Music Lab</Link> and trying it out in my music classroom. From that point on, I started teaching myself how to code in Python and Javascript on and off and then eventually, enrolled in Springboard's software engineering program, where I learned about frontend and backend technologies and frameworks.</p>
-          <p>When I'm not building (or learning about building) software or composing music, I meditate, cook, do martial arts, read anything related to philosophy, tend to my indoor garden, and spend time with my pet blue tongue skink (if you're a reptile lover too, check out Reptifeed in my Projects section!)</p>
-          <h2>What I'm currently doing</h2>
-          <ol>
-            <li>Working with a UX designer to build small apps meant to make music education accessible for my autistic students.</li>
-            <li>Looking for software engineering roles! <Link to="#" onClick={() => window.open("https://resume.creddle.io/resume/o9lpco7gae")}>Click here to check out my resume</Link></li>
-          </ol>
+          <p>When I'm not building (or learning about building) software or composing music, I do martial arts, read anything related to philosophy, tend to my indoor garden, and spend time with my pet blue tongue skink (if you're a reptile lover too, check out Reptifeed in my Projects section!)</p>
+          <b>I'm currently seeking a role in frontend web development! <Link to="#" onClick={() => window.open("https://resume.creddle.io/resume/o9lpco7gae")}>Click here to check out my resume.</Link></b>
         </div>
       </div>
       <NavContact />
