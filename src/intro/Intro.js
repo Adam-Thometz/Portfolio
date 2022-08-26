@@ -16,9 +16,9 @@ const Intro = () => {
   return (
     <main className="Intro">
       <div className="Intro-header-animation-container">
-        <div className="Intro-header" tabIndex={0}>
+        <div className="Intro-header" tabIndex={0}> 
           <h1>Hello! My name is Adam Thometz</h1>
-          <h2>I am a full-stack software engineer specializing in front-end web development based in NYC.</h2>
+          <h2>I am a full-stack developer specializing in front-end web development based in NYC.</h2>
         </div>
         <div className="Intro-animation" tabIndex={-1}>
           <Lottie options={defaultOptions} width={400} height={300} />
