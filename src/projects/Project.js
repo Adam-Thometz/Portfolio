@@ -6,7 +6,7 @@ import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import './Project.css';
 
-const Project = ({name, award, description, techStack, login, img, links}) => {
+const Project = ({name, award, description, whatILearned, techStack, login, img, links}) => {
   const cssClass = name.toLowerCase().replaceAll(' ', '-').replace('8', 'eight');
 
   return (
@@ -17,11 +17,17 @@ const Project = ({name, award, description, techStack, login, img, links}) => {
           <div className="Project-description">
             <h3>Description</h3>
             <p>{description}</p>
+            {whatILearned ? <>
+              <h3>Building this taught me how to...</h3>
+              <ul>
+                {whatILearned.map(fact => <li>{fact}</li>)}
+              </ul>
+            </> : null}
             {award ? <img className="Project-award" src={award} alt={`An award for ${name}`} /> : null}
           </div>
             {login ? (
               <div className="Project-login-info">
-                <b>To fully explore the site, log in with the following:</b>
+                <b>To fully explore the app, make your own account or log in with the following:</b>
                 <ul>
                   <li>Username: {login.username}</li>
                   <li>Password: {login.password}</li>
