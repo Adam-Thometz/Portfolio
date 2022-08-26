@@ -11,6 +11,9 @@
 # production
 /build
 
+# URL
+/public/CNAME
+
 # misc
 .DS_Store
 .env.local
