@@ -2,7 +2,7 @@ import React from "react";
 import NavContact from "../_components/navbar-contact/NavContact";
 import "./Intro.css"
 import Lottie from "react-lottie";
-import spinningStack from './animation/spinning-stack.json'
+import spinningStack from '../_media/animation/spinning-stack.json'
 
 const Intro = () => {
   const defaultOptions = {
