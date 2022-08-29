@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import './AboutMe.css'
 import NavContact from "../_components/navbar-contact/NavContact";
-import me from './imgs/me.jpg'
+import me from '../_media/imgs/me.jpg';
 
 const AboutMe = () => {
   const goToChromeMusicLab = () => window.open("https://musiclab.chromeexperiments.com");
