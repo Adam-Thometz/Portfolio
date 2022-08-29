@@ -1,5 +1,5 @@
 import React from "react";
-import NavContact from "../navbar-contact/NavContact";
+import NavContact from "../_components/navbar-contact/NavContact";
 import "./Intro.css"
 import Lottie from "react-lottie";
 import spinningStack from './animation/spinning-stack.json'

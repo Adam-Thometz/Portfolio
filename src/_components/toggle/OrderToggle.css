@@ -1,0 +1,43 @@
+.OrderToggle {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 75px;
+  margin: -5px auto;
+}
+
+.OrderToggle-switch {
+  background-image: linear-gradient(90deg, rgb(95, 40, 40), rgb(24, 63, 92));
+  border: 1px solid black;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: .9rem;
+  color: white;
+  height: 60px;
+  border-radius: 100px;
+  width: 80%;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.OrderToggle-button {
+  position: absolute;
+  width: 70px;
+  height: 32px;
+  background-color: white;
+  border-radius: 100px;
+  margin: 0 5px;
+}
+
+.recent .OrderToggle-button {
+  right: 24px;
+}
+
+.growth .OrderToggle-button {
+  left: 24px;
+}

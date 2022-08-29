@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './AboutMe.css'
-import NavContact from "../navbar-contact/NavContact";
+import NavContact from "../_components/navbar-contact/NavContact";
 import me from './imgs/me.jpg'
 
 const AboutMe = () => {

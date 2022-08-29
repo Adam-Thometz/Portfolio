@@ -27,6 +27,10 @@
   color: black;
 }
 
+.soundcloud {
+  color: #FF7700;
+}
+
 @media (max-width: 822px) {
   .Contact-link {
     margin: 5px;

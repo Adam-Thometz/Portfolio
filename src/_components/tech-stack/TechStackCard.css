@@ -18,3 +18,15 @@
   font-size: .9rem;
   color: #332c2c;
 }
+
+@media (max-width: 1200px) {
+  .TechStackCard {
+    height: 50px;
+    width: 50px;
+  }
+  
+  .TechStackCard-img-wrapper img {
+    height: 35px;
+    width: 35px;
+  }
+}

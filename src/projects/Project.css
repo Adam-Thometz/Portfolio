@@ -5,6 +5,10 @@
   padding: 20px;
 }
 
+.Project-description a {
+  color: white;
+}
+
 .Project h2 {
   text-align: center;
 }
