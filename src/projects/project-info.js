@@ -1,12 +1,12 @@
 // Project pictures
-import artBuddy from './screenshots/art-buddy.png';
-import reptifeed from './screenshots/reptifeed.png';
-import bitClan from './screenshots/8-bit-clan.png';
-import catchYourFeelings from './screenshots/catch-your-feelings.png';
-import musophile from './screenshots/musophile.png';
+import artBuddy from '../_media/imgs/art-buddy.png';
+import reptifeed from '../_media/imgs/reptifeed.png';
+import bitClan from '../_media/imgs/8-bit-clan.png';
+import catchYourFeelings from '../_media/imgs/catch-your-feelings.png';
+import musophile from '../_media/imgs/musophile.png';
 
 // Awards
-import mintbeanStar from './screenshots/mintbean-star.gif';
+import mintbeanStar from '../_media/imgs/mintbean-star.gif';
 
 const projects = [
   {
