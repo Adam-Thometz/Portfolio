@@ -45,7 +45,7 @@ const ContactForm = () => {
         <Input label="Email" name="email" id="email" value={formData.email} onChange={handleChange} type='email' />
       </section>
       <Input label="Message" name="message" id="message" value={formData.message} onChange={handleChange} type='textarea' />
-      <input ref={submit} className='Input-submit' type='submit' value='Submit' />
+      <input ref={submit} className='ContactForm-submit' type='submit' value='Submit' />
     </form>
   );
 };
