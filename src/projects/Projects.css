@@ -22,11 +22,6 @@
 }
 
 @media (max-width: 500px) {
-  /* .Projects {
-    height: 100%;
-    width: 100vw;
-  } */
-
   .Projects-skip {
     left: 0;
     top: 0;

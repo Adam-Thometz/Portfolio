@@ -1,13 +1,13 @@
 import React from "react";
-import Contact from "./Contact";
-import Navbar from "./Navbar";
+import { NavLink } from "react-router-dom";
 import './NavContact.css';
 
 const NavContact = () => {
   return (
     <nav className="NavContact" id="nav">
-      <Navbar />
-      <Contact />
+      <NavLink className="Navbar-link" to='/projects'>Projects</NavLink>
+      <NavLink className="Navbar-link" to='/about-me'>About Me</NavLink>
+      <NavLink className="Navbar-link" to='/contact'>Contact</NavLink>
     </nav>
   );
 };

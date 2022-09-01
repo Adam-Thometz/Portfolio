@@ -1,0 +1,8 @@
+.ContactForm {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.ContactForm-user-info {
+  display: flex;
+}
