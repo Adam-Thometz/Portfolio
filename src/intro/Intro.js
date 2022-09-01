@@ -1,5 +1,5 @@
 import React from "react";
-import NavContact from "../_components/navbar-contact/NavContact";
+import Navbar from "../_components/navbar/Navbar";
 import "./Intro.css"
 import Lottie from "react-lottie";
 import spinningStack from '../_media/animation/spinning-stack.json'
@@ -27,7 +27,7 @@ const Intro = () => {
 
       <div className="Intro-nav">
         <p tabIndex={0}>Pick where you want to go</p>
-        <NavContact />
+        <Navbar />
       </div>
     </main>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import techStackInfo from "./techStackInfo";
-import TechStackCard from "./TechStackCard";
+import TechStackCard from "./tech-stack-card/TechStackCard";
 import './TechStack.css'
 
 const TechStack = ({ techStack }) => {

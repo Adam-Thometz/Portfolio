@@ -4,12 +4,12 @@ import './Contact.css';
 
 import ContactForm from './form/ContactForm';
 import Links from './links/Links';
-import NavContact from '../_components/navbar-contact/NavContact';
+import Navbar from '../_components/navbar/Navbar';
 
 const Contact = () => {
   return (
     <main className='Contact'>
-      <NavContact />
+      <Navbar />
       <h1>Contact</h1>
       <ContactForm />
       <Links />

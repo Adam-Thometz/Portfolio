@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './AboutMe.css'
-import NavContact from "../_components/navbar-contact/NavContact";
+import Navbar from "../_components/navbar/Navbar";
 import me from '../_media/imgs/me.jpg';
 
 const AboutMe = () => {
@@ -9,7 +9,7 @@ const AboutMe = () => {
   const goToResume = () => window.open("https://docs.google.com/document/d/18oRb8BghIT_kmwTY2EXB03Lq9laVucn2t3BIKQmun7Y/edit?usp=sharing");
   return (
     <main className="AboutMe">
-      <NavContact />
+      <Navbar />
       <h1 tabIndex={0}>About me</h1>
       <div className="AboutMe-text-img-wrapper">
         <div className="AboutMe-img">

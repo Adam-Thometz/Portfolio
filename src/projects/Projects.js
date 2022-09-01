@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useState } from "react";
 import projects from "./project-info";
 import Project from "./Project";
-import NavContact from "../_components/navbar-contact/NavContact";
+import Navbar from "../_components/navbar/Navbar";
 import './Projects.css'
 import OrderToggle from "../_components/toggle/OrderToggle";
 
@@ -26,7 +26,7 @@ const Projects = () => {
 
   return (
     <main className="Projects">
-      <NavContact />
+      <Navbar />
       <OrderToggle currToggle={sortByMostRecent} handleSort={handleSort} />
       <h1 className="Projects-header">Projects</h1>
       {projectInfo.map(p => (
