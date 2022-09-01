@@ -14,6 +14,9 @@
 # URL
 /public/CNAME
 
+# EmailJS User Id
+/src/_data/emailInfo.js
+
 # misc
 .DS_Store
 .env.local

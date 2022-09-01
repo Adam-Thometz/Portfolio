@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from "react";
-import projects from "./project-info";
-import Project from "./Project";
+import projects from "../_data/projectInfo";
+import Project from "./project/Project";
 import Navbar from "../_components/navbar/Navbar";
 import './Projects.css'
 import OrderToggle from "../_components/toggle/OrderToggle";

@@ -7,6 +7,7 @@ import me from '../_media/imgs/me.jpg';
 const AboutMe = () => {
   const goToChromeMusicLab = () => window.open("https://musiclab.chromeexperiments.com");
   const goToResume = () => window.open("https://docs.google.com/document/d/18oRb8BghIT_kmwTY2EXB03Lq9laVucn2t3BIKQmun7Y/edit?usp=sharing");
+  
   return (
     <main className="AboutMe">
       <Navbar />

@@ -12,7 +12,7 @@ const projects = [
   {
     name: 'Art Buddy',
     description: <><p>First 'real-world' project since graduating from bootcamp. Art Buddy is a collection of arts-based games and tools designed specifically for the special education classroom and reaching students' academic goals. These games are based on real lessons I taught during my time as a music teacher at an elementary school for autism. Art Buddy is a collaboration between myself and UX designer/fellow educator <a href='https://uxfol.io/mattiebecker'>Mattie Becker</a>. This app is currently in progress - look at the README in Github to see a list of currently functioning games.</p> <p><b>The app was designed for a large screen so it will look terrible on mobile!</b></p></>,
-    learnedHowTo: ['make my code readable, obvious, and testable (I call it "making my code ROT")', 'make music play in the browser depending on app settings (i.e. guitar vs synth, C major vs F# major)', 'create a component library of common UI elements like buttons, icons, dropdowns, popups, etc.', 'use package.json scripts to minimize typing in the terminal', 'incorporate user feedback into my features', 'articulate my vision for a product', 'mock files and stylesheets in testing environments', 'create relative imports'],
+    learnedHowTo: ['make my code readable, obvious, and testable (I call it "making my code ROT")', 'make music play in the browser depending on app settings (i.e. guitar vs synth, C major vs F# major. I could play Baby Shark in C on guitar or A on synth)', 'create a component library of common UI elements like buttons, icons, dropdowns, popups, etc.', 'use package.json scripts to minimize typing in the terminal', 'incorporate user feedback into my features', 'articulate my vision for a product', 'mock files and stylesheets in testing environments', 'create relative imports'],
     techStack: ["Javascript", "React", "CSS", "Redux", "Jest"],
     img: artBuddy,
     links: {
@@ -65,7 +65,7 @@ const projects = [
     name: 'Musophile',
     description: <p>My first capstone project for Springboard. A website where you can curate your own music library. Created using the Spotify and MusicBrainz APIs.</p>,
     learnedHowTo: ['connect frontend and backend using server-side rendering', 'use the Spotify API and OAuth'],
-    techStack: ["Python", "Flask", "Postgres", "HTML", "CSS", "Javascript", "jQuery", "Heroku"],
+    techStack: ["Python", "Flask", "Postgres", "HTML", "CSS", "Javascript", "jQuery", "Heroku", "Bootstrap"],
     login: {
       username: 'abc',
       password: '12345678'

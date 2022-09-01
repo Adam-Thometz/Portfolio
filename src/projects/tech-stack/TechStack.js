@@ -1,5 +1,5 @@
 import React from "react";
-import techStackInfo from "./techStackInfo";
+import techStackInfo from "../../_data/techStackInfo";
 import TechStackCard from "./tech-stack-card/TechStackCard";
 import './TechStack.css'
 

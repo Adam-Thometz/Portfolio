@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import TechStack from "../_components/tech-stack/TechStack";
+import TechStack from "../tech-stack/TechStack";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
