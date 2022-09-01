@@ -29,7 +29,7 @@ const Projects = () => {
       img={p.img}
       links={p.links}
     />
-  ))
+  ));
 
   return (
     <main className="Projects">
