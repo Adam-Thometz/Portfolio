@@ -9,10 +9,10 @@ import NavContact from '../_components/navbar-contact/NavContact';
 const Contact = () => {
   return (
     <main className='Contact'>
+      <NavContact />
       <h1>Contact</h1>
       <ContactForm />
       <Links />
-      <NavContact />
     </main>
   );
 };

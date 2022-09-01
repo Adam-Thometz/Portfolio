@@ -9,6 +9,7 @@ const AboutMe = () => {
   const goToResume = () => window.open("https://docs.google.com/document/d/18oRb8BghIT_kmwTY2EXB03Lq9laVucn2t3BIKQmun7Y/edit?usp=sharing");
   return (
     <main className="AboutMe">
+      <NavContact />
       <h1 tabIndex={0}>About me</h1>
       <div className="AboutMe-text-img-wrapper">
         <div className="AboutMe-img">
@@ -22,7 +23,6 @@ const AboutMe = () => {
           <b>I'm currently seeking a role in frontend web development! <Link to="#" onClick={goToResume}>Click here to check out my resume.</Link></b>
         </div>
       </div>
-      <NavContact />
     </main>
   )
 };

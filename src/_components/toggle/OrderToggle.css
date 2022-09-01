@@ -1,5 +1,7 @@
 .OrderToggle {
   position: absolute;
+  right: 16px;
+  top: 16px;
   display: flex;
   flex-direction: column;
   justify-content: center;

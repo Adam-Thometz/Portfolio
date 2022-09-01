@@ -26,22 +26,22 @@ const Projects = () => {
 
   return (
     <main className="Projects">
+      <NavContact />
       <OrderToggle currToggle={sortByMostRecent} handleSort={handleSort} />
-      <a className="Projects-skip" href="#nav">Skip to navigation</a>
       <h1 className="Projects-header">Projects</h1>
       {projectInfo.map(p => (
         <Project
-          name={p.name}
-          award={p.award}
-          description={p.description}
-          learnedHowTo={p.learnedHowTo}
-          techStack={p.techStack}
-          login={p.login}
-          img={p.img}
-          links={p.links}
+        name={p.name}
+        award={p.award}
+        description={p.description}
+        learnedHowTo={p.learnedHowTo}
+        techStack={p.techStack}
+        login={p.login}
+        img={p.img}
+        links={p.links}
         />
       ))}
-      <NavContact />
+      <a className="Projects-back" href="#nav">Back to navigation</a>
     </main>
   );
 };
