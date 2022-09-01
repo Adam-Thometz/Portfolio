@@ -10,7 +10,6 @@ const Contact = () => {
   return (
     <main className='Contact'>
       <Navbar />
-      <h1>Contact</h1>
       <ContactForm />
       <Links />
     </main>

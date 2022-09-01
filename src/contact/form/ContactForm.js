@@ -39,6 +39,7 @@ const ContactForm = () => {
   return (
     <form ref={form} className='ContactForm' onSubmit={sendEmail}>
       <h2>Send me a message</h2>
+      <p>Thanks for stopping by!</p>
       <section className='ContactForm-user-info'>
         <Input label="Name" name="name" id="name" value={formData.name} onChange={handleChange} />
         <Input label="Email" name="email" id="email" value={formData.email} onChange={handleChange} type='email' />

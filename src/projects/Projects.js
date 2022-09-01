@@ -35,7 +35,6 @@ const Projects = () => {
     <main className="Projects">
       <Navbar />
       <OrderToggle currToggle={sortByMostRecent} handleSort={handleSort} />
-      <h1 className="Projects-header">Projects</h1>
       {projectDisplay}
       <a className="Projects-back" href="#nav">Back to navigation</a>
     </main>

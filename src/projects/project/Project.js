@@ -11,14 +11,17 @@ const Project = ({name, award, description, learnedHowTo, techStack, login, img,
 
   return (
     <div className={`Project ${cssClass}`} key={cssClass}>
-      <h2>{name}</h2>
+      <h1>{name}</h1>
       <div className="Project-info-img-container">
+        <div className="Project-img">
+          <img src={img} alt={`A screenshot of ${name}`} />
+        </div>
         <div className="Project-info" tabIndex={0}>
           <div className="Project-description">
-            <h3>Description</h3>
+            <h2>Description</h2>
             {description}
             {learnedHowTo ? <>
-              <h3>Building this taught me how to...</h3>
+              <h2>Building this taught me how to...</h2>
               <ul>
                 {learnedHowTo.map(fact => <li>{fact}</li>)}
               </ul>
@@ -38,9 +41,6 @@ const Project = ({name, award, description, learnedHowTo, techStack, login, img,
             {links.demo ? <Link className="demo" to="" onClick={() => window.open(links.demo)}><FontAwesomeIcon title={`Demo for ${name}`} icon={faGlobe} /></Link> : null}
             <Link className="github" to="" onClick={() => window.open(links.github)}><FontAwesomeIcon title={`Github repo for ${name}`} icon={faGithub} /></Link>
           </div>
-        </div>
-        <div className="Project-img">
-          <img src={img} alt={`A screenshot of ${name}`} />
         </div>
       </div>
       <TechStack techStack={techStack} />

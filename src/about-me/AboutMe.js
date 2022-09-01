@@ -11,7 +11,6 @@ const AboutMe = () => {
   return (
     <main className="AboutMe">
       <Navbar />
-      <h1 tabIndex={0}>About me</h1>
       <div className="AboutMe-text-img-wrapper">
         <div className="AboutMe-img">
           <img src={me} alt="A light-skinned man with long curly hair and a beard wearing glasses, smiling, wearing a blue and red plaid shirt, and a black shirt with a rainbow-colored 8-bit brain on it with bright graffiti in the background" tabIndex={0}/>
