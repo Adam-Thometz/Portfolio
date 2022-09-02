@@ -5,10 +5,10 @@
 
 .Input label {
   position: absolute;
-  top: 16px;
+  top: 12px;
   left: 0;
   font-size: 16px;
-  transition: .5s ;
+  transition: .25s ;
   padding-left: 16px;
   color: #CACACA;
 }
@@ -16,23 +16,24 @@
 .Input input, .Input textarea {
   width: 100%;
   height: 50px;
-  /* padding: 24px 16px 4px 16px; */
+  padding: 24px 16px 4px 16px;
   color: white;
   margin-bottom: 30px;
   background-color: #171717;
   box-sizing: border-box;
   box-shadow: none;
   outline: none;
-  border: none;
-  border-bottom: 1.5px solid #C2C2C2;
+  border: 1.5px solid #C2C2C2;
   font-size: 1.2rem;
-  border-radius: 4px 4px 0 0;
+  border-radius: 4px;
 }
 
 .Input textarea {
   width: 100%;
   height: 100px;
   resize: none;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
 }
 
 .Input input:focus, .Input textarea:focus {
