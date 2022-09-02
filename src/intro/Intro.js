@@ -1,6 +1,7 @@
 import React from "react";
-import Navbar from "../_components/navbar/Navbar";
+
 import "./Intro.css"
+
 import Lottie from "react-lottie";
 import spinningStack from '../_media/animation/spinning-stack.json'
 
