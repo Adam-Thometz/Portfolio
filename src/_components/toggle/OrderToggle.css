@@ -9,6 +9,7 @@
   width: 200px;
   height: 75px;
   margin: -5px auto;
+  z-index: 5;
 }
 
 .OrderToggle-switch {
@@ -46,7 +47,6 @@
 
 @media (max-width: 500px) {
   .OrderToggle {
-    /* left: 0; */
     top: 0;
     width: 100px;
     height: 50px;
@@ -55,7 +55,6 @@
   }
 
   .OrderToggle-switch {
-    /* width: 40%; */
     height: 24px;
     font-size: .5rem;
     padding: 2px;

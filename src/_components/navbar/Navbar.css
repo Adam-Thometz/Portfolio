@@ -4,11 +4,11 @@
   justify-content: center;
   align-items: center;
   width: 90%;
-  height: 5vh;
+  height: 7vh;
   margin: 8px auto;
   border-radius: 30px;
   padding: 0 30px 10px 30px;
-  transform: translateY(-100%);
+  transform: translateY(-90%);
   backdrop-filter: blur(20px);
 }
 
@@ -23,25 +23,17 @@
   transition: background-color .5s ease-in-out;
 }
 
-.Navbar-link:hover {
+.Navbar-link:hover, .active {
   background-color: #c38585;
   color: rgb(24, 63, 92);
 }
 
-.active {
-  color: white;
-}
-
 @media (max-width: 822px) {
-  .NavContact {
-    flex-direction: column;
-    padding: 15px;
-    height: 40%;
-  }
-
   .Navbar {
     display: flex;
     flex-direction: column;
+    padding: 15px;
+    height: 40%;
   }
 
   .Navbar-link {
