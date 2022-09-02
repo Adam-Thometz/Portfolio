@@ -122,13 +122,13 @@
 
 @media (max-width: 1200px) {
   .Project-info-img-container {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   .Project-info {
     width: 85%;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
   }
   
   .Project-info li {
@@ -139,5 +139,14 @@
 
   .Project-img {
     width: 80%;
+  }
+
+  .Project-links {
+    top: 0;
+  }
+
+  .Project-links a {
+    font-size: 1.5rem;
+    padding: 10px;
   }
 }

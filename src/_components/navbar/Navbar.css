@@ -28,15 +28,15 @@
   color: rgb(24, 63, 92);
 }
 
-@media (max-width: 822px) {
+@media (max-width: 1130px) {
   .Navbar {
-    display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding: 15px;
-    height: 40%;
   }
 
   .Navbar-link {
-    margin: 5px;
+    font-size: 1rem;
+    margin: 2px;
   }
 }
