@@ -1,5 +1,7 @@
 import './App.css';
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom';
+
+import Navbar from './_components/navbar/Navbar';
 import Intro from './intro/Intro';
 import Projects from './projects/Projects';
 import NotFound from './NotFound';
@@ -16,6 +18,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Navbar />
     </div>
   );
 };

@@ -24,11 +24,6 @@ const Intro = () => {
           <Lottie options={defaultOptions} width={400} height={300} />
         </div>
       </div>
-
-      <div className="Intro-nav">
-        <p tabIndex={0}>Pick where you want to go</p>
-        <Navbar />
-      </div>
     </main>
   );
 };

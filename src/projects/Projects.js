@@ -3,7 +3,6 @@ import React, { useCallback, useState } from "react";
 import './Projects.css';
 
 import Project from "./project/Project";
-import Navbar from "../_components/navbar/Navbar";
 import OrderToggle from "../_components/toggle/OrderToggle";
 
 import reverseOrder from "../_utils/reverseOrder";
@@ -33,10 +32,8 @@ const Projects = () => {
 
   return (
     <main className="Projects">
-      <Navbar />
       <OrderToggle currToggle={sortByMostRecent} handleSort={handleSort} />
       {projectDisplay}
-      <a className="Projects-back" href="#nav">Back to navigation</a>
     </main>
   );
 };

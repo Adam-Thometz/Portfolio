@@ -14,6 +14,9 @@ const Project = ({ name, award, description, learnedHowTo, techStack, login, img
   const openDemo = () => window.open(links.demo);
   const openGithub = () => window.open(links.github);
 
+  const demo = <FontAwesomeIcon title={`Demo for ${name}`} icon={faGlobe} />;
+  const github = <FontAwesomeIcon title={`Github repo for ${name}`} icon={faGithub} />;
+
   const loginDisplay = login ? (
     <div className="Project-login-info">
       <b>To fully explore the app, make your own account or log in with the following:</b>
@@ -26,13 +29,10 @@ const Project = ({ name, award, description, learnedHowTo, techStack, login, img
 
   const awardDisplay = award ? <img className="Project-award" src={award} alt={`An award for ${name}`} /> : null;
 
-  const demo = <FontAwesomeIcon title={`Demo for ${name}`} icon={faGlobe} />;
-  const github = <FontAwesomeIcon title={`Github repo for ${name}`} icon={faGithub} />;
-
   const linkDisplay = <div className="Project-links">
     {links.demo ? <Link className="demo" to="" onClick={openDemo}>{demo}</Link> : null}
     <Link className="github" to="" onClick={openGithub}>{github}</Link>
-  </div>
+  </div>;
 
   return (
     <div className={`Project ${cssClass}`} key={cssClass}>
