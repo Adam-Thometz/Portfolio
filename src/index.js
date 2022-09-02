@@ -7,6 +7,9 @@ import { BrowserRouter } from 'react-router-dom'
 ReactDOM.render(
   <BrowserRouter>
     <React.StrictMode>
+      <div class="stars"></div>
+      <div class="twinkling"></div>
+      <div class="clouds"></div>
       <App />
     </React.StrictMode>
   </BrowserRouter>,
