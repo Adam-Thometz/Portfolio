@@ -37,9 +37,11 @@ const Project = ({ name, award, description, learnedHowTo, techStack, login, img
   return (
     <div className={`Project ${cssClass}`} key={cssClass}>
       <h1>{name}</h1>
+      {linkDisplay}
       <div className="Project-info-img-container">
         <div className="Project-img">
           <img src={img} alt={`A screenshot of ${name}`} />
+          <TechStack techStack={techStack} />
         </div>
         <div className="Project-info" tabIndex={0}>
           <div className="Project-description">
@@ -52,10 +54,8 @@ const Project = ({ name, award, description, learnedHowTo, techStack, login, img
             {awardDisplay}
           </div>
           {loginDisplay}
-          {linkDisplay}
         </div>
       </div>
-      <TechStack techStack={techStack} />
     </div>
   );
 };

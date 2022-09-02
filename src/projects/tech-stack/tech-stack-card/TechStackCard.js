@@ -7,7 +7,7 @@ const TechStackCard = ({ name, icon }) => {
       <div className="TechStackCard-img-wrapper">
         <img src={icon} alt={name} />
       </div>
-      <span className="TechStackCard-caption">{name}</span>
+      {/* <span className="TechStackCard-caption">{name}</span> */}
     </div>
   );
 };
