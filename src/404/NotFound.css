@@ -1,0 +1,4 @@
+.NotFound {
+  z-index: 10;
+  transform: translateY(-100%);
+}

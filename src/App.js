@@ -1,12 +1,12 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 
-import Navbar from './_components/navbar/Navbar';
 import Intro from './intro/Intro';
 import Projects from './projects/Projects';
-import NotFound from './NotFound';
 import AboutMe from './about-me/AboutMe';
 import Contact from './contact/Contact';
+import NotFound from './404/NotFound';
+import Navbar from './_components/navbar/Navbar';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-      <Navbar />
+      <Navbar />s
     </div>
   );
 };
