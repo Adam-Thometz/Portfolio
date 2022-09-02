@@ -1,4 +1,6 @@
 .AboutMe {
+  display: flex;
+  justify-content: space-between;
   border-radius: 50px;
   background-color: rgb(24, 63, 92);
   height: 80%;
@@ -8,14 +10,9 @@
   overflow: scroll;
 }
 
-.AboutMe-text-img-wrapper {
-  display: flex;
-  justify-content: space-between;
-}
-
 .AboutMe-img {
   width: 30%;
-  height: 50%;
+  height: 120%;
   padding: 25px;
 }
 
