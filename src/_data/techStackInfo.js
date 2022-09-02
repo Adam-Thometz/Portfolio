@@ -8,13 +8,10 @@ import postgresql from '../_media/tech-stack-icons/postgresql.png';
 import nodeJS from '../_media/tech-stack-icons/nodeJS.png';
 import expressJS from '../_media/tech-stack-icons/expressJS.png';
 import reactJS from '../_media/tech-stack-icons/reactJS.png';
-import jasmine from '../_media/tech-stack-icons/jasmine.png';
 import jest from '../_media/tech-stack-icons/jest.png';
 import jQuery from '../_media/tech-stack-icons/jquery.png';
 import jss from '../_media/tech-stack-icons/jss.png'
-import reactTestingLibrary from '../_media/tech-stack-icons/react-testing-library.png';
 import bootstrap from '../_media/tech-stack-icons/bootstrap.png';
-import heroku from '../_media/tech-stack-icons/heroku.jpeg';
 import redux from '../_media/tech-stack-icons/redux.png';
 
 const techStackInfo = [
@@ -28,13 +25,10 @@ const techStackInfo = [
   {name: 'Node', icon: nodeJS},
   {name: 'Express', icon: expressJS},
   {name: 'React', icon: reactJS},
-  {name: 'Jasmine', icon: jasmine},
   {name: 'Jest', icon: jest},
-  {name: 'React Testing Library', icon: reactTestingLibrary},
   {name: 'jQuery', icon: jQuery},
   {name: 'JSS', icon: jss},
   {name: 'Bootstrap', icon: bootstrap},
-  {name: 'Heroku', icon: heroku},
   {name: 'Redux', icon: redux}
 ];
 
