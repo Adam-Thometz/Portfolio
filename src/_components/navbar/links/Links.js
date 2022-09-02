@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
 import './Links.css';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub, faSoundcloud } from '@fortawesome/free-brands-svg-icons';
-import { links } from '../../../_data/aboutMeInfo';
+import { links } from '../../../_data/navbarInfo';
 
 const Links = () => {
   const openResume = () => window.open(links.resume);
