@@ -25,13 +25,13 @@ const Contact = () => {
     e.preventDefault();
     submit.current.value = "Sending..."
     emailjs.sendForm(serviceId, templateId, form.current, userId)
-    .then(() => {
-      alert('Thank you for contacting me! I will get back to you when I can.');
-      submit.current.value = "Submit";
-    }, () => {
-      alert('Something went wrong. Please try again later.');
-      submit.current.value = "Submit";
-    });
+      .then(() => {
+        alert('Thank you for contacting me! I will get back to you when I can.');
+        submit.current.value = "Submit";
+      }, () => {
+        alert('Something went wrong. Please try again later.');
+        submit.current.value = "Submit";
+      });
   };
 
   return (
