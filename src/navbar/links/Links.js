@@ -6,7 +6,7 @@ import './Links.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub, faSoundcloud } from '@fortawesome/free-brands-svg-icons';
-import { links } from '../../../_data/navbarInfo';
+import { links } from '../../_data/navbarInfo';
 
 const Links = () => {
   const openResume = () => window.open(links.resume);
