@@ -6,7 +6,7 @@ import Projects from './projects/Projects';
 import AboutMe from './about-me/AboutMe';
 import Contact from './contact/Contact';
 import NotFound from './404/NotFound';
-import Navbar from './_components/navbar/Navbar';
+import Navbar from './navbar/Navbar';
 
 function App() {
   return (

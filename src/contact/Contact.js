@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 
 import './Contact.css';
 
-import Input from '../_components/input/Input';
+import Input from './input/Input';
 
 import emailjs from '@emailjs/browser';
 import { userId, serviceId, templateId } from '../_data/emailInfo';

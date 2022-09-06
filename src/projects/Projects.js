@@ -3,7 +3,7 @@ import React, { useCallback, useState } from "react";
 import './Projects.css';
 
 import Project from "./project/Project";
-import OrderToggle from "../_components/toggle/OrderToggle";
+import OrderToggle from "./toggle/OrderToggle";
 
 import reverseOrder from "../_utils/reverseOrder";
 import projects from "../_data/projectInfo";
