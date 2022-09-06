@@ -4,8 +4,8 @@ import './NotFound.css';
 
 const NotFound = () => {
   return <main className="NotFound">
-    <h1>You've got lost in space!</h1>
-    <h2>Enjoy the scenery then pick your next stop in the navbar below</h2>
+    <h1>You're not lost. You're finding your way.</h1>
+    <p>Pick something from the navbar below</p>
   </main>
 };
 
