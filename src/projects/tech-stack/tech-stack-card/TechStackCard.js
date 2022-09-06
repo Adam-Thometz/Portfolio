@@ -3,12 +3,10 @@ import './TechStackCard.css';
 
 const TechStackCard = ({ name, icon }) => {
   return (
-    <div className="TechStackCard">
-      <div className="TechStackCard-img-wrapper">
-        <img src={icon} alt={name} />
-      </div>
-      <span className="TechStackCard-caption">{name}</span>
-    </div>
+    <figure className="TechStackCard">
+      <img className="TechStackCard-img" src={icon} alt={name} />
+      <figcaption className="TechStackCard-caption">{name}</figcaption>
+    </figure>
   );
 };
 
