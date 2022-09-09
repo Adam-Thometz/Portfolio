@@ -18,39 +18,24 @@
 
 .AboutMe-img img {
   width: 100%;
-  border: 1px solid black;
   border-radius: 15px;
 }
 
 .AboutMe-text {
   width: 70%;
-  /* padding: 25px; */
-  margin-bottom: 100px;
   text-align: left;
+  margin-bottom: 100px;
 }
 
 .AboutMe-text p {
   margin: 15px 0;
 }
 
-/* @media (max-width: 1000px) {
-  .AboutMe {
-    flex-direction: column;
-  }
-
-  .AboutMe-img {
-    width: 60%;
-  }
-
-  .AboutMe-img img {
-    height: 100%;
-  }
-} */
-
 @media (max-width: 600px) {
   .AboutMe {
     flex-direction: column;
   }
+
   .AboutMe-img {
     margin: 0 auto;
     padding: 0;

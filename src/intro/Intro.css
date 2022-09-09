@@ -3,8 +3,7 @@
   border-radius: 50px;
   background-image: linear-gradient(rgb(95, 40, 40), rgb(24, 63, 92));
   height: 80%;
-  box-shadow: 5px 10px 20px 20px rgb(95, 40, 40),
-    inset 5px 10px 20px 20px rgb(24, 63, 92);
+  box-shadow: 5px 10px 20px 20px rgb(95, 40, 40);
 }
 
 .Intro-header-animation-container {

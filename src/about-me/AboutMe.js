@@ -12,7 +12,6 @@ const AboutMe = () => {
         <img src={me} alt={imgAltText} tabIndex={0}/>
       </div>
       <section className="AboutMe-text" tabIndex={0}>
-        <h2>Hi, I'm Adam</h2>
         {description}
       </section>
     </main>
