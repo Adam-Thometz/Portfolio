@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react';
 
 import './Contact.css';
 
+import Navbar from '../navbar/Navbar';
 import Input from './input/Input';
 
 import emailjs from '@emailjs/browser';
@@ -35,16 +36,19 @@ const Contact = () => {
   };
 
   return (
-    <form ref={form} className='Contact' onSubmit={sendEmail}>
-      <h2>Send me a message!</h2>
-      <p>Tell me anything! A joke, music recommendations, or your open positions :)</p>
-      <section className='Contact-user-info'>
-        <Input label="Name" name="name" id="name" value={formData.name} onChange={handleChange} />
-        <Input label="Email" name="email" id="email" value={formData.email} onChange={handleChange} type='email' />
-      </section>
-      <Input label="Message" name="message" id="message" value={formData.message} onChange={handleChange} type='textarea' />
-      <input ref={submit} className='Contact-submit' type='submit' value='Submit' />
-    </form>
+    <main className='Contact'>
+      <Navbar />
+      <form ref={form} className='Contact-form' onSubmit={sendEmail}>
+        <h2>Send me a message!</h2>
+        <p>Tell me anything! A joke, music recommendations, or your open positions :)</p>
+        <section className='Contact-user-info'>
+          <Input label="Name" name="name" id="name" value={formData.name} onChange={handleChange} />
+          <Input label="Email" name="email" id="email" value={formData.email} onChange={handleChange} type='email' />
+        </section>
+        <Input label="Message" name="message" id="message" value={formData.message} onChange={handleChange} type='textarea' />
+        <input ref={submit} className='Contact-submit' type='submit' value='Submit' />
+      </form>
+    </main>
   );
 };
 

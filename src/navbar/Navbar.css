@@ -6,8 +6,8 @@
   height: 7vh;
   margin: 0 auto;
   border-radius: 30px;
-  transform: translateY(-100%);
   backdrop-filter: blur(20px);
+  width: 100%;
 }
 
 .Navbar-link {

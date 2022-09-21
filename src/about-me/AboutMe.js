@@ -4,15 +4,19 @@ import './AboutMe.css'
 
 import me from '../_media/imgs/me.jpg';
 import { imgAltText, description } from "../_data/aboutMeInfo";
+import Navbar from "../navbar/Navbar";
 
 const AboutMe = () => {
   return (
     <main className="AboutMe">
-      <div className="AboutMe-img">
-        <img src={me} alt={imgAltText} tabIndex={0}/>
-      </div>
-      <section className="AboutMe-text" tabIndex={0}>
-        {description}
+      <Navbar />
+      <section className="AboutMe-info-wrapper">
+        <figure className="AboutMe-img">
+          <img src={me} alt={imgAltText} tabIndex={0}/>
+        </figure>
+        <article className="AboutMe-text" tabIndex={0}>
+          {description}
+        </article>
       </section>
     </main>
   );

@@ -4,6 +4,7 @@ import './Projects.css';
 
 import Project from "./project/Project";
 import OrderToggle from "./toggle/OrderToggle";
+import Navbar from '../navbar/Navbar';
 
 import reverseOrder from "../_utils/reverseOrder";
 import projects from "../_data/projectInfo";
@@ -32,6 +33,7 @@ const Projects = () => {
 
   return (
     <main className="Projects">
+      <Navbar />
       <OrderToggle currToggle={sortByMostRecent} handleSort={handleSort} />
       {projectDisplay}
     </main>

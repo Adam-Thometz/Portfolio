@@ -6,7 +6,6 @@ import Projects from './projects/Projects';
 import AboutMe from './about-me/AboutMe';
 import Contact from './contact/Contact';
 import NotFound from './404/NotFound';
-import Navbar from './navbar/Navbar';
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-      <Navbar />
     </div>
   );
 };
