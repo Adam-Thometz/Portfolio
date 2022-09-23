@@ -39,7 +39,6 @@ const Project = ({ name, award, description, learnedHowTo, techStack, login, img
       <h1>{name}</h1>
       <div className="Project-info-img-container">
         <div className="Project-img">
-          {linkDisplay}
           <img src={img} alt={`A screenshot of ${name}`} />
           <TechStack techStack={techStack} />
         </div>
@@ -47,13 +46,14 @@ const Project = ({ name, award, description, learnedHowTo, techStack, login, img
           <div className="Project-description">
             <h2>Description</h2>
             {description}
-            <h2>Building this taught me how to...</h2>
+            {/* <h2>Building this taught me how to...</h2>
             <ul>
-              {learnedHowTo.map(fact => <li>{fact}</li>)}
-            </ul>
+            {learnedHowTo.map(fact => <li>{fact}</li>)}
+          </ul> */}
             {awardDisplay}
           </div>
           {loginDisplay}
+          {linkDisplay}
         </div>
       </div>
     </div>

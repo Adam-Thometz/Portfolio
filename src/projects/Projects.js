@@ -1,24 +1,14 @@
-import React, { useCallback, useState } from "react";
+import React from "react";
 
 import './Projects.css';
 
 import Project from "./project/Project";
-import OrderToggle from "./toggle/OrderToggle";
-import Navbar from '../navbar/Navbar';
 
-import reverseOrder from "../_utils/reverseOrder";
 import projects from "../_data/projectInfo";
+import ProjectCard from "./project-card/ProjectCard";
 
 const Projects = () => {
-  const [projectInfo, setProjectInfo] = useState([...projects]);
-  const [sortByMostRecent, setSortByMostRecent] = useState(true);
-
-  const handleSort = useCallback(() => {
-    setProjectInfo([...reverseOrder(projectInfo)]);
-    setSortByMostRecent(state => !state);
-  }, [projectInfo]);
-
-  const projectDisplay = projectInfo.map(p => (
+  const projectDisplay = projects.map(p => (
     <Project
       name={p.name}
       award={p.award}
@@ -31,12 +21,23 @@ const Projects = () => {
     />
   ));
 
+  const projectCardDisplay = projects.map(p => (
+    <ProjectCard
+      name={p.name}
+      img={p.img}
+      shortDescription={p.shortDescription}
+    />
+  ))
+
   return (
-    <main className="Projects">
-      <Navbar />
-      <OrderToggle currToggle={sortByMostRecent} handleSort={handleSort} />
-      {projectDisplay}
-    </main>
+    <section className="Projects" id="projects">
+      <h2>Projects</h2>
+      <p>Click on a project to learn more.</p>
+      <section className="Projects-display">
+        {projectCardDisplay}
+      {/* {projectDisplay} */}
+      </section>
+    </section>
   );
 };
 

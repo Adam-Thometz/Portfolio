@@ -1,13 +1,14 @@
 .Navbar {
-  position: relative;
+  position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 7vh;
+  padding: 24px 0;
   margin: 0 auto;
-  border-radius: 30px;
-  backdrop-filter: blur(20px);
   width: 100%;
+  z-index: 5;
+  backdrop-filter: blur(20px);
+  animation: slide-up 1s both;
 }
 
 .Navbar-link {
@@ -21,7 +22,7 @@
   transition: background-color .5s ease-in-out;
 }
 
-.Navbar-link:hover, .active {
+.Navbar-link:hover {
   background-color: #c38585;
   color: rgb(24, 63, 92);
 }

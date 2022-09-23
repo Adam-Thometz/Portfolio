@@ -1,0 +1,31 @@
+.ProjectCard {
+  position: relative;
+  padding: 15px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.ProjectCard img {
+  height: 200px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.ProjectCard figcaption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  backdrop-filter: blur(0px);
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+  transition-property: opacity, backdrop-filter;
+  transition: 0.3s ease-in-out;
+}
+
+.ProjectCard figcaption:hover {
+  opacity: 1;
+  backdrop-filter: blur(15px);
+}

@@ -10,6 +10,17 @@ p, li {
   font-size: 1.1rem;
 }
 
+@keyframes slide-up {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
 /* ============================================================================================== 
 The following code is for the space background.
 The original version of this stylesheet and the associated (x)html 
@@ -53,7 +64,7 @@ While not mine, this code has been modified to fit with this app.
 }
 
 .stars, .twinkling, .clouds {
-  position:absolute;
+  position:fixed;
   top:0;
   left:0;
   right:0;
