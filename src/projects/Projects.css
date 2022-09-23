@@ -1,41 +1,38 @@
 .Projects {
-  width: 75%;
+  width: 90%;
   margin: 0 auto;
-  animation: slide-up 1s 0.6s both;
-}
-
-.Projects-display {
+  animation: slide-up 1s 0.3s both;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .art-buddy {
   background-color: rgba(77, 79, 94, 0.75);
-  color: rgb(23, 37, 90);
-  box-shadow: 0px 0px 20px 15px rgba(137, 235, 10, 0.5),
-    inset 0px 0px 10px 5px rgba(137, 235, 10, 0.5);
+  color: rgb(255, 232, 26);
+  box-shadow: 0px 0px 20px 15px rgba(253, 77, 58, 0.5)
+    /* inset 0px 0px 10px 5px rgba(137, 235, 10, 0.5); */
 }
 
 .art-buddy img {
-  border-color: rgb(255, 232, 26);
+  /* border-color: rgb(255, 232, 26); */
 }
 
 .reptifeed {
   background-color: rgba(69, 153, 0, 0.35);
-  box-shadow: 0px 0px 20px 15px rgba(69, 153, 0, 0.5),
-    inset 0px 0px 10px 5px rgba(69, 153, 0, 0.5);
+  box-shadow: 0px 0px 20px 15px rgba(69, 153, 0, 0.5)
+    /* inset 0px 0px 10px 5px rgba(69, 153, 0, 0.5); */
 }
 
 .reptifeed img {
-  border-color: rgba(154, 177, 6);
+  /* border-color: rgba(154, 177, 6); */
 }
 
 .eight-bit-clan {
   background-color: rgba(250, 250, 250, 0.35);
   color: rgb(12, 17, 88);
-  box-shadow: 0px 0px 20px 15px rgba(250, 250, 250, 0.5),
-    inset 0px 0px 10px 5px rgba(250, 250, 250, 0.5);
+  box-shadow: 0px 0px 20px 15px rgba(250, 250, 250, 0.5);
+    /* inset 0px 0px 10px 5px rgba(250, 250, 250, 0.5); */
 }
   
 .eight-bit-clan img {
@@ -44,8 +41,8 @@
   
 .catch-your-feelings {
   background-color: rgba(156, 156, 201, 0.5);
-  box-shadow: 0px 0px 20px 15px rgb(156, 156, 201, 0.5),
-    inset 0px 0px 10px 5px rgb(156, 156, 201, 0.5);
+  box-shadow: 0px 0px 20px 15px rgb(156, 156, 201, 0.5);
+    /* inset 0px 0px 10px 5px rgb(156, 156, 201, 0.5); */
 }
   
 .catch-your-feelings img {
@@ -54,9 +51,9 @@
     
 .musophile {
   background-color: rgba(98, 187, 255, 0.35);
-  color: rgba(23, 66, 185, 255);
-  box-shadow: 0px 0px 20px 15px rgba(98, 187, 255, 0.5),
-    inset 0px 0px 10px 5px rgba(98, 187, 255, 0.5);
+  color: rgba(230, 139, 3, 1);
+  box-shadow: 0px 0px 20px 15px rgba(98, 187, 255, 0.5);
+    /* inset 0px 0px 10px 5px rgba(98, 187, 255, 0.5); */
 }
 
 .musophile img {

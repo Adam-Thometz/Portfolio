@@ -31,12 +31,7 @@ const Projects = () => {
 
   return (
     <section className="Projects" id="projects">
-      <h2>Projects</h2>
-      <p>Click on a project to learn more.</p>
-      <section className="Projects-display">
-        {projectCardDisplay}
-      {/* {projectDisplay} */}
-      </section>
+      {projectCardDisplay}
     </section>
   );
 };

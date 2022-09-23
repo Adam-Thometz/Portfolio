@@ -30,7 +30,7 @@ const projects = [
   },
   {
     name: 'Reptifeed',
-    shortDescription: 'Reptilian diet tracker',
+    shortDescription: 'A reptilian diet tracker',
     description: <p>My second and final capstone project for Springboard. Inspired by my blue-tongue skink, Unity, this app gives you ideas on what to feed your reptile and helps you keep track of the foods you have for them.</p>,
     // learnedHowTo: [
     //   'build admin-only features',
@@ -85,7 +85,7 @@ const projects = [
   // },
   {
     name: 'Musophile',
-    shortDescription: 'A website to curate obscure music',
+    shortDescription: 'An obscure music curator',
     description: <p>My first capstone project for Springboard. A website where you can curate your own music library. Created using the Spotify and MusicBrainz APIs.</p>,
     learnedHowTo: [
       'connect frontend and backend using server-side rendering',

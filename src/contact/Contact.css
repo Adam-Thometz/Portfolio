@@ -2,7 +2,8 @@
   padding: 30px 0;
   border-radius: 0 0 50px 50px;
   /* box-shadow: 5px 10px 20px 20px rgb(24, 63, 92); */
-  overflow: scroll; 
+  overflow: scroll;
+  animation: slide-up 1s 0.6s both;
 }
 
 .Contact-form {
@@ -11,6 +12,7 @@
 
 .Contact-user-info {
   display: flex;
+  justify-content: space-between;
 }
 
 .Contact h2,.Contact p {
@@ -22,8 +24,8 @@
   border: 1px solid #171717;
   border-radius: 10px;
   padding: 8px 24px;
-  background-color: #00ACCA;
-  color: #8D1C1C;
+  background-color: #17171766;
+  color: #00ACCA;
   font-size: 1.5rem;
   font-family: 'Nunito', sans-serif;
   cursor: pointer;
@@ -31,7 +33,7 @@
 }
 
 .Contact-submit:hover {
-  background-color: #c38585;
+  background-color: #c3858566;
 }
 
 @media (max-width: 700px) {
