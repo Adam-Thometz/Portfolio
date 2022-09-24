@@ -7,7 +7,7 @@ import Input from './input/Input';
 import emailjs from '@emailjs/browser';
 import { userId, serviceId, templateId } from '../_data/emailInfo';
 
-const Contact = () => {
+const Contact = ({ style }) => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -35,8 +35,8 @@ const Contact = () => {
   };
 
   return (
-    <form ref={form} className='Contact-form' onSubmit={sendEmail} id='contact'>
-      <h2>Send me a message!</h2>
+    <form ref={form} className='Contact' onSubmit={sendEmail} style={style}>
+      <h2>Say hi 👋🏼</h2>
       <section className='Contact-user-info'>
         <Input label="Name" name="name" id="name" value={formData.name} onChange={handleChange} />
         <Input label="Email" name="email" id="email" value={formData.email} onChange={handleChange} type='email' />

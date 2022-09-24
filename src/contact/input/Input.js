@@ -11,7 +11,8 @@ const Input = ({ label, name, id, type = 'text', value, onChange }) => {
           id={id}
           onChange={onChange}
           required
-        >{value}</textarea>
+          defaultValue={value}
+        ></textarea>
       : <input 
         type={type}
         name={name}

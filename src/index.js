@@ -1,17 +1,27 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import { BrowserRouter } from 'react-router-dom'
+
+const Intro = lazy(() => import('./intro/Intro'));
+const Navbar = lazy(() => import('./navbar/Navbar'));
+const Projects = lazy(() => import('./projects/Projects'));
+const Contact = lazy(() => import('./contact/Contact'));
+const Footer = lazy(() => import('./footer/Footer'));
 
 ReactDOM.render(
-  <BrowserRouter>
-    <React.StrictMode>
-      <div class="stars"></div>
-      <div class="twinkling"></div>
-      <div class="clouds"></div>
-      <App />
-    </React.StrictMode>
-  </BrowserRouter>,
+  <React.StrictMode>
+    <Suspense fallback={<div>Loading...</div>}>
+      <div className="stars"></div>
+      <div className="twinkling"></div>
+      <div className="clouds"></div>
+      <div className='App'>
+        <Navbar style={{'--i': 0}} />
+        <Intro style={{'--i': 1}} />
+        <Projects style={{'--i': 2}} />
+        <Contact style={{'--i': 3}} />
+        <Footer style={{'--i': 4}} />
+      </div>
+    </Suspense>
+  </React.StrictMode>,
   document.getElementById('root')
 );

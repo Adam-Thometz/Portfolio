@@ -6,6 +6,15 @@
   position: relative;
 }
 
+.Project-exit {
+  position: absolute;
+  right: 24px;
+  color: white;
+  font-size: 2rem;
+  background-color: rgba(0,0,0,0);
+  cursor: pointer;
+}
+
 .Project-description a {
   color: white;
 }

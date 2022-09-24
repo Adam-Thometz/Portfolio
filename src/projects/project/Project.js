@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import TechStack from "../tech-stack/TechStack";
 
@@ -8,11 +7,10 @@ import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import './Project.css';
 
-const Project = ({ name, award, description, learnedHowTo, techStack, login, img, links }) => {
-  const cssClass = name.toLowerCase().replaceAll(' ', '-').replace('8', 'eight');
+const Project = ({ name, award = null, description, learnedHowTo, techStack, login, img, links, setShownProject }) => {
+  const exit = () => setShownProject(null)
 
-  const openDemo = () => window.open(links.demo);
-  const openGithub = () => window.open(links.github);
+  const cssClass = name.toLowerCase().replaceAll(' ', '-').replace('8', 'eight');
 
   const demo = <FontAwesomeIcon title={`Demo for ${name}`} icon={faGlobe} />;
   const github = <FontAwesomeIcon title={`Github repo for ${name}`} icon={faGithub} />;
@@ -30,12 +28,13 @@ const Project = ({ name, award, description, learnedHowTo, techStack, login, img
   const awardDisplay = award ? <img className="Project-award" src={award} alt={`An award for ${name}`} /> : null;
 
   const linkDisplay = <div className="Project-links">
-    {links.demo ? <Link className="demo" to="" onClick={openDemo}>{demo}</Link> : null}
-    <Link className="github" to="" onClick={openGithub}>{github}</Link>
+    {links.demo ? <a className="demo" href={links.github} target="_blank" rel="noreferrer">{demo}</a> : null}
+    <a className="github" href={links.github} target="_blank" rel="noreferrer">{github}</a>
   </div>;
 
   return (
     <div className={`Project ${cssClass}`} key={cssClass}>
+      <button className="Project-exit" onClick={exit}>X</button>
       <h1>{name}</h1>
       <div className="Project-info-img-container">
         <div className="Project-img">
@@ -46,10 +45,10 @@ const Project = ({ name, award, description, learnedHowTo, techStack, login, img
           <div className="Project-description">
             <h2>Description</h2>
             {description}
-            {/* <h2>Building this taught me how to...</h2>
+            <h2>Building this taught me how to...</h2>
             <ul>
-            {learnedHowTo.map(fact => <li>{fact}</li>)}
-          </ul> */}
+              {learnedHowTo.map(fact => <li>{fact}</li>)}
+            </ul>
             {awardDisplay}
           </div>
           {loginDisplay}

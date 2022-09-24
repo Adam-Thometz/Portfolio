@@ -2,12 +2,9 @@ import React from 'react'
 
 import './Footer.css';
 
-import Links from './links/Links';
-
-const Footer = () => {
+const Footer = ({ style }) => {
   return (
-    <footer className='Footer'>
-      <Links />
+    <footer className='Footer' style={style}>
       <small>Made by Adam Thometz 2022</small>
     </footer>
   );

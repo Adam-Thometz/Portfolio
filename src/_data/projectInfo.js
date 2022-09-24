@@ -1,9 +1,8 @@
 // Project pictures
-import artBuddy from '../_media/imgs/art-buddy.png';
-import reptifeed from '../_media/imgs/reptifeed.png';
-import bitClan from '../_media/imgs/8-bit-clan.png';
-import catchYourFeelings from '../_media/imgs/catch-your-feelings.png';
-import musophile from '../_media/imgs/musophile.png';
+import artBuddy from '../_media/imgs/art-buddy.webp';
+import reptifeed from '../_media/imgs/reptifeed.webp';
+import bitClan from '../_media/imgs/8-bit-clan.webp';
+import musophile from '../_media/imgs/musophile.webp';
 
 // Awards
 import mintbeanStar from '../_media/imgs/mintbean-star.gif';
@@ -32,12 +31,12 @@ const projects = [
     name: 'Reptifeed',
     shortDescription: 'A reptilian diet tracker',
     description: <p>My second and final capstone project for Springboard. Inspired by my blue-tongue skink, Unity, this app gives you ideas on what to feed your reptile and helps you keep track of the foods you have for them.</p>,
-    // learnedHowTo: [
-    //   'build admin-only features',
-    //   'make a website/app accessible',
-    //   'make a responsive website',
-    //   'invent my own API'
-    // ],
+    learnedHowTo: [
+      'build admin-only features',
+      'make a website/app accessible',
+      'make a responsive website',
+      'invent my own API'
+    ],
     techStack: ["Javascript", "Node", "Express", "React", "CSS", "Postgres", "Jest"],
     login: {
       username: 'abc',
@@ -70,19 +69,6 @@ const projects = [
       github: 'https://github.com/Adam-Thometz/8-Bit-Clan'
     }
   },
-  // {
-  //   name: 'Catch Your Feelings',
-  //   description: <><p>An app that I invented for helping students identify their emotions. You describe how happy and energetic you feel using icons and you get an emotion and a song back based on the input.</p><p><b>This project is now deprecated and the concept is currently being incorporated into Art Buddy as the Mood Meter!</b></p></>,
-  //   learnedHowTo: [
-  //     'apply my programming skills to solving a real problem',
-  //     'work with only vanilla JS - no frontend framework'
-  //   ],
-  //   techStack: ["Python", "Flask", "HTML", "CSS", "Javascript"],
-  //   img: catchYourFeelings,
-  //   links: {
-  //     github: 'https://github.com/Adam-Thometz/Catch-Your-Feelings'
-  //   }
-  // },
   {
     name: 'Musophile',
     shortDescription: 'An obscure music curator',
