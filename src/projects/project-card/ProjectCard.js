@@ -4,9 +4,12 @@ import './ProjectCard.css';
 
 import Project from '../project/Project';
 
-import projects from '../../_data/projectInfo';
-
-const ProjectCard = ({ name, img, shortDescription, setShownProject }) => {
+const ProjectCard = ({ project, setShownProject }) => {
+  const {
+    name,
+    img,
+    shortDescription,
+  } = project;
   const cssClass = name.toLowerCase().replaceAll(' ', '-').replace('8', 'eight');
   const handleSetShownProject = () => {
     const {
@@ -16,7 +19,7 @@ const ProjectCard = ({ name, img, shortDescription, setShownProject }) => {
       techStack,
       login,
       links
-    } = projects.find(p => p.name === name);
+    } = project;
     setShownProject(<Project
       name={name}
       img={img}
@@ -37,7 +40,7 @@ const ProjectCard = ({ name, img, shortDescription, setShownProject }) => {
       </figcaption>
       <img src={img} alt={name} />
     </figure>
-  )
-}
+  );
+};
 
-export default ProjectCard
+export default ProjectCard;

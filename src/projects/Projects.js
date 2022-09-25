@@ -11,9 +11,7 @@ const Projects = ({ style }) => {
   const projectCardDisplay = useMemo(() => (
     projects.map(p => (
       <ProjectCard
-        name={p.name}
-        img={p.img}
-        shortDescription={p.shortDescription}
+        project={p}
         setShownProject={setShownProject}
       />
     ))
@@ -21,7 +19,11 @@ const Projects = ({ style }) => {
 
   return (
     <section className="Projects" style={style}>
-      {shownProject ? shownProject : projectCardDisplay}
+      {shownProject ? (<div className="Projects-current">
+        {shownProject}
+      </div>) : (<div className="Projects-display">
+        {projectCardDisplay}
+      </div>)}
     </section>
   );
 };

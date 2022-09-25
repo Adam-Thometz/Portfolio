@@ -38,6 +38,10 @@
   transform: scale(1.1);
 }
 
+.ProjectCard:active {
+  transform: scale(0.9);
+}
+
 .ProjectCard:hover img {
   opacity: 0.3;
 }
