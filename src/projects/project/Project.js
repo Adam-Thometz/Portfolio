@@ -28,7 +28,7 @@ const Project = ({ name, award = null, description, learnedHowTo, techStack, log
   const awardDisplay = award ? <img className="Project-award" src={award} alt={`An award for ${name}`} /> : null;
 
   const linkDisplay = <div className="Project-links">
-    {links.demo ? <a className="demo" href={links.github} target="_blank" rel="noreferrer">{demo}</a> : null}
+    {links.demo ? <a className="demo" href={links.demo} target="_blank" rel="noreferrer">{demo}</a> : null}
     <a className="github" href={links.github} target="_blank" rel="noreferrer">{github}</a>
   </div>;
 
