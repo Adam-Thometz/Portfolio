@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Input.css'
+import './Input.css';
 
 const Input = ({ label, name, id, type = 'text', value, onChange }) => {
   return (
