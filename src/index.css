@@ -26,6 +26,17 @@ p, li {
   }
 }
 
+@keyframes slide-down {
+  from {
+    transform: none;
+    opacity: 1;
+  }
+  to {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+}
+
 /* ============================================================================================== 
 The following code is for the space background.
 The original version of this stylesheet and the associated (x)html 

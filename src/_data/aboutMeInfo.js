@@ -1,1 +1,0 @@
-export const description = <p>I love building useful and delightful apps. Almost everything I've built with code so far had a real purpose for me. I've built apps for my classes when I worked as a music teacher and for getting a feeding schedule for my new pet lizard going.</p>;

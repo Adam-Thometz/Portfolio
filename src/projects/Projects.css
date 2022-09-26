@@ -1,4 +1,4 @@
-.Projects-display {
+.Projects {
   margin: 0 auto;
   animation: slide-up var(--duration) calc(var(--delay) * var(--i)) ease-in-out both;
   display: flex;
@@ -8,8 +8,12 @@
   position: relative;
 }
 
-.Projects-current {
-  z-index: 10;
+.project {
+  transition: opacity 0.3s ease-in-out
+}
+
+.display {
+  transition: opacity 0.3s ease-in-out
 }
 
 /* Styles for projects */

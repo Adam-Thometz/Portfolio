@@ -1,14 +1,27 @@
 import React from "react";
 
+import './Project.css';
+
 import TechStack from "../tech-stack/TechStack";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import './Project.css';
+import projects from "../projectInfo";
 
-const Project = ({ name, award = null, description, learnedHowTo, techStack, login, img, links, setShownProject }) => {
+const Project = ({ project, setShownProject }) => {
+  const { name, award, description, learnedHowTo, techStack, login, img, links } = project;
+  
   const exit = () => setShownProject(null)
+  const move = e => {
+    let projectIdx = projects.findIndex(p => p.name === name);
+    projectIdx += e.target.id === 'next' ? 1 : -1;
+    if (projectIdx < 0) projectIdx = projects.length-1;
+    if (projectIdx >= projects.length) projectIdx = 0;
+
+    const nextProject = projects[projectIdx];
+    setShownProject(nextProject);
+  };
 
   const cssClass = name.toLowerCase().replaceAll(' ', '-').replace('8', 'eight');
 
@@ -33,7 +46,9 @@ const Project = ({ name, award = null, description, learnedHowTo, techStack, log
   </div>;
 
   return (
-    <div className={`Project ${cssClass}`} key={cssClass}>
+    <section className={`Project ${cssClass}`} key={cssClass}>
+      <button className="Project-prev" id="prev" onClick={move}>Previous</button>
+      <button className="Project-next" id="next" onClick={move}>Next</button>
       <button className="Project-exit" onClick={exit}>X</button>
       <h1>{name}</h1>
       <div className="Project-info-img-container">
@@ -55,7 +70,7 @@ const Project = ({ name, award = null, description, learnedHowTo, techStack, log
           {linkDisplay}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

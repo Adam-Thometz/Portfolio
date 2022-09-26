@@ -2,8 +2,6 @@ import React from 'react';
 
 import './ProjectCard.css';
 
-import Project from '../project/Project';
-
 const ProjectCard = ({ project, setShownProject }) => {
   const {
     name,
@@ -11,27 +9,8 @@ const ProjectCard = ({ project, setShownProject }) => {
     shortDescription,
   } = project;
   const cssClass = name.toLowerCase().replaceAll(' ', '-').replace('8', 'eight');
-  const handleSetShownProject = () => {
-    const {
-      award,
-      description,
-      learnedHowTo,
-      techStack,
-      login,
-      links
-    } = project;
-    setShownProject(<Project
-      name={name}
-      img={img}
-      award={award}
-      description={description}
-      learnedHowTo={learnedHowTo}
-      techStack={techStack}
-      login={login}
-      links={links}
-      setShownProject={setShownProject}
-    />);
-  };
+  const handleSetShownProject = () => setShownProject(project);
+
   return (
     <figure className={`ProjectCard ${cssClass}`} onClick={handleSetShownProject}>
       <figcaption>

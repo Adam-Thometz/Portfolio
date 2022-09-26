@@ -1,29 +1,25 @@
-import React, { useMemo, useState } from "react";
+import React, { useState } from "react";
 
 import './Projects.css';
 
-import projects from "../_data/projectInfo";
+import projects from "./projectInfo";
 import ProjectCard from "./project-card/ProjectCard";
+import Project from './project/Project';
 
 const Projects = ({ style }) => {
   const [shownProject, setShownProject] = useState(null);
 
-  const projectCardDisplay = useMemo(() => (
-    projects.map(p => (
-      <ProjectCard
-        project={p}
-        setShownProject={setShownProject}
-      />
-    ))
-  ), []);
+  const projectCardDisplay = projects.map(p => (
+    <ProjectCard project={p} setShownProject={setShownProject} />
+  ));
+
+  const displayClass = shownProject ? 'project' : 'display';
 
   return (
-    <section className="Projects" style={style}>
-      {shownProject ? (<div className="Projects-current">
-        {shownProject}
-      </div>) : (<div className="Projects-display">
-        {projectCardDisplay}
-      </div>)}
+    <section className={`Projects ${displayClass}`} style={style}>
+      {shownProject ? (
+        <Project project={shownProject} setShownProject={setShownProject} />
+      ) : projectCardDisplay}
     </section>
   );
 };
