@@ -46,6 +46,11 @@ const Project = ({ project, setShownProject }) => {
 
   return (
     <section className={`Project ${cssClass}`} key={cssClass}>
+      <div className="Project-nav">
+        <FontAwesomeIcon id='prev' title="Previous" icon={faArrowLeft} onClick={move} />
+        <button className="Project-exit" onClick={exit}>Back to projects</button>
+        <FontAwesomeIcon id="next" title="Next" icon={faArrowRight} onClick={move} />
+      </div>
       <h1>{name}</h1>
       <div className="Project-info-img-container">
         <div className="Project-img">
@@ -65,11 +70,6 @@ const Project = ({ project, setShownProject }) => {
           {loginDisplay}
           {linkDisplay}
         </div>
-      </div>
-      <div className="Project-nav">
-        <FontAwesomeIcon id='prev' title="Previous" icon={faArrowLeft} onClick={move} />
-        <button className="Project-exit" onClick={exit}>Back to projects</button>
-        <FontAwesomeIcon id="next" title="Next" icon={faArrowRight} onClick={move} />
       </div>
     </section>
   );
