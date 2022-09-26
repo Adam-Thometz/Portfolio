@@ -4,7 +4,9 @@
   left: 32px;
   z-index: 5;
   backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 30px 10px #1c4651;
   display: flex;
+  border-radius: 10px;
   justify-content: space-between;
   animation: slide-up var(--duration) calc(var(--delay) * var(--i)) both;
 }
@@ -13,11 +15,7 @@
   text-decoration: none;
   padding: 4px 16px;
   font-size: 2rem;
-  /* border: 1px solid black; */
-  /* border-radius: 25px; */
-  box-shadow: 0px 0px 30px 10px #1c4651;
-  transition: font-size .5s ease-in-out;
-  transition: background-color .5s ease-in-out;
+  transition: box-shadow .5s ease-in-out;
 }
 
 .Navbar-link:first-of-type {
@@ -29,7 +27,7 @@
 }
 
 .Navbar-link:hover {
-  background-color: #c38585;
+  box-shadow: 0px 0px 30px 10px #9fb0b4;
 }
 
 .resume {
