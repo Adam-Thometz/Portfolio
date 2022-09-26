@@ -29,12 +29,7 @@
 
 @media (max-width: 1200px) {
   .TechStackCard {
-    height: 40px;
+    height: 55px;
     width: 40px;
-  }
-  
-  .TechStackCard-img-wrapper img {
-    height: 25px;
-    width: 25px;
   }
 }

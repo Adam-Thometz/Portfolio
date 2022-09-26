@@ -104,13 +104,4 @@
   .Project-img {
     width: 80%;
   }
-
-  .Project-links {
-    top: 0;
-  }
-
-  .Project-links a {
-    font-size: 1.5rem;
-    padding: 10px;
-  }
 }
