@@ -19,7 +19,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "react-scripts build && cp build/index.html build/200.html && npx surge build",
+    "deploy": "react-scripts build && npx surge build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
