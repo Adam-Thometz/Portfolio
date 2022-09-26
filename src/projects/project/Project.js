@@ -5,28 +5,25 @@ import './Project.css';
 import TechStack from "../tech-stack/TechStack";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+import { faGlobe, faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import projects from "../projectInfo";
 
 const Project = ({ project, setShownProject }) => {
-  const { name, award, description, learnedHowTo, techStack, login, img, links } = project;
-  
-  const exit = () => setShownProject(null)
+  const exit = () => setShownProject(null);
   const move = e => {
     let projectIdx = projects.findIndex(p => p.name === name);
-    projectIdx += e.target.id === 'next' ? 1 : -1;
+    projectIdx += e.currentTarget.id === 'next' ? 1 : -1;
     if (projectIdx < 0) projectIdx = projects.length-1;
     if (projectIdx >= projects.length) projectIdx = 0;
-
+    
     const nextProject = projects[projectIdx];
     setShownProject(nextProject);
   };
 
-  const cssClass = name.toLowerCase().replaceAll(' ', '-').replace('8', 'eight');
+  const { name, award, description, learnedHowTo, techStack, login, img, links } = project;
 
-  const demo = <FontAwesomeIcon title={`Demo for ${name}`} icon={faGlobe} />;
-  const github = <FontAwesomeIcon title={`Github repo for ${name}`} icon={faGithub} />;
+  const cssClass = name.toLowerCase().replaceAll(' ', '-').replace('8', 'eight');
 
   const loginDisplay = login ? (
     <div className="Project-login-info">
@@ -40,16 +37,15 @@ const Project = ({ project, setShownProject }) => {
 
   const awardDisplay = award ? <img className="Project-award" src={award} alt={`An award for ${name}`} /> : null;
 
+  const demo = <FontAwesomeIcon title={`Demo for ${name}`} icon={faGlobe} />;
+  const github = <FontAwesomeIcon title={`Github repo for ${name}`} icon={faGithub} />;
   const linkDisplay = <div className="Project-links">
-    {links.demo ? <a className="demo" href={links.demo} target="_blank" rel="noreferrer">{demo}</a> : null}
+    <a className="demo" href={links.demo} target="_blank" rel="noreferrer">{demo}</a>
     <a className="github" href={links.github} target="_blank" rel="noreferrer">{github}</a>
   </div>;
 
   return (
     <section className={`Project ${cssClass}`} key={cssClass}>
-      <button className="Project-prev" id="prev" onClick={move}>Previous</button>
-      <button className="Project-next" id="next" onClick={move}>Next</button>
-      <button className="Project-exit" onClick={exit}>X</button>
       <h1>{name}</h1>
       <div className="Project-info-img-container">
         <div className="Project-img">
@@ -69,6 +65,11 @@ const Project = ({ project, setShownProject }) => {
           {loginDisplay}
           {linkDisplay}
         </div>
+      </div>
+      <div className="Project-nav">
+        <FontAwesomeIcon id='prev' title="Previous" icon={faArrowLeft} onClick={move} />
+        <button className="Project-exit" onClick={exit}>Back to projects</button>
+        <FontAwesomeIcon id="next" title="Next" icon={faArrowRight} onClick={move} />
       </div>
     </section>
   );

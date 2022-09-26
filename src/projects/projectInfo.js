@@ -11,7 +11,7 @@ const projects = [
   {
     name: 'Art Buddy',
     shortDescription: 'Arts-based games for special education',
-    description: <p>Art Buddy is a collection of arts-based games and tools designed specifically for the special education classroom and reaching students' academic goals. I worked with UX designer/fellow educator <a href='https://uxfol.io/mattiebecker'>Mattie Becker</a> to make this. <b>NOTE: I recommend viewing on a desktop. This app was purposely designed for a large screen</b></p>,
+    description: <><p>Art Buddy is a collection of arts-based games and tools designed specifically for the special education classroom and reaching students' academic goals. I worked with UX designer/fellow educator <a href='https://uxfol.io/mattiebecker'>Mattie Becker</a> to make this.</p><b>NOTE: I recommend viewing on a desktop. This app was purposely designed for a large screen.</b></>,
     learnedHowTo: [
       'make my code readable, obvious, and testable (I call it "making my code ROT")',
       'use package.json scripts to minimize typing in the terminal',
