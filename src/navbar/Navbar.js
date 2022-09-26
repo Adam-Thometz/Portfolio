@@ -5,7 +5,7 @@ import './Navbar.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub, faSoundcloud } from '@fortawesome/free-brands-svg-icons';
-import { links } from '../_data/navbarInfo';
+import { links } from './navbarInfo';
 
 const Navbar = ({ style }) => {
   const resume = <FontAwesomeIcon title="Resume" icon={faFile} />;

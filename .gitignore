@@ -15,7 +15,7 @@
 /public/CNAME
 
 # EmailJS User Id
-/src/_data/emailInfo.js
+/src/contact/emailInfo.js
 
 # misc
 .DS_Store

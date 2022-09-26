@@ -5,7 +5,7 @@ import './Contact.css';
 import Input from './input/Input';
 
 import emailjs from '@emailjs/browser';
-import { userId, serviceId, templateId } from '../_data/emailInfo';
+import { userId, serviceId, templateId } from './emailInfo';
 
 const Contact = ({ style }) => {
   const [formData, setFormData] = useState({
