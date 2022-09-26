@@ -6,12 +6,6 @@
   padding: 10px;
   margin: 5px;
   border-radius: 25px;
-  transform: none;
-  transition: transform 0.3s;
-}
-
-.TechStackCard:hover {
-  transform: scale(1.3);
 }
 
 .TechStackCard-img {
