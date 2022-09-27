@@ -55,35 +55,37 @@ const Project = ({ project, setShownProject }) => {
   </div>;
 
   return (
-    <section className={`Project ${cssClass}`} key={cssClass}>
-      <div className="Project-nav">
+    <>
+      <nav className="Project-nav">
         <button id="prev" title="Previous" onClick={move}><FontAwesomeIcon icon={faArrowLeft} />
         </button>
         <button className="Project-exit" onClick={exit}>Back to projects</button>
         <button id="next" title="Next" onClick={move}><FontAwesomeIcon icon={faArrowRight} />
         </button>
-      </div>
-      <h1>{name}</h1>
-      <div className="Project-info-img-container">
-        <div className="Project-img">
-          <img src={img} alt={`A screenshot of ${name}`} />
-          <TechStack techStack={techStack} />
-        </div>
-        <div className="Project-info" tabIndex={0}>
-          <div className="Project-description">
-            <h2>Description</h2>
-            {description}
-            <h2>Building this taught me how to...</h2>
-            <ul>
-              {learnedHowTo.map(fact => <li>{fact}</li>)}
-            </ul>
-            {awardDisplay}
+      </nav>
+      <section className={`Project ${cssClass}`} key={cssClass}>
+        <h1>{name}</h1>
+        <div className="Project-info-img-container">
+          <div className="Project-img">
+            <img src={img} alt={`A screenshot of ${name}`} />
+            <TechStack techStack={techStack} />
           </div>
-          {loginDisplay}
-          {linkDisplay}
+          <div className="Project-info" tabIndex={0}>
+            <div className="Project-description">
+              <h2>Description</h2>
+              {description}
+              <h2>Building this taught me how to...</h2>
+              <ul>
+                {learnedHowTo.map(fact => <li>{fact}</li>)}
+              </ul>
+              {awardDisplay}
+            </div>
+            {loginDisplay}
+            {linkDisplay}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 
