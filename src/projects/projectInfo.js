@@ -1,5 +1,6 @@
 // Project pictures
 import artBuddy from '../_media/imgs/art-buddy.webp';
+import weddingRSVP from '../_media/imgs/wedding-rsvp.webp';
 import reptifeed from '../_media/imgs/reptifeed.webp';
 import bitClan from '../_media/imgs/8-bit-clan.webp';
 import musophile from '../_media/imgs/musophile.webp';
@@ -25,6 +26,27 @@ const projects = [
     links: {
       demo: 'https://art-buddy.surge.sh',
       github: 'https://github.com/Adam-Thometz/Art-Buddy'
+    }
+  },
+  {
+    name: 'Wedding RSVP',
+    shortDescription: 'A 20s themed wedding RSVP collector',
+    description: <><p>My fiancee and I created this website together in order to collect RSVPs for our upcoming wedding. Our wedding will be 20s themed, hence the style of the site. She did the design, I did the rest!</p><b>Try the RSVP feature by using the following info in the form:</b>
+    <ul>
+      <li>First Name: Sample</li>
+      <li>Last Name: User</li>
+      <li>Zipcode: 00000</li>
+    </ul></>,
+    learnedHowTo: [
+      'make inputs in the style of Google',
+      'make a multi-page form within one page',
+      'debug on the fly when a guest has an issue',
+    ],
+    techStack: ["Javascript", "React", "CSS", "Node", "Express", "Postgres"],
+    img: weddingRSVP,
+    links: {
+      demo: 'https://melody-adam-wedding.surge.sh/',
+      github: 'https://github.com/Adam-Thometz/Wedding-RSVP'
     }
   },
   {
