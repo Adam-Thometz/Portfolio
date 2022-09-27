@@ -49,3 +49,9 @@
   top: 8px;
   font-size: 0.8rem;
 }
+
+@media (max-width: 500px) {
+  .Input input {
+    width: 100%;
+  }  
+}
