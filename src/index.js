@@ -16,10 +16,10 @@ ReactDOM.render(
       <div className="clouds"></div>
       <div className='App'>
         <Navbar style={{'--i': 0}} />
-        <Intro style={{'--i': 1}} />
-        <Projects style={{'--i': 2}} />
-        <Contact style={{'--i': 3}} />
-        <Footer style={{'--i': 4}} />
+        <Intro style={{'--i': 0}} />
+        <Projects style={{'--i': 1}} />
+        <Contact style={{'--i': 2}} />
+        <Footer style={{'--i': 3}} />
       </div>
     </Suspense>
   </React.StrictMode>,
