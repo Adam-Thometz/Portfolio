@@ -8,7 +8,7 @@ const ProjectCard = ({ project, setShownProject }) => {
     img,
     shortDescription,
   } = project;
-  const cssClass = name.toLowerCase().replaceAll(' ', '-').replace('8', 'eight');
+  const cssClass = name.toLowerCase().replace(/ /g, '-').replace('8', 'eight');
   const handleSetShownProject = () => setShownProject(project);
 
   return (

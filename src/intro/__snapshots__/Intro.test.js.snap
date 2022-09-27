@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Intro component matches the snapshot of the landing page displaying the games page 1`] = `
+exports[`Intro component matches the snapshot 1`] = `
 <DocumentFragment>
   <header
     class="Intro"

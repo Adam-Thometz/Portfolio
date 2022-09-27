@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectCard component matches the snapshot 1`] = `
+<DocumentFragment>
+  <figure
+    class="ProjectCard art-buddy"
+  >
+    <figcaption>
+      <h2>
+        Art Buddy
+      </h2>
+      <p>
+        Arts-based games for special education
+      </p>
+    </figcaption>
+    <img
+      alt="Art Buddy"
+      src="art-buddy.webp"
+    />
+  </figure>
+</DocumentFragment>
+`;

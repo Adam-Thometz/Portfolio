@@ -1,14 +1,14 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import Intro from './Intro';
+import Input from './Input';
 
-describe('Intro component', () => {
+describe('Input component', () => {
   it('renders without crashing', () => {
-    render(<Intro />);
+    render(<Input />);
   });
 
   it('matches the snapshot', () => {
-    const { asFragment } = render(<Intro />);
+    const { asFragment } = render(<Input />);
     expect(asFragment()).toMatchSnapshot();
   });
 });

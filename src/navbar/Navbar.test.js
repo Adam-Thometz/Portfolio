@@ -7,7 +7,7 @@ describe('Navbar component', () => {
     render(<Navbar />);
   });
 
-  it('matches the snapshot of the landing page displaying the games page', () => {
+  it('matches the snapshot', () => {
     const { asFragment } = render(<Navbar />);
     expect(asFragment()).toMatchSnapshot();
   });

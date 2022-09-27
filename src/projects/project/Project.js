@@ -23,7 +23,7 @@ const Project = ({ project, setShownProject }) => {
 
   const { name, award, description, learnedHowTo, techStack, login, img, links } = project;
 
-  const cssClass = name.toLowerCase().replaceAll(' ', '-').replace('8', 'eight');
+  const cssClass = name.toLowerCase().replace(/ /g, '-').replace('8', 'eight');
 
   const loginDisplay = login ? (
     <div className="Project-login-info">
@@ -37,19 +37,31 @@ const Project = ({ project, setShownProject }) => {
 
   const awardDisplay = award ? <img className="Project-award" src={award} alt={`An award for ${name}`} /> : null;
 
-  const demo = <FontAwesomeIcon title={`Demo for ${name}`} icon={faGlobe} />;
-  const github = <FontAwesomeIcon title={`Github repo for ${name}`} icon={faGithub} />;
   const linkDisplay = <div className="Project-links">
-    <a className="demo" href={links.demo} target="_blank" rel="noreferrer">{demo}</a>
-    <a className="github" href={links.github} target="_blank" rel="noreferrer">{github}</a>
+    <a
+      className="demo"
+      title={`Demo for ${name}`}
+      href={links.demo}
+      target="_blank"
+      rel="noreferrer"
+    ><FontAwesomeIcon icon={faGlobe} /></a>
+    <a
+      className="github"
+      title={`Github repo for ${name}`}
+      href={links.github}
+      target="_blank"
+      rel="noreferrer"
+    ><FontAwesomeIcon icon={faGithub} /></a>
   </div>;
 
   return (
     <section className={`Project ${cssClass}`} key={cssClass}>
       <div className="Project-nav">
-        <FontAwesomeIcon id='prev' title="Previous" icon={faArrowLeft} onClick={move} />
+        <button id="prev" title="Previous" onClick={move}><FontAwesomeIcon icon={faArrowLeft} />
+        </button>
         <button className="Project-exit" onClick={exit}>Back to projects</button>
-        <FontAwesomeIcon id="next" title="Next" icon={faArrowRight} onClick={move} />
+        <button id="next" title="Next" onClick={move}><FontAwesomeIcon icon={faArrowRight} />
+        </button>
       </div>
       <h1>{name}</h1>
       <div className="Project-info-img-container">

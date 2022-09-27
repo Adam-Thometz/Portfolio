@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Projects component matches the snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="Projects display"
+  >
+    <figure
+      class="ProjectCard art-buddy"
+    >
+      <figcaption>
+        <h2>
+          Art Buddy
+        </h2>
+        <p>
+          Arts-based games for special education
+        </p>
+      </figcaption>
+      <img
+        alt="Art Buddy"
+        src="art-buddy.webp"
+      />
+    </figure>
+    <figure
+      class="ProjectCard reptifeed"
+    >
+      <figcaption>
+        <h2>
+          Reptifeed
+        </h2>
+        <p>
+          A reptilian diet tracker
+        </p>
+      </figcaption>
+      <img
+        alt="Reptifeed"
+        src="reptifeed.webp"
+      />
+    </figure>
+    <figure
+      class="ProjectCard eight-bit-clan"
+    >
+      <figcaption>
+        <h2>
+          8-Bit Clan
+        </h2>
+        <p>
+          An 8-bit NFT maker
+        </p>
+      </figcaption>
+      <img
+        alt="8-Bit Clan"
+        src="8-bit-clan.webp"
+      />
+    </figure>
+    <figure
+      class="ProjectCard musophile"
+    >
+      <figcaption>
+        <h2>
+          Musophile
+        </h2>
+        <p>
+          An obscure music curator
+        </p>
+      </figcaption>
+      <img
+        alt="Musophile"
+        src="musophile.webp"
+      />
+    </figure>
+  </section>
+</DocumentFragment>
+`;

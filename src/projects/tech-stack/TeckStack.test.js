@@ -1,14 +1,14 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import Intro from './Intro';
+import TechStack from './TechStack';
 
-describe('Intro component', () => {
+describe('TechStack component', () => {
   it('renders without crashing', () => {
-    render(<Intro />);
+    render(<TechStack techStack={["Javascript"]} />);
   });
 
   it('matches the snapshot', () => {
-    const { asFragment } = render(<Intro />);
+    const { asFragment } = render(<TechStack techStack={["Javascript"]} />);
     expect(asFragment()).toMatchSnapshot();
   });
 });
