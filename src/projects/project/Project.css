@@ -81,15 +81,26 @@
   font-size: 2rem;
 }
 
-.Project-nav button, .Project-nav svg {
+.Project-nav button {
+  border: none;
+  background-color: rgba(0,0,0,0);
+  color: white;
   cursor: pointer;
   font-family: 'Nunito', sans-serif;
   transform: none;
   transition: transform 0.3s;
 }
 
-.Project-nav button:hover, .Project-nav svg:hover {
+.Project-nav button:hover {
   transform: scale(1.3);
+}
+
+.Project-nav svg {
+  transform: scale(1.3);
+}
+
+.Project-nav svg:hover {
+  transform: scale(1.6);
 }
 
 .Project-exit {
