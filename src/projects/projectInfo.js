@@ -39,6 +39,7 @@ const projects = [
     </ul></>,
     learnedHowTo: [
       'make inputs in the style of Google',
+      'code with security in mind',
       'make a multi-page form within one page',
       'debug on the fly when a guest has an issue',
     ],
