@@ -31,7 +31,7 @@ const projects = [
   {
     name: 'Wedding RSVP',
     shortDescription: 'A 20s themed wedding RSVP collector',
-    description: <><p>My fiancee and I created this website together in order to collect RSVPs for our upcoming wedding. Our wedding will be 20s themed, hence the style of the site. She did the design, I did the rest!</p><b>Try the RSVP feature by using the following info in the form:</b>
+    description: <><p>My fiancee and I created this website together in order to collect RSVPs for our upcoming wedding.</p><b>Try the RSVP feature by using the following info in the form:</b>
     <ul>
       <li>First Name: Sample</li>
       <li>Last Name: User</li>
