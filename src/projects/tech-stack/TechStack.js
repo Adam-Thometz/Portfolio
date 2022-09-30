@@ -7,8 +7,8 @@ const TechStack = ({ techStack }) => {
   return (
     <section className="TechStack">
       {techStack.map(tech => {
-        const { name, icon } = techStackInfo.find(currTech => currTech.name === tech)
-        return <TechStackCard name={name} icon={icon} />
+        const { name, icon } = techStackInfo.find(currTech => currTech.name === tech);
+        return <TechStackCard name={name} icon={icon} />;
       })}
     </section>
   );

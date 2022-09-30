@@ -19,17 +19,17 @@ const techStackInfo = [
   {name: 'CSS', icon: css},
   {name: 'Javascript', icon: javascript},
   {name: 'Python', icon: python},
+  {name: 'React', icon: reactJS},
+  {name: 'Redux', icon: redux},
   {name: 'Flask', icon: flask},
   {name: 'SQL', icon: sql},
-  {name: 'Postgres', icon: postgresql},
+  {name: 'PostgreSQL', icon: postgresql},
   {name: 'Node', icon: nodeJS},
   {name: 'Express', icon: expressJS},
-  {name: 'React', icon: reactJS},
   {name: 'Jest', icon: jest},
   {name: 'jQuery', icon: jQuery},
   {name: 'JSS', icon: jss},
-  {name: 'Bootstrap', icon: bootstrap},
-  {name: 'Redux', icon: redux}
+  {name: 'Bootstrap', icon: bootstrap}
 ];
 
 export default techStackInfo;

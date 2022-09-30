@@ -43,7 +43,7 @@ const projects = [
       'make a multi-page form within one page',
       'debug on the fly when a guest has an issue',
     ],
-    techStack: ["Javascript", "React", "CSS", "Node", "Express", "Postgres"],
+    techStack: ["Javascript", "React", "CSS", "Node", "Express", "PostgreSQL"],
     img: weddingRSVP,
     links: {
       demo: 'https://melody-adam-wedding.surge.sh/',
@@ -60,7 +60,7 @@ const projects = [
       'make a responsive website',
       'invent my own API'
     ],
-    techStack: ["Javascript", "Node", "Express", "React", "CSS", "Postgres", "Jest"],
+    techStack: ["Javascript", "Node", "Express", "React", "CSS", "PostgreSQL", "Jest"],
     login: {
       username: 'abc',
       password: '123'
@@ -81,7 +81,7 @@ const projects = [
       'work efficiently under tight time constraints',
       'store art data in a database and call on that data to reproduce a smaller version of that art'
     ],
-    techStack: ["Javascript", "Node", "Express", "React", "JSS", "Postgres"],
+    techStack: ["Javascript", "Node", "Express", "React", "JSS", "PostgreSQL"],
     login: {
       username: 'abc',
       password: '123'
@@ -100,7 +100,7 @@ const projects = [
       'connect frontend and backend using server-side rendering',
       'use the Spotify API and OAuth'
     ],
-    techStack: ["Python", "Flask", "Postgres", "HTML", "CSS", "Javascript", "jQuery", "Bootstrap"],
+    techStack: ["Python", "Flask", "PostgreSQL", "HTML", "CSS", "Javascript", "jQuery", "Bootstrap"],
     login: {
       username: 'abc',
       password: '12345678'
