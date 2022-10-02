@@ -13,7 +13,7 @@ const Project = ({ project, setShownProject }) => {
   const exit = () => setShownProject(null);
   const move = e => {
     let projectIdx = projects.findIndex(p => p.name === name);
-    projectIdx += e.currentTarget.id === 'next' ? 1 : -1;
+    projectIdx += +e.currentTarget.id;
     if (projectIdx < 0) projectIdx = projects.length-1;
     if (projectIdx >= projects.length) projectIdx = 0;
     
@@ -57,10 +57,10 @@ const Project = ({ project, setShownProject }) => {
   return (
     <>
       <nav className="Project-nav">
-        <button id="prev" title="Previous" onClick={move}><FontAwesomeIcon icon={faArrowLeft} />
+        <button id="-1" title="Previous" onClick={move}><FontAwesomeIcon icon={faArrowLeft} />
         </button>
         <button className="Project-exit" onClick={exit}>Back to projects</button>
-        <button id="next" title="Next" onClick={move}><FontAwesomeIcon icon={faArrowRight} />
+        <button id="1" title="Next" onClick={move}><FontAwesomeIcon icon={faArrowRight} />
         </button>
       </nav>
       <section className={`Project ${cssClass}`} key={cssClass}>

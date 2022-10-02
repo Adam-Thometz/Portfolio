@@ -32,4 +32,4 @@ const techStackInfo = [
   {name: 'Bootstrap', icon: bootstrap}
 ];
 
-export default techStackInfo;
+  export default techStackInfo;
