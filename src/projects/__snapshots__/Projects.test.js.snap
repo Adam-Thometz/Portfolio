@@ -22,22 +22,6 @@ exports[`Projects component matches the snapshot 1`] = `
       />
     </figure>
     <figure
-      class="ProjectCard wedding-rsvp"
-    >
-      <figcaption>
-        <h2>
-          Wedding RSVP
-        </h2>
-        <p>
-          A 20s themed wedding RSVP collector
-        </p>
-      </figcaption>
-      <img
-        alt="Wedding RSVP"
-        src="wedding-rsvp.webp"
-      />
-    </figure>
-    <figure
       class="ProjectCard reptifeed"
     >
       <figcaption>

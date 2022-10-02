@@ -15,7 +15,7 @@ exports[`Footer component matches the snapshot 1`] = `
         rel="noreferrer"
         target="_blank"
       >
-        Like this portfolio? Click here to check out the Github
+        Like this portfolio? Click here to check out the Github. (It includes tests!)
       </a>
     </small>
   </footer>
