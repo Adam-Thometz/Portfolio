@@ -2,9 +2,11 @@ import React, { useState } from "react";
 
 import './Projects.css';
 
-import projects from "./projectInfo";
 import ProjectCard from "./project-card/ProjectCard";
 import Project from './project/Project';
+import ProjectNav from "./project/project-nav/ProjectNav";
+
+import projects from "./projectInfo";
 
 const Projects = ({ style }) => {
   const [shownProject, setShownProject] = useState(null);
@@ -17,8 +19,10 @@ const Projects = ({ style }) => {
 
   return (
     <section className={`Projects ${displayClass}`} style={style}>
-      {shownProject ? (
+      {shownProject ? (<>
+        <ProjectNav currProject={shownProject.name} setShownProject={setShownProject} />
         <Project project={shownProject} setShownProject={setShownProject} />
+      </>
       ) : projectCardDisplay}
     </section>
   );
