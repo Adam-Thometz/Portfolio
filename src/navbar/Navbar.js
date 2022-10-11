@@ -8,7 +8,7 @@ const Navbar = ({ style }) => {
   return (
     <nav className='Navbar' style={style}>
       {links.map(link => (
-        <a className={`Navbar-link ${link.id}`} href={links.url} title={link.id} target="_blank" rel='noreferrer'>{link.icon}</a>
+        <a tabIndex={0} className={`Navbar-link ${link.id}`} href={links.url} title={link.id} target="_blank" rel='noreferrer'>{link.icon}</a>
       ))}
     </nav>
   );

@@ -7,6 +7,8 @@
   margin: 5%;
   transform: none;
   transition: transform 0.3s ease-in-out;
+  border: none;
+  font-family: "Nunito";
 }
 
 .ProjectCard img {
@@ -17,7 +19,7 @@
   transition: opacity 0.3s ease-in-out;
 }
 
-.ProjectCard figcaption {
+.ProjectCard-name {
   position: absolute;
   z-index: 1;
   top: 50%;
@@ -42,7 +44,7 @@
   opacity: 0.3;
 }
 
-.ProjectCard:hover figcaption {
+.ProjectCard-name:hover {
   opacity: 1;
 }
 

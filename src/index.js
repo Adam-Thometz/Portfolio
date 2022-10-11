@@ -14,13 +14,13 @@ ReactDOM.render(
       <div className="stars"></div>
       <div className="twinkling"></div>
       <div className="clouds"></div>
-      <div className='App'>
+      <>
         <Navbar style={{'--i': 0}} />
         <Intro style={{'--i': 0}} />
         <Projects style={{'--i': 1}} />
         <Contact style={{'--i': 2}} />
         <Footer style={{'--i': 3}} />
-      </div>
+      </>
     </Suspense>
   </React.StrictMode>,
   document.getElementById('root')

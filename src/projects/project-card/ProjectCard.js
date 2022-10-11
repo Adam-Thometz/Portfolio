@@ -12,13 +12,13 @@ const ProjectCard = ({ project, setShownProject }) => {
   const handleSetShownProject = () => setShownProject(project);
 
   return (
-    <figure className={`ProjectCard ${cssClass}`} onClick={handleSetShownProject}>
-      <figcaption>
+    <button tabIndex={0} className={`ProjectCard ${cssClass}`} onClick={handleSetShownProject}>
+      <div className='ProjectCard-name'>
         <h2>{name}</h2>
         <p>{shortDescription}</p>
-      </figcaption>
+      </div>
       <img src={img} alt={name} />
-    </figure>
+    </button>
   );
 };
 

@@ -44,7 +44,7 @@ const Project = ({ project }) => {
 
   return (
     <section className={`Project ${cssClass}`} key={cssClass}>
-      <h1>{name}</h1>
+      <h1 tabIndex={0}>{name}</h1>
       <div className="Project-info-img-container">
         <div className="Project-img">
           <img src={img} alt={`A screenshot of ${name}`} />
