@@ -19,11 +19,15 @@ const Projects = ({ style }) => {
 
   return (
     <section className={`Projects ${displayClass}`} style={style}>
-      {shownProject ? (<>
-        <ProjectNav currProject={shownProject.name} setShownProject={setShownProject} />
-        <Project project={shownProject} setShownProject={setShownProject} />
-      </>
-      ) : projectCardDisplay}
+      {shownProject
+        ? <>
+            <ProjectNav currProject={shownProject.name} setShownProject={setShownProject} />
+            <Project project={shownProject} setShownProject={setShownProject} />
+          </>
+        : <>
+            <h2>Projects</h2>
+            <div className="Projects-project-list">{projectCardDisplay}</div>
+        </>}
     </section>
   );
 };

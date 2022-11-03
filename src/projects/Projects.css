@@ -8,6 +8,13 @@
   position: relative;
 }
 
+.Projects-project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
 .project {
   transition: opacity 0.3s ease-in-out
 }
