@@ -2,21 +2,24 @@
 
 exports[`ProjectCard component matches the snapshot 1`] = `
 <DocumentFragment>
-  <figure
+  <button
     class="ProjectCard art-buddy"
+    tabindex="0"
   >
-    <figcaption>
+    <div
+      class="ProjectCard-name"
+    >
       <h2>
         Art Buddy
       </h2>
       <p>
         Arts-based games for special education
       </p>
-    </figcaption>
+    </div>
     <img
       alt="Art Buddy"
       src="art-buddy.webp"
     />
-  </figure>
+  </button>
 </DocumentFragment>
 `;

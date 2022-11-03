@@ -5,70 +5,89 @@ exports[`Projects component matches the snapshot 1`] = `
   <section
     class="Projects display"
   >
-    <figure
-      class="ProjectCard art-buddy"
+    <h2>
+      Projects
+    </h2>
+    <div
+      class="Projects-project-list"
     >
-      <figcaption>
-        <h2>
-          Art Buddy
-        </h2>
-        <p>
-          Arts-based games for special education
-        </p>
-      </figcaption>
-      <img
-        alt="Art Buddy"
-        src="art-buddy.webp"
-      />
-    </figure>
-    <figure
-      class="ProjectCard reptifeed"
-    >
-      <figcaption>
-        <h2>
-          Reptifeed
-        </h2>
-        <p>
-          A reptilian diet tracker
-        </p>
-      </figcaption>
-      <img
-        alt="Reptifeed"
-        src="reptifeed.webp"
-      />
-    </figure>
-    <figure
-      class="ProjectCard eight-bit-clan"
-    >
-      <figcaption>
-        <h2>
-          8-Bit Clan
-        </h2>
-        <p>
-          An 8-bit NFT maker
-        </p>
-      </figcaption>
-      <img
-        alt="8-Bit Clan"
-        src="8-bit-clan.webp"
-      />
-    </figure>
-    <figure
-      class="ProjectCard musophile"
-    >
-      <figcaption>
-        <h2>
-          Musophile
-        </h2>
-        <p>
-          An obscure music curator
-        </p>
-      </figcaption>
-      <img
-        alt="Musophile"
-        src="musophile.webp"
-      />
-    </figure>
+      <button
+        class="ProjectCard art-buddy"
+        tabindex="0"
+      >
+        <div
+          class="ProjectCard-name"
+        >
+          <h2>
+            Art Buddy
+          </h2>
+          <p>
+            Arts-based games for special education
+          </p>
+        </div>
+        <img
+          alt="Art Buddy"
+          src="art-buddy.webp"
+        />
+      </button>
+      <button
+        class="ProjectCard reptifeed"
+        tabindex="0"
+      >
+        <div
+          class="ProjectCard-name"
+        >
+          <h2>
+            Reptifeed
+          </h2>
+          <p>
+            A reptilian diet tracker
+          </p>
+        </div>
+        <img
+          alt="Reptifeed"
+          src="reptifeed.webp"
+        />
+      </button>
+      <button
+        class="ProjectCard eight-bit-clan"
+        tabindex="0"
+      >
+        <div
+          class="ProjectCard-name"
+        >
+          <h2>
+            8-Bit Clan
+          </h2>
+          <p>
+            An 8-bit NFT maker
+          </p>
+        </div>
+        <img
+          alt="8-Bit Clan"
+          src="8-bit-clan.webp"
+        />
+      </button>
+      <button
+        class="ProjectCard musophile"
+        tabindex="0"
+      >
+        <div
+          class="ProjectCard-name"
+        >
+          <h2>
+            Musophile
+          </h2>
+          <p>
+            An obscure music curator
+          </p>
+        </div>
+        <img
+          alt="Musophile"
+          src="musophile.webp"
+        />
+      </button>
+    </div>
   </section>
 </DocumentFragment>
 `;

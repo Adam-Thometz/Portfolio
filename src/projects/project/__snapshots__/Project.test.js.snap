@@ -95,7 +95,6 @@ exports[`Project component matches the snapshot 1`] = `
       </div>
       <div
         class="Project-info"
-        tabindex="0"
       >
         <div
           class="Project-description"

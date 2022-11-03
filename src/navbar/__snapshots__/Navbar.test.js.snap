@@ -6,34 +6,11 @@ exports[`Navbar component matches the snapshot 1`] = `
     class="Navbar"
   >
     <a
-      class="Navbar-link resume"
-      href="http://shorturl.at/cFWYZ"
-      rel="noreferrer"
-      target="_blank"
-      title="Resume"
-    >
-      <svg
-        aria-hidden="true"
-        class="svg-inline--fa fa-file fa-w-12 "
-        data-icon="file"
-        data-prefix="fas"
-        focusable="false"
-        role="img"
-        viewBox="0 0 384 512"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm160-14.1v6.1H256V0h6.1c6.4 0 12.5 2.5 17 7l97.9 98c4.5 4.5 7 10.6 7 16.9z"
-          fill="currentColor"
-        />
-      </svg>
-    </a>
-    <a
+      aria-label="Link to github"
       class="Navbar-link github"
-      href="https://github.com/Adam-Thometz"
       rel="noreferrer"
       target="_blank"
-      title="Github"
+      title="github"
     >
       <svg
         aria-hidden="true"
@@ -52,11 +29,11 @@ exports[`Navbar component matches the snapshot 1`] = `
       </svg>
     </a>
     <a
+      aria-label="Link to linkedin"
       class="Navbar-link linkedin"
-      href="https://www.linkedin.com/in/adam-thometz/"
       rel="noreferrer"
       target="_blank"
-      title="LinkedIn"
+      title="linkedin"
     >
       <svg
         aria-hidden="true"
@@ -75,11 +52,11 @@ exports[`Navbar component matches the snapshot 1`] = `
       </svg>
     </a>
     <a
+      aria-label="Link to twitter"
       class="Navbar-link twitter"
-      href="https://twitter.com/code_to_joy"
       rel="noreferrer"
       target="_blank"
-      title="Twitter"
+      title="twitter"
     >
       <svg
         aria-hidden="true"
@@ -98,11 +75,11 @@ exports[`Navbar component matches the snapshot 1`] = `
       </svg>
     </a>
     <a
+      aria-label="Link to soundcloud"
       class="Navbar-link soundcloud"
-      href="https://soundcloud.com/this-is-psychic-hamster"
       rel="noreferrer"
       target="_blank"
-      title="Soundcloud"
+      title="soundcloud"
     >
       <svg
         aria-hidden="true"
