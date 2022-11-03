@@ -36,7 +36,7 @@ const Contact = ({ style }) => {
 
   return (
     <form ref={form} className='Contact' onSubmit={sendEmail} style={style}>
-      <h2 tabIndex={0}>Let's start a dialogue! 👋🏼</h2>
+      <h2>Let's start a dialogue! 👋🏼</h2>
       <section className='Contact-user-info'>
         <Input label="Name" name="name" id="name" value={formData.name} onChange={handleChange} />
         <Input label="Email" name="email" id="email" value={formData.email} onChange={handleChange} type='email' />
