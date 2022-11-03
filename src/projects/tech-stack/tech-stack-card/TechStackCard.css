@@ -19,11 +19,5 @@
 .TechStackCard-caption {
   font-size: .9rem;
   color: #eeeeee;
-}
-
-@media (max-width: 1200px) {
-  .TechStackCard {
-    height: 55px;
-    width: 40px;
-  }
+  text-align: center;
 }

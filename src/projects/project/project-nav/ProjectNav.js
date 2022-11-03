@@ -20,11 +20,11 @@ const ProjectNav = ({ currProject, setShownProject }) => {
 
   return (
     <nav className='ProjectNav'>
-        <button id="-1" title="Previous" onClick={move}><FontAwesomeIcon icon={faArrowLeft} />
-        </button>
-        <button className="Project-exit" onClick={exit}>Back to projects</button>
-        <button id="1" title="Next" onClick={move}><FontAwesomeIcon icon={faArrowRight} />
-        </button>
+      <button id="-1" title="Previous" onClick={move}><FontAwesomeIcon icon={faArrowLeft} />
+      </button>
+      <button className="Project-exit" onClick={exit}>Back to projects</button>
+      <button id="1" title="Next" onClick={move}><FontAwesomeIcon icon={faArrowRight} />
+      </button>
     </nav>
   );
 };
