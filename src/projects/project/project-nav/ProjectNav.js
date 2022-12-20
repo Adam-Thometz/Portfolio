@@ -7,7 +7,6 @@ import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import projects from '../../projectInfo';
 
 const ProjectNav = ({ currProject, setShownProject }) => {
-  const exit = () => setShownProject(null);
   const move = e => {
     let projectIdx = projects.findIndex(p => p.name === currProject);
     projectIdx += +e.currentTarget.id;
@@ -17,7 +16,8 @@ const ProjectNav = ({ currProject, setShownProject }) => {
     const nextProject = projects[projectIdx];
     setShownProject(nextProject);
   };
-
+  const exit = () => setShownProject(null);
+  
   return (
     <nav className='ProjectNav'>
       <button id="-1" title="Previous" onClick={move}><FontAwesomeIcon icon={faArrowLeft} />

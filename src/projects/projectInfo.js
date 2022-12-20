@@ -69,25 +69,25 @@ const projects = [
       github: 'https://github.com/Adam-Thometz/8-Bit-Clan'
     }
   },
-  {
-    name: 'Musophile',
-    shortDescription: 'An obscure music curator',
-    description: <p>My first capstone project for bootcamp. A website where you can curate your own music library. Created using the Spotify and MusicBrainz APIs.</p>,
-    learnedHowTo: [
-      'connect frontend and backend using server-side rendering',
-      'use the Spotify API and OAuth'
-    ],
-    techStack: ["Python", "Flask", "PostgreSQL", "HTML", "CSS", "Javascript", "jQuery", "Bootstrap"],
-    login: {
-      username: 'abc',
-      password: '12345678'
-    },
-    img: musophile,
-    links: {
-      demo: 'https://musophile.herokuapp.com/',
-      github: 'https://github.com/Adam-Thometz/Musophile'
-    }
-  },
+  // {
+  //   name: 'Musophile',
+  //   shortDescription: 'An obscure music curator',
+  //   description: <p>My first capstone project for bootcamp. A website where you can curate your own music library. Created using the Spotify and MusicBrainz APIs.</p>,
+  //   learnedHowTo: [
+  //     'connect frontend and backend using server-side rendering',
+  //     'use the Spotify API and OAuth'
+  //   ],
+  //   techStack: ["Python", "Flask", "PostgreSQL", "HTML", "CSS", "Javascript", "jQuery", "Bootstrap"],
+  //   login: {
+  //     username: 'abc',
+  //     password: '12345678'
+  //   },
+  //   img: musophile,
+  //   links: {
+  //     demo: 'https://musophile.herokuapp.com/',
+  //     github: 'https://github.com/Adam-Thometz/Musophile'
+  //   }
+  // },
 ];
 
 export default projects

@@ -5,7 +5,7 @@ import './index.css';
 const Intro = lazy(() => import('./intro/Intro'));
 const Navbar = lazy(() => import('./navbar/Navbar'));
 const Projects = lazy(() => import('./projects/Projects'));
-const Music = lazy(() => import('./music/Music'));
+// const Music = lazy(() => import('./music/Music'));
 const Contact = lazy(() => import('./contact/Contact'));
 const Footer = lazy(() => import('./footer/Footer'));
 
@@ -19,9 +19,9 @@ ReactDOM.render(
         <Navbar style={{'--i': 0}} />
         <Intro style={{'--i': 0}} />
         <Projects style={{'--i': 1}} />
-        <Music style={{'--i': 2}} />
-        <Contact style={{'--i': 3}} />
-        <Footer style={{'--i': 4}} />
+        {/* <Music style={{'--i': 2}} /> */}
+        <Contact style={{'--i': 2}} />
+        <Footer style={{'--i': 3}} />
       </>
     </Suspense>
   </React.StrictMode>,
