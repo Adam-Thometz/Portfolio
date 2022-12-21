@@ -9,9 +9,9 @@ const Navbar = ({ style }) => {
     <nav className='Navbar' style={style}>
       {links.map(link => (
         <a
+          href={link.url}
           aria-label={`Link to ${link.id}`}
           className={`Navbar-link ${link.id}`}
-          href={links.url}
           title={link.id}
           target="_blank"
           rel='noreferrer'
