@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub, faSoundcloud, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub, faSoundcloud } from '@fortawesome/free-brands-svg-icons';
 
 const links = [
   {
@@ -11,11 +11,6 @@ const links = [
     id: 'linkedin',
     url: "https://www.linkedin.com/in/adam-thometz/",
     icon: <FontAwesomeIcon icon={faLinkedin} />
-  },
-  {
-    id: 'twitter',
-    url: "https://twitter.com/code_to_joy",
-    icon: <FontAwesomeIcon icon={faTwitter} />
   },
   {
     id: 'soundcloud',
