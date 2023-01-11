@@ -1,8 +1,8 @@
 // Project pictures
 import artBuddy from '../_media/imgs/art-buddy.webp';
+import vesta from '../_media/imgs/vesta.webp';
 import reptifeed from '../_media/imgs/reptifeed.webp';
 import bitClan from '../_media/imgs/8-bit-clan.webp';
-import musophile from '../_media/imgs/musophile.webp';
 
 // Awards
 import mintbeanStar from '../_media/imgs/mintbean-star.gif';
@@ -11,7 +11,10 @@ const projects = [
   {
     name: 'Art Buddy',
     shortDescription: 'Arts-based games for special education',
-    description: <><p>Art Buddy is a collection of arts-based games and tools designed specifically for the special education classroom and reaching students' academic goals. I worked with UX designer/fellow educator <a href='https://uxfol.io/mattiebecker'>Mattie Becker</a> to make this.</p><b>NOTE: I recommend viewing on a desktop. This app was purposely designed for a large screen.</b></>,
+    description: <>
+      <p>Art Buddy is a collection of arts-based games and tools designed specifically for the special education classroom and reaching students' academic goals. I worked with UX designer/fellow educator <a href='https://uxfol.io/mattiebecker'>Mattie Becker</a> to make this.</p>
+      <b>NOTE: I recommend viewing on a desktop. This app was purposely designed for a large screen.</b>
+    </>,
     learnedHowTo: [
       'make my code readable, obvious, and testable (I call it "making my code ROT")',
       'use package.json scripts to minimize typing in the terminal',
@@ -28,9 +31,28 @@ const projects = [
     }
   },
   {
+    name: 'Vesta Healing Psychotherapy',
+    shortDescription: 'A website for an NYC-based psychotherapist',
+    description: <>
+      <p>A simple website built to advertise the services of an NYC-based psychotherapist. Built with UX designer <a href='https://melodyux.design/'>Melody Acosta</a></p>
+      <b>NOTE: The app is not finished yet. We are still waiting for copy, photos, and links. The demo link is the app in its current state.</b>
+    </>,
+    learnedHowTo: [
+      'create micro-interactions and animations',
+      'make a responsive navbar',
+      'using semantic HTML, ARIA, and keyboard commands to boost accessibility',
+    ],
+    techStack: ["Javascript", "React", "CSS"],
+    img: vesta,
+    links: {
+      demo: 'https://vesta-healing.surge.sh/',
+      github: 'https://github.com/Adam-Thometz/Vesta-Healing'
+    }
+  },
+  {
     name: 'Reptifeed',
     shortDescription: 'A reptilian diet tracker',
-    description: <p>My second and final capstone project for bootcamp. Inspired by my blue-tongue skink, Unity, this app gives you ideas on what to feed your reptile and helps you keep track of the foods you have for them.</p>,
+    description: <p>My second and final capstone project for bootcamp. Inspired by my blue-tongue skink, Unity, Reptifeed gives you ideas on what to feed your reptile and helps you keep track of the foods you have for them.</p>,
     learnedHowTo: [
       'build admin-only features',
       'make a website/app accessible',
@@ -52,7 +74,7 @@ const projects = [
     name: '8-Bit Clan',
     award: mintbeanStar,
     shortDescription: 'An 8-bit NFT maker',
-    description: <p>A pixel art maker created for the Mintbean Hiring Hackathon, Nov 2021. Create art, save it to your profile, and see if it made it to the trending list! Built with UX designer <a href='https://melodyux.design/'>Melody Acosta</a> in a week. Winner of Mintbean Star, awarded to top 5% of competitors.</p>,
+    description: <p>8-Bit Clan is a pixel art maker created for the Mintbean Hiring Hackathon, Nov 2021. Create art, save it to your profile, and see if it made it to the trending list! Built with UX designer <a href='https://melodyux.design/'>Melody Acosta</a> in a week. Winner of Mintbean Star, awarded to top 5% of competitors.</p>,
     learnedHowTo: [
       'collaborate with a UX designer',
       'work efficiently under tight time constraints',
@@ -69,25 +91,6 @@ const projects = [
       github: 'https://github.com/Adam-Thometz/8-Bit-Clan'
     }
   },
-  // {
-  //   name: 'Musophile',
-  //   shortDescription: 'An obscure music curator',
-  //   description: <p>My first capstone project for bootcamp. A website where you can curate your own music library. Created using the Spotify and MusicBrainz APIs.</p>,
-  //   learnedHowTo: [
-  //     'connect frontend and backend using server-side rendering',
-  //     'use the Spotify API and OAuth'
-  //   ],
-  //   techStack: ["Python", "Flask", "PostgreSQL", "HTML", "CSS", "Javascript", "jQuery", "Bootstrap"],
-  //   login: {
-  //     username: 'abc',
-  //     password: '12345678'
-  //   },
-  //   img: musophile,
-  //   links: {
-  //     demo: 'https://musophile.herokuapp.com/',
-  //     github: 'https://github.com/Adam-Thometz/Musophile'
-  //   }
-  // },
 ];
 
 export default projects
