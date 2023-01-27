@@ -1,12 +1,22 @@
-import React from 'react'
+import React from "react";
 
-import './Footer.css';
+import "./Footer.css";
 
 const Footer = ({ style }) => {
   return (
-    <footer className='Footer' style={style}>
-      <small>Made by Adam Thometz 2022</small>
-      <small><a className='Footer-link' href='https://github.com/Adam-Thometz/Portfolio' target="_blank" rel='noreferrer'>Like this portfolio? Click here to check out the Github. (It includes tests!)</a></small>
+    <footer className="Footer" style={style}>
+      <small>Made by Adam Thometz 2023</small>
+      <small>
+        <a
+          className="Footer-link"
+          href="https://github.com/Adam-Thometz/Portfolio"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Like this portfolio? Click here to check out the Github. (It includes
+          tests!)
+        </a>
+      </small>
     </footer>
   );
 };
