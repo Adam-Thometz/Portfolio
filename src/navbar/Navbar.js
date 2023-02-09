@@ -17,7 +17,6 @@ const Navbar = ({ style }) => {
             title={name}
             target="_blank"
             rel="noreferrer"
-            download={link.downloadable}
           >
             {link.icon}
           </a>
