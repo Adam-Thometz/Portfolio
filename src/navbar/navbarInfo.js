@@ -9,23 +9,27 @@ import { faFile } from "@fortawesome/free-solid-svg-icons";
 const links = [
   {
     id: "resume",
-    url: "https://docs.google.com/document/d/18oRb8BghIT_kmwTY2EXB03Lq9laVucn2t3BIKQmun7Y/edit?usp=sharing",
+    url: "resume-adam-thometz.pdf",
     icon: <FontAwesomeIcon icon={faFile} />,
+    downloadable: true,
   },
   {
     id: "github",
     url: "https://github.com/Adam-Thometz",
     icon: <FontAwesomeIcon icon={faGithub} />,
+    downloadable: false,
   },
   {
     id: "linkedin",
     url: "https://www.linkedin.com/in/adam-thometz/",
     icon: <FontAwesomeIcon icon={faLinkedin} />,
+    downloadable: false,
   },
   {
     id: "soundcloud",
     url: "https://soundcloud.com/this-is-psychic-hamster",
     icon: <FontAwesomeIcon icon={faSoundcloud} />,
+    downloadable: false,
   },
 ];
 
