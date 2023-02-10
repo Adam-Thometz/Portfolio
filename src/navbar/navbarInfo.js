@@ -5,25 +5,11 @@ import {
   faSoundcloud,
 } from "@fortawesome/free-brands-svg-icons";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
-import resume from "../_media/resume-adam-thometz.pdf";
-
-// function download(url) {
-//   fetch(url).then((response) => {
-//     response.blob().then((blob) => {
-//       console.log(blob);
-//       const fileURL = window.URL.createObjectURL(blob);
-//       let aLink = document.createElement("a");
-//       aLink.href = fileURL;
-//       aLink.download = url;
-//       aLink.click();
-//     });
-//   });
-// }
 
 const links = [
   {
     id: "resume",
-    url: resume,
+    url: "https://drive.google.com/file/d/1EjQo4lWpYhJ2M2nsOfeJnh6ZebWKZ0gy/view",
     icon: <FontAwesomeIcon icon={faFile} />,
   },
   {

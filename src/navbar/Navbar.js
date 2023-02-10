@@ -8,12 +8,13 @@ const Navbar = ({ style }) => {
   return (
     <nav className="Navbar" style={style}>
       {links.map((link) => {
-        const name = link.id[0].toUpperCase() + link.id.slice(1);
+        const { id, url } = link;
+        const name = id[0].toUpperCase() + id.slice(1);
         return (
           <a
-            href={link.url}
+            href={url}
             aria-label={`Link to ${name}`}
-            className={`Navbar-link ${link.id}`}
+            className={`Navbar-link ${id}`}
             title={name}
             target="_blank"
             rel="noreferrer"
