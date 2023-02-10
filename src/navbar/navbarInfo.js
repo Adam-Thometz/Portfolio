@@ -5,6 +5,7 @@ import {
   faSoundcloud,
 } from "@fortawesome/free-brands-svg-icons";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
+import resume from "../_media/resume-adam-thometz.pdf";
 
 // function download(url) {
 //   fetch(url).then((response) => {
@@ -22,7 +23,7 @@ import { faFile } from "@fortawesome/free-solid-svg-icons";
 const links = [
   {
     id: "resume",
-    url: "https://drive.google.com/file/d/1EjQo4lWpYhJ2M2nsOfeJnh6ZebWKZ0gy/view",
+    url: resume,
     icon: <FontAwesomeIcon icon={faFile} />,
     downloadable: true,
   },
