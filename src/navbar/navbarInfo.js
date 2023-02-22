@@ -9,7 +9,7 @@ import { faFile } from "@fortawesome/free-solid-svg-icons";
 const links = [
   {
     id: "resume",
-    url: "https://drive.google.com/file/d/1EjQo4lWpYhJ2M2nsOfeJnh6ZebWKZ0gy/view",
+    url: "https://drive.google.com/file/d/1SSBbcmRqGI-DkNfYVJtBJCQHEeq53PSV/view?usp=share_link",
     icon: <FontAwesomeIcon icon={faFile} />,
   },
   {
