@@ -5,18 +5,22 @@ exports[`Intro component matches the snapshot 1`] = `
   <header
     class="Intro"
   >
-    <h1>
-      Hi, I'm Adam! 👋🏼
-    </h1>
-    <h2>
-      I am a full-stack developer specializing in frontend technologies based in NYC.
-    </h2>
-    <p>
-      As a musician and former educator, I love discovering patterns to make code more efficient and creating delightful and intuitive UIs.
-    </p>
-    <b>
-      Click on a project below to learn more.
-    </b>
+    <section
+      class="Intro-top"
+    >
+      <aside>
+        <h1>
+          Hi, I'm Adam! 👋🏼
+        </h1>
+        <h2>
+          I am a frontend developer based in NYC.
+        </h2>
+      </aside>
+      <img
+        alt="the developer"
+        src="adam.webp"
+      />
+    </section>
   </header>
 </DocumentFragment>
 `;

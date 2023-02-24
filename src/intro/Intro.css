@@ -1,27 +1,41 @@
 .Intro {
-  padding: 48px;
+  padding: 80px;
   text-align: center;
   border-radius: 50px 50px 0 0;
+  display: flex;
+  flex-direction: column;
   animation: slide-up var(--duration) calc(var(--delay) * var(--i)) both;
 }
 
-.Intro-header {
-  padding: auto 0;
-  margin: auto 20px;
-}
-
-.Intro-animation {
-  width: 50%;
-  border: none;
-  margin: auto 20px;
+.Intro-top {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .Intro h1 {
   font-size: 48px;
 }
 
+.Intro img {
+  width: 30%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 15px rgba(255, 255, 255, 0.5);
+}
+
 @media (max-height: 825px) {
   .Intro {
     font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .Intro img {
+    margin: 32px auto;
+    width: 90%;
+  }
+
+  .Intro-top {
+    flex-direction: column;
+    justify-content: center;
   }
 }
