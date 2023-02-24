@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Project.css";
 
-import TechStack from "../tech-stack/TechStack";
+import TechStack from "../../tech-stack/TechStack";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";

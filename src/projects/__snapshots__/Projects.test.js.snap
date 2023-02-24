@@ -8,6 +8,9 @@ exports[`Projects component matches the snapshot 1`] = `
     <h2>
       Projects
     </h2>
+    <b>
+      Click on a project below to learn more
+    </b>
     <div
       class="Projects-project-list"
     >
@@ -28,6 +31,25 @@ exports[`Projects component matches the snapshot 1`] = `
         <img
           alt="Art Buddy"
           src="art-buddy.webp"
+        />
+      </button>
+      <button
+        class="ProjectCard vesta-healing-psychotherapy"
+        tabindex="0"
+      >
+        <div
+          class="ProjectCard-name"
+        >
+          <h2>
+            Vesta Healing Psychotherapy
+          </h2>
+          <p>
+            A website for an NYC-based psychotherapist
+          </p>
+        </div>
+        <img
+          alt="Vesta Healing Psychotherapy"
+          src="vesta.webp"
         />
       </button>
       <button
@@ -66,25 +88,6 @@ exports[`Projects component matches the snapshot 1`] = `
         <img
           alt="8-Bit Clan"
           src="8-bit-clan.webp"
-        />
-      </button>
-      <button
-        class="ProjectCard musophile"
-        tabindex="0"
-      >
-        <div
-          class="ProjectCard-name"
-        >
-          <h2>
-            Musophile
-          </h2>
-          <p>
-            An obscure music curator
-          </p>
-        </div>
-        <img
-          alt="Musophile"
-          src="musophile.webp"
         />
       </button>
     </div>

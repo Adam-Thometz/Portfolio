@@ -120,7 +120,7 @@ const projects = [
       "work efficiently under tight time constraints",
       "store art data in a database and call on that data to reproduce a smaller version of that art",
     ],
-    techStack: ["Javascript", "Node", "Express", "React", "JSS", "PostgreSQL"],
+    techStack: ["Javascript", "Node", "Express", "React", "PostgreSQL"],
     login: {
       username: "abc",
       password: "123",
