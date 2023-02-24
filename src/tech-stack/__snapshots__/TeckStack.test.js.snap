@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TechStack component matches the snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="TechStack"
+  >
+    <figure
+      class="TechStackCard"
+    >
+      <img
+        alt="Javascript"
+        class="TechStackCard-img"
+        src="javascript.png"
+      />
+      <figcaption
+        class="TechStackCard-caption"
+      >
+        Javascript
+      </figcaption>
+    </figure>
+  </section>
+</DocumentFragment>
+`;
