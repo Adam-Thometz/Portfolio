@@ -6,7 +6,7 @@ exports[`Footer component matches the snapshot 1`] = `
     class="Footer"
   >
     <small>
-      Made by Adam Thometz 2022
+      Made by Adam Thometz 2023
     </small>
     <small>
       <a
