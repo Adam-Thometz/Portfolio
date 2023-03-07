@@ -1,8 +1,8 @@
 .AboutMe {
   width: 75%;
   margin: 0 auto;
-  background-color: rgba(28, 64, 141, 0.479);
-  box-shadow: 0px 0px 20px 15px rgba(137, 42, 42, 0.526);
+  box-shadow: 0px 0px 20px 15px rgba(191, 191, 191, 0.526),
+    inset 0px 0px 20px 15px rgba(191, 191, 191, 0.526);
   padding: 40px;
   border-radius: 10px;
 }
