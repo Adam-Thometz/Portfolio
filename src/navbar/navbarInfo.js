@@ -3,6 +3,7 @@ import {
   faLinkedin,
   faGithub,
   faSoundcloud,
+  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
 
@@ -21,6 +22,11 @@ const links = [
     id: "linkedin",
     url: "https://www.linkedin.com/in/adam-thometz/",
     icon: <FontAwesomeIcon icon={faLinkedin} />,
+  },
+  {
+    id: "youtube",
+    url: "https://www.youtube.com/channel/UCnEEg3thfP-9hXbKPA__58g",
+    icon: <FontAwesomeIcon icon={faYoutube} />,
   },
   {
     id: "soundcloud",
