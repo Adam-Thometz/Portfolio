@@ -5,14 +5,8 @@ import {
   faSoundcloud,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
-import { faFile } from "@fortawesome/free-solid-svg-icons";
 
 const links = [
-  {
-    id: "resume",
-    url: "https://drive.google.com/file/d/1SSBbcmRqGI-DkNfYVJtBJCQHEeq53PSV/view?usp=share_link",
-    icon: <FontAwesomeIcon icon={faFile} />,
-  },
   {
     id: "github",
     url: "https://github.com/Adam-Thometz",
