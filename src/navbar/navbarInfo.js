@@ -5,8 +5,16 @@ import {
   faSoundcloud,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+// for resume
+// import { faFile } from "@fortawesome/free-solid-svg-icons";
 
 const links = [
+  // one day I will make a downloadable resume
+  // {
+  //   id: "resume",
+  //   url: "https://drive.google.com/file/d/1SSBbcmRqGI-DkNfYVJtBJCQHEeq53PSV/view?usp=share_link",
+  //   icon: <FontAwesomeIcon icon={faFile} />,
+  // },
   {
     id: "github",
     url: "https://github.com/Adam-Thometz",
@@ -24,7 +32,7 @@ const links = [
   },
   {
     id: "soundcloud",
-    url: "https://soundcloud.com/this-is-psychic-hamster",
+    url: "https://soundcloud.com/this-is-teslas-ghost",
     icon: <FontAwesomeIcon icon={faSoundcloud} />,
   },
 ];
