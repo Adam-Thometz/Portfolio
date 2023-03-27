@@ -13,8 +13,7 @@ const Footer = ({ style }) => {
           target="_blank"
           rel="noreferrer"
         >
-          Like this portfolio? Click here to check out the Github. (It includes
-          tests!)
+          Like this portfolio? Click here to check out the Github.
         </a>
       </small>
     </footer>
