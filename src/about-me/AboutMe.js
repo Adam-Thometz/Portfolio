@@ -35,10 +35,7 @@ const AboutMe = ({ style }) => {
       </p>
       <ul>
         <li>building Art Buddy</li>
-        <li>
-          volunteering to help build{" "}
-          <a href={EIGHT_BILLION_MINDS}>8 Billion Minds</a>
-        </li>
+        <li>volunteering to help build <a href={EIGHT_BILLION_MINDS}>8 Billion Minds</a></li>
         <li>building a website for a local psychotherapist</li>
         <li>learning in-depth computer science</li>
       </ul>
@@ -47,7 +44,7 @@ const AboutMe = ({ style }) => {
         read, and game.
       </p>
       <h2>My Tech Stack</h2>
-      <TechStack techStack={techStackInfo.map((tech) => tech.name)} />
+      <TechStack techStack={techStackInfo.map(tech => tech.name)} />
     </article>
   );
 };
