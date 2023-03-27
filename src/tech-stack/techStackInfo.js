@@ -10,6 +10,7 @@ import jest from "../_media/tech-stack-icons/jest.png";
 import jQuery from "../_media/tech-stack-icons/jquery.png";
 import bootstrap from "../_media/tech-stack-icons/bootstrap.png";
 import redux from "../_media/tech-stack-icons/redux.png";
+import aws from "../_media/tech-stack-icons/aws.png";
 
 const techStackInfo = [
   { name: "Javascript", icon: javascript },
@@ -24,6 +25,7 @@ const techStackInfo = [
   { name: "jQuery", icon: jQuery },
   { name: "Bootstrap", icon: bootstrap },
   { name: "CSS", icon: css },
+  { name: "AWS", icon: aws },
 ];
 
 export default techStackInfo;
