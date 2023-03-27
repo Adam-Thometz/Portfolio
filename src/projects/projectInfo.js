@@ -14,17 +14,11 @@ const projects = [
     description: (
       <>
         <p>
-          Art Buddy is a collection of arts-based games and tools designed
-          specifically for the special education classroom and reaching
-          students' academic goals. I worked with UX designer/fellow educator
-          <a href="https://uxfol.io/mattiebecker">Mattie Becker</a> to make
-          this.
-          <b>
-            I recommend viewing on a desktop. This app was purposely designed
-            for a large screen.
-          </b>
+          Art Buddy is a collection of arts-based games and tools designed specifically for the special education classroom and reaching students' academic goals.
+          I worked with UX designer/fellow educator <a href="https://uxfol.io/mattiebecker">Mattie Becker</a> to make this.
+          <b> I recommend viewing on a desktop. This app was purposely designed for a large screen.</b>
         </p>
-        <b>UNDER CONSTRUCTION</b>
+        <b>Under construction but usable</b>
       </>
     ),
     learnedHowTo: [
@@ -46,24 +40,22 @@ const projects = [
     name: "Vesta Healing Psychotherapy",
     shortDescription: "A website for an NYC-based psychotherapist",
     description: (
-      <>
-        <p>
-          A simple website built to advertise the services of an NYC-based
-          psychotherapist. Built with UX designer{" "}
-          <a href="https://melodyux.design/">Melody Acosta</a>
-        </p>
-        <b>UNDER CONSTRUCTION</b>
-      </>
+      <p>
+        A simple website built to advertise the services of an NYC-based
+        psychotherapist. Built with UX designer <a href="https://melodyux.design/">Melody Acosta</a>
+      </p>
     ),
     learnedHowTo: [
       "create micro-interactions and animations",
       "make a responsive navbar",
       "using semantic HTML, ARIA, and keyboard commands to boost accessibility",
+      "boost web performance by using tools like Lighthouse",
+      "deploy to AWS",
     ],
-    techStack: ["Javascript", "React", "CSS"],
+    techStack: ["Javascript", "React", "CSS", "AWS"],
     img: vesta,
     links: {
-      demo: "https://vesta-healing.surge.sh/",
+      demo: "https://www.vestahealingpsychotherapy.com//",
       github: "https://github.com/Adam-Thometz/Vesta-Healing",
     },
   },
