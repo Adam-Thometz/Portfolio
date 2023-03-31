@@ -62,7 +62,7 @@ const projects = [
   {
     name: "8-Bit Clan",
     award: mintbeanStar,
-    shortDescription: "An 8-bit NFT maker",
+    shortDescription: "An 8-bit NFT maker. Award winner!",
     description: (
       <p>
         8-Bit Clan is a pixel art maker created for the Mintbean Hiring
