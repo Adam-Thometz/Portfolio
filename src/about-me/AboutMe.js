@@ -31,7 +31,7 @@ const AboutMe = ({ style }) => {
         continuous production and is used by some of my old colleagues!
       </p>
       <p>
-        These days, I'm looking for a role in frontend development. I'm also...
+        These days, I'm looking for a role in full-stack development. I'm also...
       </p>
       <ul>
         <li>building Art Buddy</li>
