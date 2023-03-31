@@ -14,7 +14,7 @@
   height: 100%;
   width: 100%;
   border-radius: 10px;
-  opacity: 1;
+  opacity: 1; 
   transition: opacity 0.3s ease-in-out;
 }
 
@@ -35,15 +35,21 @@
   transition: opacity 0.3s ease-in-out;
 }
 
-.ProjectCard:hover {
+.ProjectCard:hover,
+.ProjectCard:focus {
   transform: scale(1.1);
 }
 
-.ProjectCard:hover img {
+.ProjectCard:hover img,
+.ProjectCard:focus img {
   opacity: 0.3;
 }
 
 .ProjectCard-name:hover {
+  opacity: 1;
+}
+
+.ProjectCard:focus .ProjectCard-name {
   opacity: 1;
 }
 
