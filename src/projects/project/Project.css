@@ -25,11 +25,6 @@
   align-items: top;
 }
 
-.Project-award {
-  height: 50px;
-  width: 50px;
-}
-
 .Project-info {
   width: 50%;
   text-align: left;
@@ -64,12 +59,18 @@
   margin: auto;
 }
 
-.Project-img img {
+.Project-img img,
+.Project-info .TechStack img {
   height: 70%;
   width: 100%;
   border-radius: 10px;
   border: 2px solid;
   box-shadow: 0px 0px 50px 5px;
+}
+
+.Project-award {
+  height: 150px;
+  width: 150px;
 }
 
 .Project-exit {

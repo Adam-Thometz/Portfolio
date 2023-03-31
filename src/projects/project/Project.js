@@ -65,10 +65,10 @@ const Project = ({ project }) => {
   return (
     <section className={`Project ${cssClass}`} key={cssClass}>
       <h2>{name}</h2>
+      {linkDisplay}
       <div className="Project-info-img-container">
         <div className="Project-img">
           <img src={img} alt={`A screenshot of ${name}`} />
-          <TechStack techStack={techStack} />
         </div>
         <div className="Project-info">
           <div className="Project-description">
@@ -78,12 +78,12 @@ const Project = ({ project }) => {
             <ul>
               {learnedHowTo.map((fact) => (
                 <li>{fact}</li>
-              ))}
+                ))}
             </ul>
             {awardDisplay}
           </div>
           {loginDisplay}
-          {linkDisplay}
+          <TechStack techStack={techStack} />
         </div>
       </div>
     </section>
