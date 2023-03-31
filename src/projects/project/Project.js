@@ -64,7 +64,7 @@ const Project = ({ project }) => {
 
   return (
     <section className={`Project ${cssClass}`} key={cssClass}>
-      <h1>{name}</h1>
+      <h2>{name}</h2>
       <div className="Project-info-img-container">
         <div className="Project-img">
           <img src={img} alt={`A screenshot of ${name}`} />
@@ -72,9 +72,9 @@ const Project = ({ project }) => {
         </div>
         <div className="Project-info">
           <div className="Project-description">
-            <h2>Description</h2>
+            <h3>Description</h3>
             {description}
-            <h2>Building this taught me how to...</h2>
+            <h3>Building this taught me how to...</h3>
             <ul>
               {learnedHowTo.map((fact) => (
                 <li>{fact}</li>
