@@ -60,6 +60,35 @@ const projects = [
     },
   },
   {
+    name: "8-Bit Clan",
+    award: mintbeanStar,
+    shortDescription: "An 8-bit NFT maker",
+    description: (
+      <p>
+        8-Bit Clan is a pixel art maker created for the Mintbean Hiring
+        Hackathon, Nov 2021. Create art, save it to your profile, and see if it
+        made it to the trending list! Built with UX designer{" "}
+        <a href="https://melodyux.design/">Melody Acosta</a> in a week. Winner
+        of Mintbean Star, awarded to top 5% of competitors.
+      </p>
+    ),
+    learnedHowTo: [
+      "collaborate with a UX designer",
+      "work efficiently under tight time constraints",
+      "store art data in a database and call on that data to reproduce a smaller version of that art",
+    ],
+    techStack: ["Javascript", "Node", "Express", "React", "PostgreSQL"],
+    login: {
+      username: "abc",
+      password: "123",
+    },
+    img: bitClan,
+    links: {
+      demo: "https://8-bit-clan.surge.sh/",
+      github: "https://github.com/Adam-Thometz/8-Bit-Clan",
+    },
+  },
+  {
     name: "Reptifeed",
     shortDescription: "A reptilian diet tracker",
     description: (
@@ -92,35 +121,6 @@ const projects = [
     links: {
       demo: "https://reptifeed.surge.sh",
       github: "https://github.com/Adam-Thometz/Reptifeed",
-    },
-  },
-  {
-    name: "8-Bit Clan",
-    award: mintbeanStar,
-    shortDescription: "An 8-bit NFT maker",
-    description: (
-      <p>
-        8-Bit Clan is a pixel art maker created for the Mintbean Hiring
-        Hackathon, Nov 2021. Create art, save it to your profile, and see if it
-        made it to the trending list! Built with UX designer{" "}
-        <a href="https://melodyux.design/">Melody Acosta</a> in a week. Winner
-        of Mintbean Star, awarded to top 5% of competitors.
-      </p>
-    ),
-    learnedHowTo: [
-      "collaborate with a UX designer",
-      "work efficiently under tight time constraints",
-      "store art data in a database and call on that data to reproduce a smaller version of that art",
-    ],
-    techStack: ["Javascript", "Node", "Express", "React", "PostgreSQL"],
-    login: {
-      username: "abc",
-      password: "123",
-    },
-    img: bitClan,
-    links: {
-      demo: "https://8-bit-clan.surge.sh/",
-      github: "https://github.com/Adam-Thometz/8-Bit-Clan",
     },
   },
 ];
