@@ -1,5 +1,5 @@
 .Projects {
-  margin: 32px auto;
+  margin: 144px auto;
   animation: slide-up var(--duration) calc(var(--delay) * var(--i)) ease-in-out
     both;
   text-align: center;
