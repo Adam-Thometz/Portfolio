@@ -7,7 +7,6 @@ const Navbar = lazy(() => import("./navbar/Navbar"));
 const AboutMe = lazy(() => import("./about-me/AboutMe"));
 const Projects = lazy(() => import("./projects/Projects"));
 const Music = lazy(() => import("./music/Music"));
-const Contact = lazy(() => import("./contact/Contact"));
 const Footer = lazy(() => import("./footer/Footer"));
 
 ReactDOM.render(
@@ -23,8 +22,7 @@ ReactDOM.render(
         <AboutMe style={{ "--i": 1 }} />
         <Projects style={{ "--i": 2 }} />
         <Music style={{ '--i': 3 }} />
-        <Contact style={{ "--i": 4 }} />
-        <Footer style={{ "--i": 5 }} />
+        <Footer style={{ "--i": 4 }} />
       </>
     </Suspense>
   </React.StrictMode>,
