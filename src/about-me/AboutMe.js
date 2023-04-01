@@ -6,7 +6,7 @@ import "./AboutMe.css";
 
 const CHROME_MUSIC_LAB_URL = "https://musiclab.chromeexperiments.com/";
 const MUS_ED_LAB_URL = "https://musedlab.org/";
-const SOUNDCLOUD_URL = "https://soundcloud.com/this-is-psychic-hamster";
+const SOUNDCLOUD_URL = "https://soundcloud.com/this-is-teslas-ghost";
 const EIGHT_BILLION_MINDS = "https://8billionminds.com/";
 
 const AboutMe = ({ style }) => {
