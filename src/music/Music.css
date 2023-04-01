@@ -3,3 +3,8 @@
   margin: 0 auto;
   text-align: center;
 }
+
+.Music-songs {
+  display: flex;
+  justify-content: space-evenly;
+}
