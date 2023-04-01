@@ -2,6 +2,29 @@ import { ART_BUDDY, EIGHT_BIT_CLAN, MINTBEAN_STAR, REPTIFEED, VESTA_HEALING } fr
 
 const projects = [
   {
+    name: "Vesta Healing Psychotherapy",
+    shortDescription: "A website for an NYC-based psychotherapist",
+    description: (
+      <p>
+        A simple website built to advertise the services of an NYC-based
+        psychotherapist. Built with UX designer <a href="https://melodyux.design/">Melody Acosta</a>
+      </p>
+    ),
+    learnedHowTo: [
+      "create micro-interactions and animations",
+      "make a responsive navbar",
+      "using semantic HTML, ARIA, and keyboard commands to boost accessibility",
+      "boost web performance by using tools like Lighthouse",
+      "deploy to AWS",
+    ],
+    techStack: ["Javascript", "React", "CSS", "AWS"],
+    img: VESTA_HEALING,
+    links: {
+      demo: "https://www.vestahealingpsychotherapy.com//",
+      github: "https://github.com/Adam-Thometz/Vesta-Healing",
+    },
+  },
+  {
     name: "Art Buddy",
     shortDescription: "Arts-based games for special education",
     description: (
@@ -27,29 +50,6 @@ const projects = [
     links: {
       demo: "https://art-buddy.surge.sh",
       github: "https://github.com/Adam-Thometz/Art-Buddy",
-    },
-  },
-  {
-    name: "Vesta Healing Psychotherapy",
-    shortDescription: "A website for an NYC-based psychotherapist",
-    description: (
-      <p>
-        A simple website built to advertise the services of an NYC-based
-        psychotherapist. Built with UX designer <a href="https://melodyux.design/">Melody Acosta</a>
-      </p>
-    ),
-    learnedHowTo: [
-      "create micro-interactions and animations",
-      "make a responsive navbar",
-      "using semantic HTML, ARIA, and keyboard commands to boost accessibility",
-      "boost web performance by using tools like Lighthouse",
-      "deploy to AWS",
-    ],
-    techStack: ["Javascript", "React", "CSS", "AWS"],
-    img: VESTA_HEALING,
-    links: {
-      demo: "https://www.vestahealingpsychotherapy.com//",
-      github: "https://github.com/Adam-Thometz/Vesta-Healing",
     },
   },
   {
