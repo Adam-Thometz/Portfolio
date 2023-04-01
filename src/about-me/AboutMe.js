@@ -37,7 +37,7 @@ const AboutMe = ({ style }) => {
         <li>building Art Buddy</li>
         <li>volunteering to help build <a href={EIGHT_BILLION_MINDS}>8 Billion Minds</a></li>
         <li>building a website for a local psychotherapist</li>
-        <li>learning in-depth computer science</li>
+        <li>learning in-depth computer science and artificial intelligence</li>
       </ul>
       <p>
         In my free time, I <a href={SOUNDCLOUD_URL}>produce music</a>, cook,
