@@ -5,6 +5,7 @@
     inset 0px 0px 20px 4px rgba(191, 191, 191, 0.526);
   padding: 40px;
   border-radius: 10px;
+  animation: slide-up var(--duration) calc(var(--delay) * var(--i)) both;
 }
 
 .AboutMe a {
