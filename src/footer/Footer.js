@@ -5,7 +5,7 @@ import "./Footer.css";
 const Footer = ({ style }) => {
   return (
     <footer className="Footer" style={style}>
-      <small>Made by Adam Thometz 2023</small>
+      <small>Made by Adam Thometz {new Date().getFullYear()}</small>
       <small>
         <a
           className="Footer-link"
