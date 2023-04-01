@@ -9,8 +9,8 @@ const Music = ({ style }) => {
       <div className="Music-songs">
         <iframe
           title="Night Cycle"
-          width="45%"
-          height="300"
+          width="100%"
+          height="200"
           scrolling="no"
           frameborder="no"
           allow="autoplay"
@@ -18,8 +18,8 @@ const Music = ({ style }) => {
         ></iframe>
         <iframe
           title="Prime Soup"
-          width="45%"
-          height="300"
+          width="100%"
+          height="200"
           scrolling="no"
           frameborder="no"
           allow="autoplay"

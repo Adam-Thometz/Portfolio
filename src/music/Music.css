@@ -6,5 +6,10 @@
 
 .Music-songs {
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
+}
+
+.Music iframe {
+  padding: 50px 0;
 }
