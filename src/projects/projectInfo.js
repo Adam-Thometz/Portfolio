@@ -1,11 +1,4 @@
-// Project pictures
-import artBuddy from "../_media/imgs/art-buddy.webp";
-import vesta from "../_media/imgs/vesta.webp";
-import reptifeed from "../_media/imgs/reptifeed.webp";
-import bitClan from "../_media/imgs/8-bit-clan.webp";
-
-// Awards
-import mintbeanStar from "../_media/imgs/mintbean-star.gif";
+import { ART_BUDDY, EIGHT_BIT_CLAN, MINTBEAN_STAR, REPTIFEED, VESTA_HEALING } from "../_media/assets";
 
 const projects = [
   {
@@ -30,7 +23,7 @@ const projects = [
       "incorporate user feedback",
     ],
     techStack: ["Javascript", "React", "Redux", "Python", "Flask", "CSS", "Jest"],
-    img: artBuddy,
+    img: ART_BUDDY,
     links: {
       demo: "https://art-buddy.surge.sh",
       github: "https://github.com/Adam-Thometz/Art-Buddy",
@@ -53,7 +46,7 @@ const projects = [
       "deploy to AWS",
     ],
     techStack: ["Javascript", "React", "CSS", "AWS"],
-    img: vesta,
+    img: VESTA_HEALING,
     links: {
       demo: "https://www.vestahealingpsychotherapy.com//",
       github: "https://github.com/Adam-Thometz/Vesta-Healing",
@@ -61,7 +54,7 @@ const projects = [
   },
   {
     name: "8-Bit Clan",
-    award: mintbeanStar,
+    award: MINTBEAN_STAR,
     shortDescription: "An 8-bit NFT maker. Award winner!",
     description: (
       <p>
@@ -82,7 +75,7 @@ const projects = [
       username: "abc",
       password: "123",
     },
-    img: bitClan,
+    img: EIGHT_BIT_CLAN,
     links: {
       demo: "https://8-bit-clan.surge.sh/",
       github: "https://github.com/Adam-Thometz/8-Bit-Clan",
@@ -117,7 +110,7 @@ const projects = [
       username: "abc",
       password: "123",
     },
-    img: reptifeed,
+    img: REPTIFEED,
     links: {
       demo: "https://reptifeed.surge.sh",
       github: "https://github.com/Adam-Thometz/Reptifeed",

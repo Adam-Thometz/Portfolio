@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Intro.css";
 
-import me from "../_media/imgs/adam.webp";
+import { ME } from "../_media/assets";
 
 const Intro = ({ style }) => {
   return (
@@ -12,7 +12,7 @@ const Intro = ({ style }) => {
           <h1>Hi, I'm Adam! 👋🏼</h1>
           <h2>I am a full-stack developer and music producer based in NYC.</h2>
         </aside>
-        <img src={me} alt="the developer" />
+        <img src={ME} alt="the developer" />
       </section>
     </header>
   );

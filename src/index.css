@@ -126,13 +126,13 @@ While not mine, this code has been modified to fit with this app.
 }
 
 .stars {
-  background: #000 url("./_media/background-images/stars.webp") repeat top
+  background: #000 url("https://adam-thometz-portfolio-assets.s3.amazonaws.com/background-images/stars.webp") repeat top
     center;
   z-index: -5;
 }
 
 .twinkling {
-  background: transparent url("./_media/background-images/twinkling.webp")
+  background: transparent url("https://adam-thometz-portfolio-assets.s3.amazonaws.com/background-images/twinkling.webp")
     repeat top center;
   z-index: -4;
   -moz-animation: move-twink-back 200s linear infinite;
@@ -143,7 +143,7 @@ While not mine, this code has been modified to fit with this app.
 }
 
 .clouds {
-  background: transparent url("./_media/background-images/clouds3.webp") repeat
+  background: transparent url("https://adam-thometz-portfolio-assets.s3.amazonaws.com/background-images/clouds3.webp") repeat
     top center;
   z-index: -3;
   -moz-animation: move-clouds-back 200s linear infinite;
