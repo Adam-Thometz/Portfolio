@@ -42,21 +42,21 @@ const Project = ({ project }) => {
   const linkDisplay = (
     <div className="Project-links">
       <a
-        className="demo"
         title={`Demo for ${name}`}
         href={links.demo}
         target="_blank"
         rel="noreferrer"
       >
+        Live{" "}
         <FontAwesomeIcon icon={faGlobe} />
       </a>
       <a
-        className="github"
         title={`Github repo for ${name}`}
         href={links.github}
         target="_blank"
         rel="noreferrer"
       >
+        Github{" "}
         <FontAwesomeIcon icon={faGithub} />
       </a>
     </div>
@@ -65,10 +65,10 @@ const Project = ({ project }) => {
   return (
     <section className={`Project ${cssClass}`} key={cssClass}>
       <h2>{name}</h2>
-      {linkDisplay}
       <div className="Project-info-img-container">
         <div className="Project-img">
           <img src={img} alt={`A screenshot of ${name}`} />
+          {linkDisplay}
         </div>
         <div className="Project-info">
           <div className="Project-description">
