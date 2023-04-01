@@ -12,7 +12,7 @@ const EIGHT_BILLION_MINDS = "https://8billionminds.com/";
 const AboutMe = ({ style }) => {
   return (
     <article className="AboutMe" style={style}>
-      <h2>About me</h2>
+      <h2>About Me</h2>
       <p>
         I used to teach music at an elementary school for autistic children,
         which is where my love of coding comes from. Working in an underfunded
