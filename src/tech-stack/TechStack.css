@@ -1,6 +1,6 @@
 .TechStack {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
   margin: 0 auto;
-  justify-content: space-around;
 }
