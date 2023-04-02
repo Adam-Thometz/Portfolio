@@ -4,3 +4,21 @@
   justify-items: center;
   margin: 0 auto;
 }
+
+@media (max-width: 750px) {
+  .TechStack {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 550px) {
+  .TechStack {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 450px) {
+  .TechStack {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
