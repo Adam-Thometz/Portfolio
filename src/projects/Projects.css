@@ -87,6 +87,20 @@
   background-color: rgb(245, 129, 139);
 }
 
+.exam-generator {
+  background-color: rgba(0, 126, 167, 0.35);
+  color: rgba(255, 255, 255, 0.733);
+  box-shadow: 0px 0px 20px 4px rgba(0, 168, 232, 0.5);
+}
+
+.exam-generator .Project-links a {
+  background-color: rgba(80, 25, 0, 0.5);
+}
+
+.exam-generator .Project-links a:hover {
+  background-color: rgb(80, 25, 0);;
+}
+
 @media (max-width: 550px) {
   .Projects {
     flex-direction: column;

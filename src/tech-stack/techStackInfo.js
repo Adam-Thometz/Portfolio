@@ -1,4 +1,4 @@
-import { AWS, CSS, EXPRESS, FLASK, JAVASCRIPT, JEST, JQUERY, NODE, POSTGRESQL, PYTHON, REACT, REDUX } from "../_media/assets";
+import { AWS, CSS, EXPRESS, FLASK, JAVASCRIPT, JEST, JQUERY, NODE, POSTGRESQL, PYTHON, REACT, REDUX, VUE } from "../_media/assets";
 
 const techStackInfo = [
   { name: "Javascript", icon: JAVASCRIPT },
@@ -13,6 +13,7 @@ const techStackInfo = [
   { name: "jQuery", icon: JQUERY },
   { name: "CSS", icon: CSS },
   { name: "AWS", icon: AWS },
+  { name: "Vue", icon: VUE },
 ];
 
 export default techStackInfo;

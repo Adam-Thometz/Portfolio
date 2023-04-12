@@ -1,4 +1,4 @@
-import { ART_BUDDY, EIGHT_BIT_CLAN, MINTBEAN_STAR, REPTIFEED, VESTA_HEALING } from "../_media/assets";
+import { ART_BUDDY, EIGHT_BIT_CLAN, EXAM_GENERATOR, MINTBEAN_STAR, REPTIFEED, VESTA_HEALING } from "../_media/assets";
 
 const projects = [
   {
@@ -6,8 +6,7 @@ const projects = [
     shortDescription: "A website for an NYC-based psychotherapist",
     description: (
       <p>
-        A simple website built to advertise the services of an NYC-based
-        psychotherapist. Built with UX designer <a href="https://melodyux.design/">Melody Acosta</a>
+        A simple but interactive website built to advertise the services of a local psychotherapist. Built with UX designer <a href="https://melodyux.design/">Melody Acosta</a>
       </p>
     ),
     learnedHowTo: [
@@ -15,12 +14,12 @@ const projects = [
       "make a responsive navbar",
       "using semantic HTML, ARIA, and keyboard commands to boost accessibility",
       "boost web performance by using tools like Lighthouse",
-      "deploy to AWS",
+      "deploy using AWS Amplify",
     ],
     techStack: ["Javascript", "React", "CSS", "AWS"],
     img: VESTA_HEALING,
     links: {
-      demo: "https://www.vestahealingpsychotherapy.com//",
+      demo: "https://www.vestahealingnyc.org/",
       github: "https://github.com/Adam-Thometz/Vesta-Healing",
     },
   },
@@ -50,6 +49,27 @@ const projects = [
     links: {
       demo: "https://art-buddy.surge.sh",
       github: "https://github.com/Adam-Thometz/Art-Buddy",
+    },
+  },
+  {
+    name: "Exam Generator",
+    shortDescription: "An AI-powered quiz maker",
+    description: (
+      <p>
+        Input a topic of choice, grade level, number of questions, and number of possible answers. You'll get back a downloadable exam!
+      </p>
+    ),
+    learnedHowTo: [
+      "interact with OpenAI's API",
+      "engineer prompts for large language models",
+      "use Vue for the first time",
+      "create an API using AWS Lambda with API Gateway",
+    ],
+    techStack: ["Python", "AWS", "Flask", "Vue"],
+    img: EXAM_GENERATOR,
+    links: {
+      demo: "https://main.d1lzqjkh6361y.amplifyapp.com/",
+      github: "https://github.com/Adam-Thometz/Automatic-Exam-Generator/tree/full-stack-demo",
     },
   },
   {

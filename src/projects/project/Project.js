@@ -17,6 +17,7 @@ const Project = ({ project }) => {
     techStack,
     login,
     img,
+    demo,
     links,
   } = project;
 
@@ -67,7 +68,7 @@ const Project = ({ project }) => {
       <h2>{name}</h2>
       <div className="Project-info-img-container">
         <div className="Project-img">
-          <img src={img} alt={`A screenshot of ${name}`} />
+          <img src={demo ? demo : img} alt={`A screenshot/demo of ${name}`} />
           {linkDisplay}
         </div>
         <div className="Project-info">
