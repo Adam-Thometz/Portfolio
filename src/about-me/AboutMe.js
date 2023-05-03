@@ -6,6 +6,7 @@ import "./AboutMe.css";
 
 const CHROME_MUSIC_LAB_URL = "https://musiclab.chromeexperiments.com/";
 const MUS_ED_LAB_URL = "https://musedlab.org/";
+const TARA = "https://www.tarateachers.com/"
 const SOUNDCLOUD_URL = "https://soundcloud.com/this-is-teslas-ghost";
 const EIGHT_BILLION_MINDS = "https://8billionminds.com/";
 
@@ -31,13 +32,12 @@ const AboutMe = ({ style }) => {
         continuous production and is used by some of my old colleagues!
       </p>
       <p>
-        These days, I'm looking for a role in full-stack development. I'm also...
+        These days, I'm working on features for special education teachers at <a href={TARA}>TARA</a>. I'm also...
       </p>
       <ul>
         <li>building Art Buddy</li>
         <li>volunteering to help build <a href={EIGHT_BILLION_MINDS}>8 Billion Minds</a></li>
-        <li>building a website for a local psychotherapist</li>
-        <li>learning in-depth computer science and artificial intelligence</li>
+        <li>learning artificial intelligence</li>
       </ul>
       <p>
         In my free time, I <a href={SOUNDCLOUD_URL}>produce music</a>, cook,
