@@ -3,7 +3,6 @@ const ROOT_URL = "https://adam-thometz-portfolio-assets.s3.amazonaws.com";
 export const ME = `${ROOT_URL}/imgs/adam.webp`
 
 export const ART_BUDDY = `${ROOT_URL}/imgs/art-buddy.webp`
-export const EXAM_GENERATOR = `${ROOT_URL}/imgs/exam-generator.webp`
 export const VESTA_HEALING = `${ROOT_URL}/imgs/vesta.webp`
 export const EIGHT_BIT_CLAN = `${ROOT_URL}/imgs/8-bit-clan.webp`
 export const REPTIFEED = `${ROOT_URL}/imgs/reptifeed.webp`
