@@ -40,8 +40,7 @@ const AboutMe = ({ style }) => {
         <li>learning artificial intelligence</li>
       </ul>
       <p>
-        In my free time, I <a href={SOUNDCLOUD_URL}>produce music</a>, cook,
-        read, and game.
+        In my free time, I <a href={SOUNDCLOUD_URL}>produce music</a>, cook, and game.
       </p>
       <h2>My Tech Stack</h2>
       <TechStack techStack={techStackInfo.map(tech => tech.name)} />
