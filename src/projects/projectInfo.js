@@ -44,7 +44,7 @@ const projects = [
       "articulate my vision for a product",
       "incorporate user feedback",
     ],
-    techStack: ["Javascript", "React", "Redux", "Python", "Flask", "CSS", "Jest"],
+    techStack: ["Javascript", "React", "Redux", "CSS", "Jest"],
     img: ART_BUDDY,
     links: {
       demo: "https://art-buddy.surge.sh",
