@@ -5,6 +5,8 @@ import {
   faSoundcloud,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+import { GITHUB, LINKEDIN, YOUTUBE, SOUNDCLOUD } from "../_media/urls";
+
 // for resume
 // import { faFile } from "@fortawesome/free-solid-svg-icons";
 
@@ -17,22 +19,22 @@ const links = [
   // },
   {
     id: "github",
-    url: "https://github.com/Adam-Thometz",
+    url: GITHUB,
     icon: <FontAwesomeIcon icon={faGithub} />,
   },
   {
     id: "linkedin",
-    url: "https://www.linkedin.com/in/adam-thometz/",
+    url: LINKEDIN,
     icon: <FontAwesomeIcon icon={faLinkedin} />,
   },
   {
     id: "youtube",
-    url: "https://www.youtube.com/channel/UCnEEg3thfP-9hXbKPA__58g",
+    url: YOUTUBE,
     icon: <FontAwesomeIcon icon={faYoutube} />,
   },
   {
     id: "soundcloud",
-    url: "https://soundcloud.com/this-is-teslas-ghost",
+    url: SOUNDCLOUD,
     icon: <FontAwesomeIcon icon={faSoundcloud} />,
   },
 ];

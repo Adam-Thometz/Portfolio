@@ -9,8 +9,8 @@ const Intro = ({ style }) => {
     <header className="Intro" style={style}>
       <section className="Intro-top">
         <aside>
-          <h1>Hi, I'm Adam! 👋🏼</h1>
-          <h2>I am a full-stack developer based in NYC.</h2>
+          <h1>Hi, I'm Adam!</h1>
+          <h2>I am a full-stack developer specializing in AI integration.</h2>
         </aside>
         <img src={ME} alt="the developer" />
       </section>

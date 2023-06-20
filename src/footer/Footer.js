@@ -2,6 +2,8 @@ import React from "react";
 
 import "./Footer.css";
 
+import { PORTFOLIO_GITHUB } from "../_media/urls";
+
 const Footer = ({ style }) => {
   return (
     <footer className="Footer" style={style}>
@@ -9,7 +11,7 @@ const Footer = ({ style }) => {
       <small>
         <a
           className="Footer-link"
-          href="https://github.com/Adam-Thometz/Portfolio"
+          href={PORTFOLIO_GITHUB}
           target="_blank"
           rel="noreferrer"
         >

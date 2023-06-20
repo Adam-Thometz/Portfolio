@@ -1,4 +1,4 @@
-import { AWS, CSS, EXPRESS, FLASK, JAVASCRIPT, JEST, JQUERY, NODE, POSTGRESQL, PYTHON, REACT, REDUX, VUE } from "../_media/assets";
+import { AWS, CSS, DJANGO, EXPRESS, FLASK, JAVASCRIPT, JEST, JQUERY, NODE, POSTGRESQL, PYTHON, REACT, REDUX, VUE } from "../_media/assets";
 
 const techStackInfo = [
   { name: "Javascript", icon: JAVASCRIPT },
@@ -6,6 +6,7 @@ const techStackInfo = [
   { name: "Redux", icon: REDUX },
   { name: "Python", icon: PYTHON },
   { name: "Flask", icon: FLASK },
+  { name: "Django", icon: DJANGO },
   { name: "PostgreSQL", icon: POSTGRESQL },
   { name: "Node", icon: NODE },
   { name: "Express", icon: EXPRESS },

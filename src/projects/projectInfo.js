@@ -1,12 +1,53 @@
-import { ART_BUDDY, EIGHT_BIT_CLAN, MINTBEAN_STAR, REPTIFEED, VESTA_HEALING } from "../_media/assets";
+import { ART_BUDDY, EIGHT_BIT_CLAN, MINTBEAN_STAR, REPTIFEED, VESTA_HEALING, TARA_AI_ASSISTANT } from "../_media/assets";
+import {
+  AI_ASSISTANT_GITHUB,
+  AI_ASSISTANT_URL,
+  ART_BUDDY_GITHUB,
+  ART_BUDDY_URL,
+  EIGHT_BIT_CLAN_GITHUB,
+  EIGHT_BIT_CLAN_URL,
+  REPTIFEED_GITHUB,
+  REPTIFEED_URL,
+  VESTA_HEALING_GITHUB,
+  VESTA_HEALING_URL
+} from "../_media/urls";
+
+const MELODY_PORTFOLIO = "https://melodyux.design/";
+const MATTIE_PORTFOLIO = "https://uxfol.io/mattiebecker";
 
 const projects = [
+  {
+    name: "TARA AI Assistant",
+    shortDescription: "An AI-powered Swiss-Army knife for teachers",
+    description: (
+      <>
+        <p>
+          An AI-powered tool that is designed to create common teacher materials in seconds. It can generate quizzes, IEP goals, activities, and translations. There will also be a chatbot that helps teachers unpack various state standards, which will aid in lesson planning. Designed to help solve the problem of significant administrative burdens placed on teachers.
+        </p>
+        <b>
+          <p>NOTE: This feature is currently being built and will be made available to the public on July 1st.</p> <p>The Live link will take you to the waitlist sign-up</p>
+          <p>The Github link will take you to code for the initial quiz generator prototype that got me hired for this role.</p>
+        </b>
+      </>
+    ),
+    learnedHowTo: [
+      "use the OpenAI API to integrate AI into anything I build",
+      "engineer prompts in order to improve output",
+      "synthesize user feedback to improve prompts"
+    ],
+    techStack: ["Vue", "Python", "Django", "AWS"],
+    img: TARA_AI_ASSISTANT,
+    links: {
+      demo: AI_ASSISTANT_URL,
+      github: AI_ASSISTANT_GITHUB,
+    },
+  },
   {
     name: "Vesta Healing Psychotherapy",
     shortDescription: "A website for an NYC-based psychotherapist",
     description: (
       <p>
-        A simple but interactive website built to advertise the services of a local psychotherapist. Built with UX designer <a href="https://melodyux.design/">Melody Acosta</a>
+        This is a simple but interactive website built to advertise the services of a local psychotherapist. Built with UX designer <a href={MELODY_PORTFOLIO}>Melody Acosta</a>
       </p>
     ),
     learnedHowTo: [
@@ -19,8 +60,8 @@ const projects = [
     techStack: ["Javascript", "React", "CSS", "AWS"],
     img: VESTA_HEALING,
     links: {
-      demo: "https://www.vestahealingnyc.org/",
-      github: "https://github.com/Adam-Thometz/Vesta-Healing",
+      demo: VESTA_HEALING_URL,
+      github: VESTA_HEALING_GITHUB,
     },
   },
   {
@@ -30,7 +71,7 @@ const projects = [
       <>
         <p>
           Art Buddy is a collection of arts-based games and tools designed specifically for the special education classroom and reaching students' academic goals.
-          I worked with UX designer/fellow educator <a href="https://uxfol.io/mattiebecker">Mattie Becker</a> to make this.
+          I worked with UX designer/fellow educator <a href={MATTIE_PORTFOLIO}>Mattie Becker</a> to make this.
           <b> I recommend viewing on a desktop. This app was purposely designed for a large screen.</b>
         </p>
         <b>Under construction but usable</b>
@@ -47,8 +88,8 @@ const projects = [
     techStack: ["Javascript", "React", "Redux", "CSS", "Jest"],
     img: ART_BUDDY,
     links: {
-      demo: "https://art-buddy.surge.sh",
-      github: "https://github.com/Adam-Thometz/Art-Buddy",
+      demo: ART_BUDDY_URL,
+      github: ART_BUDDY_GITHUB,
     },
   },
   {
@@ -60,7 +101,7 @@ const projects = [
         8-Bit Clan is a pixel art maker created for the Mintbean Hiring
         Hackathon, Nov 2021. Create art, save it to your profile, and see if it
         made it to the trending list! Built with UX designer{" "}
-        <a href="https://melodyux.design/">Melody Acosta</a> in a week. Winner
+        <a href={MELODY_PORTFOLIO}>Melody Acosta</a> in a week. Winner
         of Mintbean Star, awarded to top 5% of competitors.
       </p>
     ),
@@ -76,8 +117,8 @@ const projects = [
     },
     img: EIGHT_BIT_CLAN,
     links: {
-      demo: "https://8-bit-clan.surge.sh/",
-      github: "https://github.com/Adam-Thometz/8-Bit-Clan",
+      demo: EIGHT_BIT_CLAN_URL,
+      github: EIGHT_BIT_CLAN_GITHUB,
     },
   },
   {
@@ -111,8 +152,8 @@ const projects = [
     },
     img: REPTIFEED,
     links: {
-      demo: "https://reptifeed.surge.sh",
-      github: "https://github.com/Adam-Thometz/Reptifeed",
+      demo: REPTIFEED_URL,
+      github: REPTIFEED_GITHUB,
     },
   },
 ];

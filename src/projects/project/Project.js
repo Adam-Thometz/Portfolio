@@ -75,12 +75,6 @@ const Project = ({ project }) => {
           <div className="Project-description">
             <h3>Description</h3>
             {description}
-            <h3>Building this taught me how to...</h3>
-            <ul>
-              {learnedHowTo.map((fact) => (
-                <li>{fact}</li>
-                ))}
-            </ul>
             {awardDisplay}
           </div>
           {loginDisplay}

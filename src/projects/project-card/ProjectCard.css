@@ -7,7 +7,7 @@
   transform: none;
   transition: transform 0.3s ease-in-out;
   border: none;
-  font-family: "Nunito";
+  font-family: "Montserrat", sans-serif;
 }
 
 .ProjectCard img {
