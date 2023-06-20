@@ -13,7 +13,6 @@ const Project = ({ project }) => {
     name,
     award,
     description,
-    learnedHowTo,
     techStack,
     login,
     img,
