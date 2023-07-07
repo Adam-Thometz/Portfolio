@@ -22,11 +22,12 @@ const projects = [
     description: (
       <>
         <p>
-          An AI-powered tool that is designed to create common teacher materials in seconds. It can generate quizzes, IEP goals, activities, and translations. There will also be a chatbot that helps teachers unpack various state standards, which will aid in lesson planning. Designed to help solve the problem of significant administrative burdens placed on teachers.
+          An AI-powered tool that is designed to create common teacher materials in seconds. It can generate quizzes, IEP goals, activities, and translations. There is also a chatbot that helps teachers unpack various state standards, which will aid in lesson planning. Designed to help solve the problem of significant administrative burdens placed on teachers.
         </p>
         <b>
-          <p>NOTE: This feature is currently being built and will be made available to the public on July 1st.</p> <p>The Live link will take you to the waitlist sign-up</p>
-          <p>The Github link will take you to code for the initial quiz generator prototype that got me hired for this role.</p>
+          <p>NOTE: This feature is only available if you have a TARA account.</p>
+          <p>The Live link will take you to a video of v1 in action</p>
+          <p>The Github link will take you to code for the initial quiz generator prototype that got me hired for this role. The demo backend is written in Flask but Django is used in production</p>
         </b>
       </>
     ),
@@ -35,7 +36,7 @@ const projects = [
       "engineer prompts in order to improve output",
       "synthesize user feedback to improve prompts"
     ],
-    techStack: ["Vue", "Python", "Django", "AWS"],
+    techStack: ["Vue", "Python", "Django", "Flask"],
     img: TARA_AI_ASSISTANT,
     links: {
       demo: AI_ASSISTANT_URL,
