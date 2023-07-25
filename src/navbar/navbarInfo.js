@@ -5,7 +5,7 @@ import {
   faSoundcloud,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
-import { GITHUB, LINKEDIN, YOUTUBE, SOUNDCLOUD } from "../_media/urls";
+import { GITHUB, LINKEDIN, YOUTUBE, SOUNDCLOUD } from "../urls";
 
 // for resume
 // import { faFile } from "@fortawesome/free-solid-svg-icons";

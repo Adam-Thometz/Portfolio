@@ -1,4 +1,4 @@
-import { ART_BUDDY, EIGHT_BIT_CLAN, MINTBEAN_STAR, REPTIFEED, VESTA_HEALING, TARA_AI_ASSISTANT } from "../_media/assets";
+import { ART_BUDDY, EIGHT_BIT_CLAN, MINTBEAN_STAR, REPTIFEED, VESTA_HEALING, TARA_AI_ASSISTANT } from "../_assets/assets";
 import {
   AI_ASSISTANT_GITHUB,
   AI_ASSISTANT_URL,
@@ -10,7 +10,7 @@ import {
   REPTIFEED_URL,
   VESTA_HEALING_GITHUB,
   VESTA_HEALING_URL
-} from "../_media/urls";
+} from "../urls";
 
 const MELODY_PORTFOLIO = "https://melodyux.design/";
 const MATTIE_PORTFOLIO = "https://uxfol.io/mattiebecker";

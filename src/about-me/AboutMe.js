@@ -4,7 +4,7 @@ import techStackInfo from "../tech-stack/techStackInfo";
 
 import "./AboutMe.css";
 
-import { TARA, SOUNDCLOUD, EIGHT_BILLION_MINDS } from "../_media/urls";
+import { TARA, SOUNDCLOUD, EIGHT_BILLION_MINDS } from "../urls";
 
 const AboutMe = ({ style }) => {
   return (
@@ -44,7 +44,7 @@ const AboutMe = ({ style }) => {
       <p>
         If you're looking for a developer who can help you integrate AI into your existing product, <a href="mailto:adamthometz@gmail.com">feel free to contact me</a>!
       </p>
-      <h2>My Tech Stack</h2>
+      <h2>Tech</h2>
       <TechStack techStack={techStackInfo.map(tech => tech.name)} />
     </article>
   );

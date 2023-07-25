@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Footer.css";
 
-import { PORTFOLIO_GITHUB } from "../_media/urls";
+import { PORTFOLIO_GITHUB } from "../urls";
 
 const Footer = ({ style }) => {
   return (
