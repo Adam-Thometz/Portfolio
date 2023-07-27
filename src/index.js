@@ -26,10 +26,13 @@ ReactDOM.render(
       </> */}
 
       <div className="center">
-        <img src={makeOver} />
+        <img src={makeOver} alt="" />
         <div>
-          <p>Going through a makeover.</p>
-          <p>Check back in a week or so!</p>
+          <p>Going through a makeover. Check back in a week or so!</p>
+          <p>In the meantime, check me out in other places:</p>
+          <Navbar />
+          <p>Much love,</p>
+          <p>Adam Thometz</p>
         </div>
       </div>
     </Suspense>
