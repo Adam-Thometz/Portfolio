@@ -20,6 +20,19 @@ body {
   color: rgb(207, 207, 207);
 }
 
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.center img {
+  height: 100px;
+  filter: invert(100%) sepia(1%) saturate(0%) hue-rotate(4deg) brightness(116%) contrast(100%);
+}
+
 h1, h2, h3 {
   font-family: "Tektur";
 }

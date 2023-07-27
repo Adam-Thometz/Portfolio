@@ -1,6 +1,7 @@
 import React, { lazy, Suspense } from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
+import makeOver from './_assets/makeover.png'
 
 const Intro = lazy(() => import("./intro/Intro"));
 const Navbar = lazy(() => import("./navbar/Navbar"));
@@ -12,10 +13,9 @@ const Footer = lazy(() => import("./footer/Footer"));
 ReactDOM.render(
   <React.StrictMode>
     <Suspense fallback={<div>Loading...</div>}>
-      <div className="stars"></div>
+      {/* <div className="stars"></div>
       <div className="twinkling"></div>
-      {/* UNCOMMENT IF YOU WANT CLOUDS */}
-      {/* <div className="clouds"></div> */}
+      <div className="clouds"></div>
       <>
         <Navbar style={{ "--i": 0 }} />
         <Intro style={{ "--i": 0 }} />
@@ -23,7 +23,15 @@ ReactDOM.render(
         <Projects style={{ "--i": 2 }} />
         <Music style={{ '--i': 3 }} />
         <Footer style={{ "--i": 4 }} />
-      </>
+      </> */}
+
+      <div className="center">
+        <img src={makeOver} />
+        <div>
+          <p>Going through a makeover.</p>
+          <p>Check back in a week or so!</p>
+        </div>
+      </div>
     </Suspense>
   </React.StrictMode>,
   document.getElementById("root")
