@@ -75,7 +75,6 @@ const projects = [
           I worked with UX designer/fellow educator <a href={MATTIE_PORTFOLIO}>Mattie Becker</a> to make this.
           <b> I recommend viewing on a desktop. This app was purposely designed for a large screen.</b>
         </p>
-        <b>Under construction but usable</b>
       </>
     ),
     learnedHowTo: [

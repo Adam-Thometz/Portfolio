@@ -29,7 +29,7 @@ ReactDOM.render(
         <img src={makeOver} alt="" />
         <div>
           <p>Going through a makeover. Check back in a week or so!</p>
-          <p>In the meantime, check me out in other places:</p>
+          <p>In the meantime, check me out elsewhere on the web:</p>
           <Navbar />
           <p>Much love,</p>
           <p>Adam Thometz</p>
