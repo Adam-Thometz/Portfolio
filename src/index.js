@@ -28,7 +28,7 @@ ReactDOM.render(
       <div className="center">
         <img src={makeOver} alt="" />
         <div>
-          <p>Going through a makeover. Check back in a week or so!</p>
+          <p>Going through a makeover. Check back on August 1st!</p>
           <p>In the meantime, check me out elsewhere on the web:</p>
           <Navbar />
           <p>Much love,</p>
