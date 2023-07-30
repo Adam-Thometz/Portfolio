@@ -1,6 +1,7 @@
 import React, { lazy, Suspense } from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
+import makeOver from './_assets/makeover.png'
 
 const Intro = lazy(() => import("./intro/Intro"));
 const Navbar = lazy(() => import("./navbar/Navbar"));
@@ -15,16 +16,13 @@ ReactDOM.render(
       <div className="stars"></div>
       <div className="twinkling"></div>
       <div className="clouds"></div>
-      <>
+      {/* <>
         <Navbar style={{ "--i": 0 }} />
         <Intro style={{ "--i": 0 }} />
         <AboutMe style={{ "--i": 1 }} />
         <Projects style={{ "--i": 2 }} />
         <Music style={{ '--i': 3 }} />
         <Footer style={{ "--i": 4 }} />
-<<<<<<< HEAD
-      </>
-=======
       </> */}
 
       <div className="center">
@@ -37,7 +35,6 @@ ReactDOM.render(
           <p>Adam Thometz</p>
         </div>
       </div>
->>>>>>> parent of 0cab3a3 (established deadline)
     </Suspense>
   </React.StrictMode>,
   document.getElementById("root")
