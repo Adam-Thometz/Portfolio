@@ -1,9 +1,9 @@
-import ME from './imgs/adam.webp';
-import TARA_AI_ASSISTANT from './imgs/ai-assistant.webp';
-import VESTA_HEALING from './imgs/vesta.webp';
-import ART_BUDDY from './imgs/art-buddy.webp';
-import EIGHT_BIT_CLAN from './imgs/8-bit-clan.webp';
-import REPTIFEED from './imgs/reptifeed.webp';
+import ME from './imgs/adam.png';
+import TARA_AI_ASSISTANT from './imgs/ai-assistant.png';
+import VESTA_HEALING from './imgs/vesta.png';
+import ART_BUDDY from './imgs/art-buddy.png';
+import EIGHT_BIT_CLAN from './imgs/8-bit-clan.png';
+import REPTIFEED from './imgs/reptifeed.png';
 import MINTBEAN_STAR from './imgs/mintbean-star.gif';
 
 import AWS from "./tech-stack-icons/aws.png"

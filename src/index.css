@@ -166,13 +166,13 @@ While not mine, this code has been modified to fit with this app.
 }
 
 .stars {
-  background: #000 url("./_assets/background/stars.webp") repeat top
+  background: #000 url("./_assets/background/stars.png") repeat top
     center;
   z-index: -5;
 }
 
 .twinkling {
-  background: transparent url("./_assets/background/twinkling.webp")
+  background: transparent url("./_assets/background/twinkling.png")
     repeat top center;
   z-index: -4;
   -moz-animation: move-twink-back 200s linear infinite;
@@ -183,7 +183,7 @@ While not mine, this code has been modified to fit with this app.
 }
 
 .clouds {
-  background: transparent url("./_assets/background/clouds3.webp") repeat
+  background: transparent url("./_assets/background/clouds3.png") repeat
     top center;
   z-index: -3;
   -moz-animation: move-clouds-back 200s linear infinite;
