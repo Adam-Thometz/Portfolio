@@ -22,7 +22,22 @@ ReactDOM.render(
         <Projects style={{ "--i": 2 }} />
         <Music style={{ '--i': 3 }} />
         <Footer style={{ "--i": 4 }} />
+<<<<<<< HEAD
       </>
+=======
+      </> */}
+
+      <div className="center">
+        <img src={makeOver} alt="" />
+        <div>
+          <p>Going through a makeover. Check back in a week or so!</p>
+          <p>In the meantime, check me out elsewhere on the web:</p>
+          <Navbar />
+          <p>Much love,</p>
+          <p>Adam Thometz</p>
+        </div>
+      </div>
+>>>>>>> parent of 0cab3a3 (established deadline)
     </Suspense>
   </React.StrictMode>,
   document.getElementById("root")
